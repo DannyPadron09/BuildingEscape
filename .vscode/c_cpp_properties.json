@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Building_EscapeEditor Editor Win64 Development (Building_Escape)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "W:\\UdemyCourses\\Unreal Engine C++\\BuildingEscape\\Building_Escape\\.vscode\\compileCommands_Building_Escape.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
