@@ -842,3 +842,183 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.17-17.22.38:418][591]LogSlate: Window 'Project Settings' being destroyed
 [2021.05.17-17.22.38:431][591]LogSlate: Window 'Project Settings' being destroyed
 [2021.05.17-17.23.34:378][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2021.05.17-17.24.43:856][572]MapCheck: New page: Map Check
+[2021.05.17-17.24.43:884][572]Cmd: MAP REBUILD ALLVISIBLE
+[2021.05.17-17.24.43:884][572]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.05.17-17.24.43:886][572]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=false
+[2021.05.17-17.24.43:918][572]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.05.17-17.24.43:918][572]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.05.17-17.24.43:918][572]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.05.17-17.24.43:928][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.05.17-17.24.43:934][572]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.17-17.24.43:946][572]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.17-17.24.43:948][572]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.17-17.24.44:625][572]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.17-17.24.44:625][572]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.17-17.24.44:625][572]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.05.17-17.24.44:625][572]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.17-17.24.44:625][572]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.17-17.24.44:625][572]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.17-17.24.44:625][572]TextureStreamingBuild: Display: Compiling optional shaders took 0.695 seconds.
+[2021.05.17-17.24.44:631][572]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
+[2021.05.17-17.24.44:632][572]TextureStreamingBuild: Display: Build Texture Streaming took 0.001 seconds.
+[2021.05.17-17.24.44:636][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.05.17-17.24.44:638][572]LightingResults: New page: Lighting Build - May 17, 2021, 9:24:44 AM
+[2021.05.17-17.24.44:671][572]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.05.17-17.24.44:710][572]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.05.17-17.24.44:722][572]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.05.17-17.24.45:237][572]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.05.17-17.24.45:237][572]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19012
+[2021.05.17-17.24.47:815][572]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.05.17-17.24.47:815][572]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.05.17-17.24.47:815][572]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.05.17-17.24.47:815][572]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.05.17-17.24.47:815][572]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.05.17-17.24.47:815][572]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.05.17-17.24.47:945][572]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.05.17-17.24.47:945][572]MapCheck: New page: Untitled_1 - May 17, 2021, 9:24:47 AM
+[2021.05.17-17.24.47:947][572]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.05.17-17.24.47:949][572]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 3.705ms to complete.
+[2021.05.17-17.24.47:951][572]LogEditorBuildUtils: Build time 0:04
+[2021.05.17-17.24.48:077][572]LogSlate: Took 0.006504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.17-17.24.48:187][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.05.17-17.24.49:168][621]Job is a success!
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:      Bricks at depth
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:      Bricks in each level
+[2021.05.17-17.24.49:260][623]LogVolumetricLightmapImport:          Untitled_1 			 6 bricks 	 100.0% (Persistent Level)
+[2021.05.17-17.24.49:302][623]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.05.17-17.24.49:302][623]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.05.17-17.24.49:302][623]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.05.17-17.24.49:302][623]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.05.17-17.24.49:302][623]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.05.17-17.24.49:302][623]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X128)
+[2021.05.17-17.24.49:302][623]Lightmass on DESKTOP-QHLO9HK: 611 ms total, 173 ms importing, 22 ms setup, 43 ms photons, 337 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 2.35 sec total, 171 ms processing.
+[2021.05.17-17.24.49:302][623]LogStaticLightingSystem: Template_Default_BuiltData storing lightmap data for 3 meshes in 2 LightmapResourceClusters (1.5 Meshes per cluster).
+[2021.05.17-17.24.49:307][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.05.17-17.24.49:341][623]LogStaticLightingSystem: Illumination: 4.65 sec (15 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2021.05.17-17.24.49:341][623]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.05.17-17.24.49:341][623]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.05.17-17.24.49:826][623]DumpUnbuiltLightIteractions
+[2021.05.17-17.24.49:826][623]Lights with unbuilt interactions: 0
+[2021.05.17-17.24.49:826][623]
+[2021.05.17-17.24.49:826][623]Primitives with unbuilt interactions: 0
+[2021.05.17-17.24.49:887][623]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.05.17-17.24.49:918][624]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.05.17-17.24.49:918][624]MapCheck: New page: Untitled_1 - May 17, 2021, 9:24:49 AM
+[2021.05.17-17.24.49:919][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.236ms to complete.
+[2021.05.17-17.24.52:055][867]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-17.24.52:071][867]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-17.24.55:315][245]Candidate modules for hot reload:
+[2021.05.17-17.24.55:315][245]  Building_Escape
+[2021.05.17-17.24.55:315][245]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,9187 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.05.17-17.24.55:316][245]Warning: Starting HotReload took  0.0s.
+[2021.05.17-17.25.02:123][ 18]CompilerResultsLog: New page: Compilation - May 17, 2021, 9:25:02 AM
+[2021.05.17-17.25.02:123][ 18]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.05.17-17.25.02:123][ 18]CompilerResultsLog: Creating makefile for Building_EscapeEditor (config setting changed)
+[2021.05.17-17.25.02:123][ 18]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 3.3056485 seconds
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   [1/6] Default.rc2
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   [2/6] WorldPosition.cpp
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   [3/6] WorldPosition.gen.cpp
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   [4/6] UE4Editor-Building_Escape-9187.lib
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9187.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9187.exp
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   [5/6] UE4Editor-Building_Escape-9187.dll
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9187.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9187.suppressed.exp
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog:   [6/6] Building_EscapeEditor.target
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog: Total time in Parallel executor: 1.57 seconds
+[2021.05.17-17.25.02:124][ 18]CompilerResultsLog: Total execution time: 6.73 seconds
+[2021.05.17-17.25.02:124][ 18]LogMainFrame: MainFrame: Module compiling took 6.813 seconds
+[2021.05.17-17.25.02:142][ 18]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2021.05.17-17.25.02:143][ 18]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.17-17.25.02:171][ 18]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3603 classes and 861 folders.
+[2021.05.17-17.25.02:171][ 18]Display: HotReload took  6.9s.
+[2021.05.17-17.25.24:796][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.05.17-17.25.24:798][188]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.005
+[2021.05.17-17.26.28:409][412]LogActorFactory: Actor Factory created Cube
+[2021.05.17-17.26.29:846][561]LogActorFactory: Actor Factory created Cube
+[2021.05.17-17.27.08:305][157]MapCheck: New page: Map Check
+[2021.05.17-17.27.08:330][157]Cmd: MAP REBUILD ALLVISIBLE
+[2021.05.17-17.27.08:331][157]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.05.17-17.27.08:331][157]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=false
+[2021.05.17-17.27.08:336][157]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.05.17-17.27.08:336][157]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.05.17-17.27.08:336][157]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.05.17-17.27.08:342][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.05.17-17.27.08:344][157]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.17-17.27.08:345][157]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.17-17.27.08:347][157]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.17-17.27.08:812][157]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.17-17.27.08:812][157]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.17-17.27.08:812][157]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.05.17-17.27.08:812][157]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.17-17.27.08:812][157]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.05.17-17.27.08:812][157]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.05.17-17.27.08:812][157]TextureStreamingBuild: Display: Compiling optional shaders took 0.469 seconds.
+[2021.05.17-17.27.08:815][157]LogLevel: Display: Export Material TexCoord Scales took 0.002 seconds.
+[2021.05.17-17.27.08:816][157]TextureStreamingBuild: Display: Build Texture Streaming took 0.001 seconds.
+[2021.05.17-17.27.08:819][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.05.17-17.27.08:821][157]LightingResults: New page: Lighting Build - May 17, 2021, 9:27:08 AM
+[2021.05.17-17.27.08:824][157]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.05.17-17.27.08:828][157]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.05.17-17.27.08:828][157]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.05.17-17.27.08:829][157]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.05.17-17.27.08:829][157]LogSwarmInterface: [TryOpenConnection] Local Process ID is 19012
+[2021.05.17-17.27.13:384][157]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.05.17-17.27.13:384][157]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.05.17-17.27.13:384][157]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.05.17-17.27.13:384][157]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.05.17-17.27.13:384][157]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.05.17-17.27.13:384][157]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.05.17-17.27.13:482][157]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.05.17-17.27.13:482][157]MapCheck: New page: Untitled_1 - May 17, 2021, 9:27:13 AM
+[2021.05.17-17.27.13:482][157]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.05.17-17.27.13:482][157]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 0.337ms to complete.
+[2021.05.17-17.27.13:484][157]LogEditorBuildUtils: Build time 0:05
+[2021.05.17-17.27.13:574][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.17-17.27.14:575][161]Job is a success!
+[2021.05.17-17.27.14:984][162]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2021.05.17-17.27.14:984][162]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:      Bricks at depth
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:      Bricks in each level
+[2021.05.17-17.27.14:985][162]LogVolumetricLightmapImport:          Untitled_1 			 6 bricks 	 100.0% (Persistent Level)
+[2021.05.17-17.27.15:011][162]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2021.05.17-17.27.15:011][162]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2021.05.17-17.27.15:011][162]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2021.05.17-17.27.15:011][162]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2021.05.17-17.27.15:011][162]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2021.05.17-17.27.15:011][162]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128)
+[2021.05.17-17.27.15:011][162]LogStaticLightingSystem: Template_Default_BuiltData storing lightmap data for 4 meshes in 2 LightmapResourceClusters (2.0 Meshes per cluster).
+[2021.05.17-17.27.15:017][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.05.17-17.27.15:031][162]Lightmass on DESKTOP-QHLO9HK: 1.06 sec total, 138 ms importing, 19 ms setup, 45 ms photons, 826 ms processing, 0 ms extra exporting [4/4 mappings]. Threads: 5.76 sec total, 117 ms processing.
+[2021.05.17-17.27.15:073][162]LogStaticLightingSystem: Illumination: 5.86 sec (16 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2021.05.17-17.27.15:073][162]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.05.17-17.27.15:073][162]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.05.17-17.27.15:376][162]DumpUnbuiltLightIteractions
+[2021.05.17-17.27.15:376][162]Lights with unbuilt interactions: 0
+[2021.05.17-17.27.15:376][162]
+[2021.05.17-17.27.15:376][162]Primitives with unbuilt interactions: 0
+[2021.05.17-17.27.15:415][162]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.05.17-17.27.15:442][163]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.05.17-17.27.15:442][163]MapCheck: New page: Untitled_1 - May 17, 2021, 9:27:15 AM
+[2021.05.17-17.27.15:442][163]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.234ms to complete.
+[2021.05.17-17.27.17:792][170]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-17.27.17:819][170]LogSlate: Window 'Message Log' being destroyed
+[2021.05.17-17.27.49:807][ 62]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.05.17-17.28.07:088][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2021.05.17-17.28.08:346][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.05.17-17.28.09:948][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2021.05.17-17.28.11:149][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)

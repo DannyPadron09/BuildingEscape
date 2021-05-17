@@ -1,6 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "WorldPosition.h"
 
 // Sets default values for this component's properties
@@ -29,6 +26,6 @@ void UWorldPosition::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	// ... Anything here will be run with every frame of the game
 }
 
