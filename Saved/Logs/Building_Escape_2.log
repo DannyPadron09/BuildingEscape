@@ -1022,3 +1022,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.17-17.28.08:346][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
 [2021.05.17-17.28.09:948][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
 [2021.05.17-17.28.11:149][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.05.17-17.33.03:280][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2021.05.17-17.33.04:206][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2021.05.17-17.33.23:336][374]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" -game -rocket -progress
+[2021.05.17-17.33.23:640][374]Discovering modules, targets and source code for project...
+[2021.05.17-17.33.24:951][374]Binding IntelliSense data...
+[2021.05.17-17.33.27:275][374]Binding IntelliSense data... 100%
+[2021.05.17-17.33.27:275][374]Writing project files...
+[2021.05.17-17.33.27:779][374]Writing project files... 100%
