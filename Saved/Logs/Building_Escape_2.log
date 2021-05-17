@@ -791,3 +791,54 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.17-16.57.02:233][508]Binding IntelliSense data... 100%
 [2021.05.17-16.57.02:233][508]Writing project files...
 [2021.05.17-16.57.02:737][508]Writing project files... 100%
+[2021.05.17-17.19.22:936][894]LogSlate: Window 'Class Viewer' being destroyed
+[2021.05.17-17.19.22:950][894]LogSlate: Window 'Class Viewer' being destroyed
+[2021.05.17-17.19.50:528][173]LogActorFactory: Actor Factory created Sphere
+[2021.05.17-17.19.53:531][526]LogActorFactory: Actor Factory created Sphere
+[2021.05.17-17.20.06:223][ 13]LogSlate: Took 0.005719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.17-17.20.09:019][327]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.17-17.20.41:794][327]Candidate modules for hot reload:
+[2021.05.17-17.20.41:794][327]  Building_Escape
+[2021.05.17-17.20.41:794][327]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,3204 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.05.17-17.20.48:040][327]CompilerResultsLog: New page: Compilation - May 17, 2021, 9:20:48 AM
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Creating makefile for Building_EscapeEditor (no existing makefile)
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 3.2844804 seconds
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [1/9] Building_Escape.cpp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [2/9] Building_EscapeGameModeBase.cpp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [3/9] WorldPosition.cpp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [4/9] Building_Escape.init.gen.cpp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [5/9] WorldPosition.gen.cpp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [6/9] Building_EscapeGameModeBase.gen.cpp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [7/9] UE4Editor-Building_Escape-3204.lib
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-3204.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-3204.exp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [8/9] UE4Editor-Building_Escape-3204.dll
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-3204.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-3204.suppressed.exp
+[2021.05.17-17.20.48:041][327]CompilerResultsLog:   [9/9] Building_EscapeEditor.target
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Total time in Parallel executor: 1.37 seconds
+[2021.05.17-17.20.48:041][327]CompilerResultsLog: Total execution time: 6.17 seconds
+[2021.05.17-17.20.48:041][327]LogMainFrame: MainFrame: Module compiling took 6.261 seconds
+[2021.05.17-17.20.48:077][327]LogClass: Could not find existing class WorldPosition in package /Script/Building_Escape for HotReload, assuming new class
+[2021.05.17-17.20.48:079][327]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2021.05.17-17.20.48:080][327]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.17-17.20.48:117][327]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3603 classes and 861 folders.
+[2021.05.17-17.20.48:118][327]Display: HotReload took  6.3s.
+[2021.05.17-17.20.48:118][327]Warning: HotReload operation took  6.3s.
+[2021.05.17-17.20.48:150][327]LogSlate: Window 'Add C++ Component' being destroyed
+[2021.05.17-17.20.48:162][327]LogHotReload: New module detected: UE4Editor-Building_Escape-3204.dll
+[2021.05.17-17.20.48:240][328]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.17-17.20.48:250][328]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1549)].
+[2021.05.17-17.20.48:299][328]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2021.05.17-17.20.48:300][328]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.17-17.20.48:312][328]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3603 classes and 861 folders.
+[2021.05.17-17.20.48:314][328]Display: HotReload took  0.1s.
+[2021.05.17-17.21.45:010][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.17-17.22.13:370][ 35]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.05.17-17.22.38:418][591]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.17-17.22.38:431][591]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.17-17.23.34:378][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
