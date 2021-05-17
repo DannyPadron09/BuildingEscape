@@ -1030,3 +1030,13 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.17-17.33.27:275][374]Binding IntelliSense data... 100%
 [2021.05.17-17.33.27:275][374]Writing project files...
 [2021.05.17-17.33.27:779][374]Writing project files... 100%
+[2021.05.17-17.34.47:031][920]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:356 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2021.05.17-17.34.47:031][920]LogD3D11RHI: [Aftermath] GDynamicRHI=000001E67DF82580, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2021.05.17-17.34.47:031][920]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2021.05.17-17.34.49:132][921]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.05.17-17.34.49:132][921]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.05.17-17.34.49:132][921]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.05.17-17.34.49:132][921]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
+[2021.05.17-17.34.49:137][921]Log file closed, 05/17/21 13:34:49
