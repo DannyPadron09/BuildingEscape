@@ -16,20 +16,12 @@ UWorldPosition::UWorldPosition()
 void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	// FString Log = TEXT("Hello!");
-	// FString* PrtLog = &Log; // The address of where it is stored in memory
-
-	// Log.Len();
-	// PrtLog->Len();
-
-	// UE_LOG(LogTemp, Warning, TEXT("This is a Warning!"));
 
 	FString ObjectName = GetOwner()->GetName();
 
 	FString ObjectPosition = GetOwner()->GetActorLocation().ToString();
 
-		UE_LOG(LogTemp, Warning, TEXT("%s position in world is: %s"), *ObjectName, *ObjectPosition);
+	UE_LOG(LogTemp, Warning, TEXT("%s position in world is: %s"), *ObjectName, *ObjectPosition);
 
 
 }
