@@ -783,3 +783,409 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.29-15.05.44:157][  0]LogAssetRegistry: Asset discovery search completed in 7.0229 seconds
 [2021.05.29-15.05.44:159][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2021.05.29-15.05.44:193][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.29-15.14.07:369][864]LogSlate: Took 0.000632 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.29-15.14.07:393][864]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/MetalFloor_Mat.MetalFloor_Mat
+[2021.05.29-15.14.07:397][864]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 3 classes and 0 folders.
+[2021.05.29-15.14.07:400][864]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.14.07:769][864]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.14.07:778][864]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.14.07:791][864]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.14.07:791][864]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.14.07:791][864]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.14.07:791][864]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.14.07:791][864]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.05.29-15.14.07:831][864]LogSlate: Took 0.007947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.29-15.14.08:537][899]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.14.08:693][914]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.29-15.14.08:791][923]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.05.29-15.14.08:812][925]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.05.29-15.14.09:202][961]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.05.29-15.14.09:211][962]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.05.29-15.14.09:265][968]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.29-15.14.09:375][978]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.29-15.14.09:652][  3]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.29-15.14.09:729][ 11]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.14.09:738][ 12]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.14.09:794][ 17]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.14.09:811][ 17]LogSlate: Took 0.007579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.29-15.15.35:521][669]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.15.35:527][669]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.15.35:538][669]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.15.35:538][669]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.15.35:538][669]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.15.35:538][669]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.15.35:540][669]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.05.29-15.15.36:032][714]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.15.36:180][728]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.29-15.15.36:272][737]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.29-15.15.36:272][737]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.15.36:665][774]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.05.29-15.15.36:695][777]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.05.29-15.15.36:800][788]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.29-15.15.36:890][796]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.29-15.15.37:179][822]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.29-15.15.37:229][827]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.15.37:261][830]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.15.37:262][830]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.15.58:712][963]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.15.58:719][963]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.15.58:732][964]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.15.58:732][964]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.15.58:732][964]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.15.58:732][964]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.15.59:190][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.15.59:339][ 15]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.15.59:402][ 21]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.29-15.15.59:421][ 23]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.29-15.15.59:789][ 57]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.29-15.15.59:798][ 58]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.15.59:916][ 71]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.16.00:314][111]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.16.00:314][111]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.16.00:314][111]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.16.00:314][111]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.16.00:314][111]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.16.00:315][111]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.16.00:315][111]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.16.03:026][435]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.16.03:033][435]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.16.03:045][436]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.16.03:045][436]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.16.03:045][436]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.16.03:045][436]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.16.03:452][475]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.16.03:580][488]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.16.03:647][494]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.29-15.16.03:707][500]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.29-15.16.04:070][534]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.29-15.16.04:070][534]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.16.04:142][542]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.16.04:582][587]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.16.04:582][587]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.16.04:582][587]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.16.04:582][587]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.16.04:583][587]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.16.04:583][587]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.16.04:583][587]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.16.25:081][ 24]LogSlate: Window 'MetalFloor_Mat' being destroyed
+[2021.05.29-15.16.41:829][744]LogSlate: Window 'Message' being destroyed
+[2021.05.29-15.16.41:839][744]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Models/MetalFloor_Mat.MetalFloor_Mat
+(Selecting 'No' will cause all changes to be lost!)
+[2021.05.29-15.16.42:371][744]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.16.42:394][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.16.42:394][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.16.42:394][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.16.42:394][744]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.16.42:409][744]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.16.42:438][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.29-15.16.42:444][744]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.29-15.16.43:003][744]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2021.05.29-15.16.43:003][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2021.05.29-15.16.43:003][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2021.05.29-15.16.43:003][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.05.29-15.16.43:558][744]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.16.43:615][744]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.16.43:622][744]TextureStreamingBuild: Display: Compiling optional shaders took 1.182 seconds.
+[2021.05.29-15.16.43:637][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2021.05.29-15.16.43:680][744]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.29-15.16.43:680][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.29-15.16.44:671][857]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.29-15.16.44:874][881]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.29-15.16.45:132][912]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.05.29-15.16.45:222][922]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.05.29-15.17.36:385][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.05.29-15.17.36:388][228]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.008
+[2021.05.29-15.17.36:388][228]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/MetalFloor_Mat] ([1] browsable assets)...
+[2021.05.29-15.17.36:396][228]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/MetalFloor_Mat.MetalFloor_Mat]
+[2021.05.29-15.17.36:396][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/MetalFloor_Mat]
+[2021.05.29-15.17.36:414][228]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/MetalFloor_Mat_Auto10B293C934E9156FF16711ABEF2BD6FB6.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Autosaves/Game/Models/MetalFloor_Mat_Auto1.uasset'
+[2021.05.29-15.17.36:416][228]LogFileHelpers: Auto-saving content packages took 0.027
+[2021.05.29-15.18.59:320][667]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Models/MetalFloor_Mat.MetalFloor_Mat
+[2021.05.29-15.18.59:322][667]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.18.59:364][667]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.18.59:372][667]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.18.59:387][667]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.18.59:387][667]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.18.59:387][667]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.18.59:387][667]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.18.59:387][667]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.05.29-15.18.59:852][703]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.18.59:960][716]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.29-15.19.00:019][723]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.29-15.19.00:027][724]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.19.00:352][763]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.05.29-15.19.00:352][763]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.05.29-15.19.00:427][772]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.29-15.19.00:495][780]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.29-15.19.00:763][812]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.29-15.19.00:812][818]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.19.00:812][818]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.29-15.19.00:842][821]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.19.00:842][821]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.19.00:842][821]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.19.00:842][821]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.19.00:843][821]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.19.00:843][821]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.19.00:843][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.19.21:382][443]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.19.21:407][444]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.19.21:407][444]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.19.21:407][444]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.19.21:407][444]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.19.21:416][444]LogSlate: Took 0.006535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.29-15.19.21:906][503]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.19.22:023][517]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.19.22:090][525]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.29-15.19.22:115][528]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.29-15.19.22:467][564]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.29-15.19.22:480][564]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.19.22:550][572]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.19.22:913][615]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.19.22:913][615]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.19.22:913][615]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.19.22:913][615]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.19.22:913][615]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.19.22:913][615]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.19.22:914][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.19.35:428][109]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.19.35:436][109]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.19.35:450][111]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.19.35:450][111]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.19.35:450][111]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.19.35:450][111]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.19.35:778][149]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.19.35:872][160]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.19.35:937][168]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.29-15.19.35:946][169]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.29-15.19.36:263][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.05.29-15.19.36:295][211]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.19.36:345][217]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.19.36:708][260]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.20.01:233][162]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.01:256][163]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.01:256][163]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.01:256][163]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.01:256][163]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.01:672][212]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.20.01:782][225]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.20.01:839][232]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.29-15.20.01:839][232]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.29-15.20.02:165][271]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.29-15.20.02:165][271]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.20.02:254][281]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.20.02:622][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.20.10:600][184]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.10:612][184]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.10:612][184]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.10:612][184]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.10:612][184]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.10:612][184]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.05.29-15.20.10:937][220]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.20.11:053][234]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.29-15.20.11:127][243]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.29-15.20.11:127][243]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.20.11:445][281]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.05.29-15.20.11:453][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.05.29-15.20.11:527][291]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.29-15.20.11:620][302]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.29-15.20.11:843][326]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.29-15.20.11:900][333]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.20.11:910][334]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.29-15.20.11:939][337]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.05.29-15.20.11:939][337]MaterialEditorStats: Base pass shader with Surface Lightmap: 147 instructions
+[2021.05.29-15.20.11:939][337]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.05.29-15.20.11:939][337]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.29-15.20.11:939][337]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.20.11:939][337]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.20.24:358][754]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.24:371][755]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.24:371][755]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.24:371][755]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.24:371][755]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.24:715][794]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.20.24:862][811]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.20.24:930][819]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.29-15.20.24:930][819]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.29-15.20.25:263][855]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.29-15.20.25:284][855]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.20.25:337][860]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.20.25:769][899]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.25:788][900]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.25:788][900]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.25:788][900]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.25:788][900]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.26:136][942]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.20.26:235][954]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.29-15.20.26:286][960]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.29-15.20.26:294][961]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.29-15.20.26:602][998]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.05.29-15.20.26:618][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.20.26:684][  8]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: Base pass shader with Surface Lightmap: 149 instructions
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.20.27:022][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.20.35:678][ 74]LogMaterialEditor: Saving and Compiling material MetalFloor_Mat
+[2021.05.29-15.20.36:100][ 74]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.36:123][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.36:123][ 74]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.36:123][ 74]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.36:123][ 74]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.36:144][ 74]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.20.36:174][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.29-15.20.36:178][ 74]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.29-15.20.36:738][ 74]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2021.05.29-15.20.36:738][ 74]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2021.05.29-15.20.36:738][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2021.05.29-15.20.36:738][ 74]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.20.37:287][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.20.37:289][ 74]TextureStreamingBuild: Display: Compiling optional shaders took 1.114 seconds.
+[2021.05.29-15.20.37:299][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.05.29-15.20.38:462][ 74]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.29-15.20.38:462][ 74]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.29-15.20.39:020][ 74]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.05.29-15.20.39:020][ 74]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.05.29-15.20.39:072][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/MetalFloor_Mat" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/MetalFloor_Mat.uasset" SILENT=true
+[2021.05.29-15.20.39:079][ 74]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/MetalFloor_Mat4FDBC034428EB14FC13B23AFAE6A0142.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/MetalFloor_Mat.uasset'
+[2021.05.29-15.20.39:099][ 74]AssetCheck: New page: Asset Save: MetalFloor_Mat
+[2021.05.29-15.20.39:099][ 74]LogContentValidation: Display: Validating Material /Game/Models/MetalFloor_Mat.MetalFloor_Mat
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: Base pass shader with Surface Lightmap: 149 instructions
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: Texture samplers: 4/16
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.20.39:100][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.20.44:134][676]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.44:140][676]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.44:140][676]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.44:140][676]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.44:140][676]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.44:140][676]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.44:468][715]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.20.44:559][726]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.29-15.20.44:627][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.29-15.20.44:627][734]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.20.44:909][768]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.20.44:934][771]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.29-15.20.45:035][783]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.29-15.20.45:043][784]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.05.29-15.20.45:351][821]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.29-15.20.45:385][825]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.29-15.20.45:425][830]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.05.29-15.20.45:581][848]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.45:586][848]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.05.29-15.20.45:589][848]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.45:705][862]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.29-15.20.45:797][873]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.29-15.20.45:797][873]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.05.29-15.20.46:023][900]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.05.29-15.20.46:172][918]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.29-15.20.46:196][921]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.29-15.20.46:272][930]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.29-15.20.46:297][933]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.29-15.20.46:613][971]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.05.29-15.20.46:655][976]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.29-15.20.46:671][978]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: Texture samplers: 3/16
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.20.47:034][ 21]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.20.50:466][431]LogMaterialEditor: Saving and Compiling material MetalFloor_Mat
+[2021.05.29-15.20.50:884][431]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.29-15.20.50:916][431]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.29-15.20.50:916][431]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.29-15.20.50:916][431]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.29-15.20.50:916][431]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.29-15.20.50:922][431]LogMaterial: Display: Missing cached shader map for material MetalFloor_Mat, compiling. 
+[2021.05.29-15.20.50:949][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.05.29-15.20.50:953][431]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.05.29-15.20.51:514][431]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2021.05.29-15.20.51:514][431]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2021.05.29-15.20.51:514][431]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2021.05.29-15.20.51:514][431]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 24
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.05.29-15.20.52:071][431]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.29-15.20.52:074][431]TextureStreamingBuild: Display: Compiling optional shaders took 1.125 seconds.
+[2021.05.29-15.20.52:085][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.05.29-15.20.53:232][431]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.29-15.20.53:232][431]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.05.29-15.20.53:790][431]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.29-15.20.53:790][431]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.29-15.20.53:867][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/MetalFloor_Mat" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/MetalFloor_Mat.uasset" SILENT=true
+[2021.05.29-15.20.53:873][431]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/MetalFloor_Mat228439CD4BAD7F8E5A3A3D8522CB1DDA.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/MetalFloor_Mat.uasset'
+[2021.05.29-15.20.53:889][431]AssetCheck: New page: Asset Save: MetalFloor_Mat
+[2021.05.29-15.20.53:889][431]LogContentValidation: Display: Validating Material /Game/Models/MetalFloor_Mat.MetalFloor_Mat
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: Base pass shader: 121 instructions
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: Base pass shader with Surface Lightmap: 148 instructions
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 195 instructions
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: Texture samplers: 4/16
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.05.29-15.20.53:890][431]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.29-15.21.18:575][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2021.05.29-15.21.18:592][376]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_EscapeE9F1731442178F1C1D7D5EAD5F0D626A.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.05.29-15.21.18:597][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.05.29-15.21.18:620][376]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltDataE66EAA724030C1583A87BD98919A2191.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.05.29-15.21.18:630][376]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.29-15.21.18:630][376]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.05.29-15.21.18:630][376]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.05.29-15.21.22:060][750]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" -game -rocket -progress
+[2021.05.29-15.21.22:366][750]Discovering modules, targets and source code for project...
+[2021.05.29-15.21.23:777][750]Binding IntelliSense data...
+[2021.05.29-15.21.31:335][750]Binding IntelliSense data... 100%
+[2021.05.29-15.21.31:335][750]Writing project files...
+[2021.05.29-15.21.31:840][750]Writing project files... 100%
