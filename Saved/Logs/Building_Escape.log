@@ -4763,3 +4763,168 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.04-15.26.34:475][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.06.04-15.26.34:489][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
 [2021.06.04-15.26.34:535][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.06.04-15.45.02:873][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.06.04-15.45.06:191][814]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.04-15.45.06:360][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.06.04-15.45.06:382][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.06.04-15.45.06:386][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.06.04-15.45.08:510][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.06.04-15.45.10:483][207]MapCheck: New page: Map Check
+[2021.06.04-15.45.10:507][207]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.04-15.45.10:507][207]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.04-15.45.10:513][207]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=false
+[2021.06.04-15.45.10:526][207]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.04-15.45.10:526][207]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.04-15.45.10:526][207]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.04-15.45.10:531][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.06.04-15.45.10:532][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.10:535][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.10:536][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.04-15.45.10:536][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.04-15.45.10:536][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.10:538][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.10:539][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.10:540][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.10:542][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.06.04-15.45.10:559][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.06.04-15.45.10:559][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.06.04-15.45.10:559][207]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 58
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 57
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 56
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 53
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 48
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 43
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 42
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 41
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 38
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 36
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 34
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.04-15.45.13:988][207]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.04-15.45.13:988][207]TextureStreamingBuild: Display: Compiling optional shaders took 3.455 seconds.
+[2021.06.04-15.45.13:996][207]LogLevel: Display: Export Material TexCoord Scales took 0.008 seconds.
+[2021.06.04-15.45.13:997][207]TextureStreamingBuild: Display: Build Texture Streaming took 0.001 seconds.
+[2021.06.04-15.45.14:001][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.04-15.45.14:003][207]LightingResults: New page: Lighting Build - Jun 4, 2021, 7:45:14 AM
+[2021.06.04-15.45.14:008][207]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.04-15.45.14:012][207]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.04-15.45.14:012][207]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.04-15.45.14:014][207]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.04-15.45.14:014][207]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7092
+[2021.06.04-15.45.18:538][207]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.06.04-15.45.18:538][207]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.04-15.45.18:538][207]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.04-15.45.18:538][207]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.04-15.45.18:538][207]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.04-15.45.18:538][207]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.04-15.45.18:678][207]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.04-15.45.18:678][207]MapCheck: New page: Building_Escape - Jun 4, 2021, 7:45:18 AM
+[2021.06.04-15.45.18:678][207]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.314ms to complete.
+[2021.06.04-15.45.18:680][207]LogEditorBuildUtils: Build time 0:08
+[2021.06.04-15.45.19:073][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.06.04-15.45.20:087][212]Job is a success!
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.04-15.45.20:476][213]LogVolumetricLightmapImport:          Building_Escape 			 10 bricks 	 100.0% (Persistent Level)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 128X128)
+[2021.06.04-15.45.20:531][213]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 256X128)
+[2021.06.04-15.45.20:531][213]LogStaticLightingSystem: Building_Escape_BuiltData storing lightmap data for 9 meshes in 4 LightmapResourceClusters (2.2 Meshes per cluster).
+[2021.06.04-15.45.20:539][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.06.04-15.45.20:540][213]Lightmass on DESKTOP-QHLO9HK: 1.02 sec total, 152 ms importing, 19 ms setup, 46 ms photons, 771 ms processing, 0 ms extra exporting [95/95 mappings]. Threads: 5.39 sec total, 552 ms processing.
+[2021.06.04-15.45.20:574][213]LogStaticLightingSystem: Illumination: 6.21 sec (29 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2021.06.04-15.45.20:574][213]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
+[2021.06.04-15.45.20:574][213]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.2 MB streaming, 0.1 MB non-streaming), 3 textures
+[2021.06.04-15.45.21:550][213]DumpUnbuiltLightIteractions
+[2021.06.04-15.45.21:550][213]Lights with unbuilt interactions: 0
+[2021.06.04-15.45.21:550][213]
+[2021.06.04-15.45.21:550][213]Primitives with unbuilt interactions: 0
+[2021.06.04-15.45.21:586][213]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.06.04-15.45.21:612][214]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.04-15.45.21:612][214]MapCheck: New page: Building_Escape - Jun 4, 2021, 7:45:21 AM
+[2021.06.04-15.45.21:612][214]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.36ms to complete.
+[2021.06.04-15.45.23:458][304]Candidate modules for hot reload:
+[2021.06.04-15.45.23:458][304]  Building_Escape
+[2021.06.04-15.45.23:459][304]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,6686 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.04-15.45.23:461][304]Warning: Starting HotReload took  0.0s.
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: New page: Compilation - Jun 4, 2021, 7:45:31 AM
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.04-15.45.31:133][888]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2021.06.04-15.45.31:133][888]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-6686.lib
+[2021.06.04-15.45.31:133][888]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6686.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6686.exp
+[2021.06.04-15.45.31:133][888]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-6686.dll
+[2021.06.04-15.45.31:133][888]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6686.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6686.suppressed.exp
+[2021.06.04-15.45.31:133][888]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Total time in Parallel executor: 1.54 seconds
+[2021.06.04-15.45.31:133][888]CompilerResultsLog: Total execution time: 7.48 seconds
+[2021.06.04-15.45.31:133][888]LogMainFrame: MainFrame: Module compiling took 7.678 seconds
+[2021.06.04-15.45.31:154][888]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.04-15.45.31:156][888]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.04-15.45.31:191][888]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3604 classes and 861 folders.
+[2021.06.04-15.45.31:191][888]Display: HotReload took  7.7s.
+[2021.06.04-15.45.53:567][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.04-15.45.53:584][205]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_Auto10D5597A14EB141DE2693DFB1EB7E5EBF.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Autosaves/Game/Levels/Building_Escape_Auto1.umap'
+[2021.06.04-15.45.53:585][205]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.021
+[2021.06.04-15.45.53:585][205]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
