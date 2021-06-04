@@ -2195,3 +2195,2571 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.04-15.16.24:228][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.06.04-15.16.24:229][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2021.06.04-15.16.24:281][767]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.06.04-15.26.14:464][992]Candidate modules for hot reload:
+[2021.06.04-15.26.14:464][992]  Building_Escape
+[2021.06.04-15.26.14:464][992]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,8740 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.04-15.26.14:467][992]Warning: Starting HotReload took  0.0s.
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: New page: Compilation - Jun 4, 2021, 7:26:21 AM
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.04-15.26.21:318][533]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2021.06.04-15.26.21:318][533]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-8740.lib
+[2021.06.04-15.26.21:318][533]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8740.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8740.exp
+[2021.06.04-15.26.21:318][533]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-8740.dll
+[2021.06.04-15.26.21:318][533]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8740.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8740.suppressed.exp
+[2021.06.04-15.26.21:318][533]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Total time in Parallel executor: 1.15 seconds
+[2021.06.04-15.26.21:318][533]CompilerResultsLog: Total execution time: 6.77 seconds
+[2021.06.04-15.26.21:318][533]LogMainFrame: MainFrame: Module compiling took 6.859 seconds
+[2021.06.04-15.26.21:346][533]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.04-15.26.21:346][533]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.04-15.26.21:374][533]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3604 classes and 861 folders.
+[2021.06.04-15.26.21:374][533]Display: HotReload took  6.9s.
+[2021.06.04-15.26.22:889][711]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-15.26.22:893][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.04-15.26.22:893][711]PIE: New page: PIE session: Building_Escape (Jun 4, 2021, 7:26:22 AM)
+[2021.06.04-15.26.22:893][711]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.04-15.26.22:898][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005566s)
+[2021.06.04-15.26.22:899][711]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.04-15.26.22:899][711]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2021.06.04-15.26.22:900][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006730s)
+[2021.06.04-15.26.22:904][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.04-15.26.22:906][711]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-15.26.22:906][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-15.26.22:906][711]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-15.26.22:906][711]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-15.26.22:909][711]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-15.26.22:909][711]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-15.26.22:916][711]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.04-15.26.22:916][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.04-15.26.22:916][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.04-15.26.22:916][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.04-15.26.22:917][711]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.04-15.26.22:917][711]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.04-15.26.22:917][711]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.04-15.26.22:929][711]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.04-15.26.22:929][711]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.04-15.26.22:929][711]LogInit: FAudioDevice initialized.
+[2021.06.04-15.26.22:929][711]LogAudio: Display: Audio Device (ID: 6) registered with world 'Building_Escape'.
+[2021.06.04-15.26.22:937][711]LogLoad: Game class is 'GameModeBase'
+[2021.06.04-15.26.22:938][711]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.04-11.26.22
+[2021.06.04-15.26.22:938][711]LogWorld: Bringing up level for play took: 0.000741
+[2021.06.04-15.26.22:938][711]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.06.04-15.26.22:940][711]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-230.000 Z=110.000
+[2021.06.04-15.26.22:940][711]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.04-15.26.22:940][711]PIE: Server logged in
+[2021.06.04-15.26.22:941][711]PIE: Play in editor total start time 0.05 seconds.
+[2021.06.04-15.26.22:941][711]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.26.22:941][711]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.26.22:960][712]LogTemp: Warning: P=0.000000 Y=1.800000 R=0.000000
+[2021.06.04-15.26.22:960][712]LogTemp: Warning: Yaw is : 1.800000
+[2021.06.04-15.26.22:970][713]LogTemp: Warning: P=0.000000 Y=3.564002 R=0.000000
+[2021.06.04-15.26.22:970][713]LogTemp: Warning: Yaw is : 3.564002
+[2021.06.04-15.26.22:978][714]LogTemp: Warning: P=0.000000 Y=5.292728 R=0.000000
+[2021.06.04-15.26.22:978][714]LogTemp: Warning: Yaw is : 5.292728
+[2021.06.04-15.26.22:986][715]LogTemp: Warning: P=0.000000 Y=6.986886 R=0.000000
+[2021.06.04-15.26.22:986][715]LogTemp: Warning: Yaw is : 6.986886
+[2021.06.04-15.26.22:995][716]LogTemp: Warning: P=0.000000 Y=8.647169 R=0.000000
+[2021.06.04-15.26.22:995][716]LogTemp: Warning: Yaw is : 8.647169
+[2021.06.04-15.26.23:005][717]LogTemp: Warning: P=0.000000 Y=10.274253 R=0.000000
+[2021.06.04-15.26.23:005][717]LogTemp: Warning: Yaw is : 10.274253
+[2021.06.04-15.26.23:019][718]LogTemp: Warning: P=0.000000 Y=11.868804 R=0.000000
+[2021.06.04-15.26.23:019][718]LogTemp: Warning: Yaw is : 11.868804
+[2021.06.04-15.26.23:029][719]LogTemp: Warning: P=0.000000 Y=13.431467 R=0.000000
+[2021.06.04-15.26.23:029][719]LogTemp: Warning: Yaw is : 13.431467
+[2021.06.04-15.26.23:037][720]LogTemp: Warning: P=0.000000 Y=14.962877 R=0.000000
+[2021.06.04-15.26.23:037][720]LogTemp: Warning: Yaw is : 14.962877
+[2021.06.04-15.26.23:044][721]LogTemp: Warning: P=0.000000 Y=16.463654 R=0.000000
+[2021.06.04-15.26.23:044][721]LogTemp: Warning: Yaw is : 16.463654
+[2021.06.04-15.26.23:054][722]LogTemp: Warning: P=0.000000 Y=17.934399 R=0.000000
+[2021.06.04-15.26.23:054][722]LogTemp: Warning: Yaw is : 17.934399
+[2021.06.04-15.26.23:061][723]LogTemp: Warning: P=0.000000 Y=19.375715 R=0.000000
+[2021.06.04-15.26.23:061][723]LogTemp: Warning: Yaw is : 19.375715
+[2021.06.04-15.26.23:070][724]LogTemp: Warning: P=0.000000 Y=20.788187 R=0.000000
+[2021.06.04-15.26.23:070][724]LogTemp: Warning: Yaw is : 20.788187
+[2021.06.04-15.26.23:077][725]LogTemp: Warning: P=0.000000 Y=22.172398 R=0.000000
+[2021.06.04-15.26.23:077][725]LogTemp: Warning: Yaw is : 22.172398
+[2021.06.04-15.26.23:086][726]LogTemp: Warning: P=0.000000 Y=23.528910 R=0.000000
+[2021.06.04-15.26.23:086][726]LogTemp: Warning: Yaw is : 23.528910
+[2021.06.04-15.26.23:094][727]LogTemp: Warning: P=0.000000 Y=24.858288 R=0.000000
+[2021.06.04-15.26.23:094][727]LogTemp: Warning: Yaw is : 24.858288
+[2021.06.04-15.26.23:102][728]LogTemp: Warning: P=0.000000 Y=26.161079 R=0.000000
+[2021.06.04-15.26.23:103][728]LogTemp: Warning: Yaw is : 26.161079
+[2021.06.04-15.26.23:111][729]LogTemp: Warning: P=0.000000 Y=27.437832 R=0.000000
+[2021.06.04-15.26.23:111][729]LogTemp: Warning: Yaw is : 27.437832
+[2021.06.04-15.26.23:119][730]LogTemp: Warning: P=0.000000 Y=28.689068 R=0.000000
+[2021.06.04-15.26.23:119][730]LogTemp: Warning: Yaw is : 28.689068
+[2021.06.04-15.26.23:128][731]LogTemp: Warning: P=0.000000 Y=29.915295 R=0.000000
+[2021.06.04-15.26.23:128][731]LogTemp: Warning: Yaw is : 29.915295
+[2021.06.04-15.26.23:136][732]LogTemp: Warning: P=0.000000 Y=31.117012 R=0.000000
+[2021.06.04-15.26.23:136][732]LogTemp: Warning: Yaw is : 31.117012
+[2021.06.04-15.26.23:145][733]LogTemp: Warning: P=0.000000 Y=32.294701 R=0.000000
+[2021.06.04-15.26.23:145][733]LogTemp: Warning: Yaw is : 32.294701
+[2021.06.04-15.26.23:153][734]LogTemp: Warning: P=0.000000 Y=33.448841 R=0.000000
+[2021.06.04-15.26.23:153][734]LogTemp: Warning: Yaw is : 33.448841
+[2021.06.04-15.26.23:161][735]LogTemp: Warning: P=0.000000 Y=34.579880 R=0.000000
+[2021.06.04-15.26.23:161][735]LogTemp: Warning: Yaw is : 34.579880
+[2021.06.04-15.26.23:171][736]LogTemp: Warning: P=0.000000 Y=35.688278 R=0.000000
+[2021.06.04-15.26.23:171][736]LogTemp: Warning: Yaw is : 35.688278
+[2021.06.04-15.26.23:178][737]LogTemp: Warning: P=0.000000 Y=36.774498 R=0.000000
+[2021.06.04-15.26.23:178][737]LogTemp: Warning: Yaw is : 36.774498
+[2021.06.04-15.26.23:186][738]LogTemp: Warning: P=0.000000 Y=37.838963 R=0.000000
+[2021.06.04-15.26.23:186][738]LogTemp: Warning: Yaw is : 37.838963
+[2021.06.04-15.26.23:195][739]LogTemp: Warning: P=0.000000 Y=38.882137 R=0.000000
+[2021.06.04-15.26.23:195][739]LogTemp: Warning: Yaw is : 38.882137
+[2021.06.04-15.26.23:203][740]LogTemp: Warning: P=0.000000 Y=39.904465 R=0.000000
+[2021.06.04-15.26.23:203][740]LogTemp: Warning: Yaw is : 39.904465
+[2021.06.04-15.26.23:211][741]LogTemp: Warning: P=0.000000 Y=40.906384 R=0.000000
+[2021.06.04-15.26.23:211][741]LogTemp: Warning: Yaw is : 40.906384
+[2021.06.04-15.26.23:219][742]LogTemp: Warning: P=0.000000 Y=41.888283 R=0.000000
+[2021.06.04-15.26.23:219][742]LogTemp: Warning: Yaw is : 41.888283
+[2021.06.04-15.26.23:228][743]LogTemp: Warning: P=0.000000 Y=42.850548 R=0.000000
+[2021.06.04-15.26.23:228][743]LogTemp: Warning: Yaw is : 42.850548
+[2021.06.04-15.26.23:236][744]LogTemp: Warning: P=0.000000 Y=43.793518 R=0.000000
+[2021.06.04-15.26.23:236][744]LogTemp: Warning: Yaw is : 43.793518
+[2021.06.04-15.26.23:244][745]LogTemp: Warning: P=0.000000 Y=44.717602 R=0.000000
+[2021.06.04-15.26.23:244][745]LogTemp: Warning: Yaw is : 44.717602
+[2021.06.04-15.26.23:253][746]LogTemp: Warning: P=0.000000 Y=45.623291 R=0.000000
+[2021.06.04-15.26.23:253][746]LogTemp: Warning: Yaw is : 45.623291
+[2021.06.04-15.26.23:261][747]LogTemp: Warning: P=0.000000 Y=46.510818 R=0.000000
+[2021.06.04-15.26.23:261][747]LogTemp: Warning: Yaw is : 46.510818
+[2021.06.04-15.26.23:269][748]LogTemp: Warning: P=0.000000 Y=47.380566 R=0.000000
+[2021.06.04-15.26.23:269][748]LogTemp: Warning: Yaw is : 47.380566
+[2021.06.04-15.26.23:277][749]LogTemp: Warning: P=0.000000 Y=48.232914 R=0.000000
+[2021.06.04-15.26.23:278][749]LogTemp: Warning: Yaw is : 48.232914
+[2021.06.04-15.26.23:286][750]LogTemp: Warning: P=0.000000 Y=49.068241 R=0.000000
+[2021.06.04-15.26.23:286][750]LogTemp: Warning: Yaw is : 49.068241
+[2021.06.04-15.26.23:294][751]LogTemp: Warning: P=0.000000 Y=49.886890 R=0.000000
+[2021.06.04-15.26.23:294][751]LogTemp: Warning: Yaw is : 49.886890
+[2021.06.04-15.26.23:303][752]LogTemp: Warning: P=0.000000 Y=50.689182 R=0.000000
+[2021.06.04-15.26.23:303][752]LogTemp: Warning: Yaw is : 50.689182
+[2021.06.04-15.26.23:311][753]LogTemp: Warning: P=0.000000 Y=51.475437 R=0.000000
+[2021.06.04-15.26.23:311][753]LogTemp: Warning: Yaw is : 51.475437
+[2021.06.04-15.26.23:319][754]LogTemp: Warning: P=0.000000 Y=52.245964 R=0.000000
+[2021.06.04-15.26.23:319][754]LogTemp: Warning: Yaw is : 52.245964
+[2021.06.04-15.26.23:327][755]LogTemp: Warning: P=0.000000 Y=53.001068 R=0.000000
+[2021.06.04-15.26.23:327][755]LogTemp: Warning: Yaw is : 53.001068
+[2021.06.04-15.26.23:336][756]LogTemp: Warning: P=0.000000 Y=53.741055 R=0.000000
+[2021.06.04-15.26.23:336][756]LogTemp: Warning: Yaw is : 53.741055
+[2021.06.04-15.26.23:344][757]LogTemp: Warning: P=0.000000 Y=54.466217 R=0.000000
+[2021.06.04-15.26.23:344][757]LogTemp: Warning: Yaw is : 54.466217
+[2021.06.04-15.26.23:352][758]LogTemp: Warning: P=0.000000 Y=55.176865 R=0.000000
+[2021.06.04-15.26.23:352][758]LogTemp: Warning: Yaw is : 55.176865
+[2021.06.04-15.26.23:361][759]LogTemp: Warning: P=0.000000 Y=55.873295 R=0.000000
+[2021.06.04-15.26.23:361][759]LogTemp: Warning: Yaw is : 55.873295
+[2021.06.04-15.26.23:369][760]LogTemp: Warning: P=0.000000 Y=56.555790 R=0.000000
+[2021.06.04-15.26.23:369][760]LogTemp: Warning: Yaw is : 56.555790
+[2021.06.04-15.26.23:377][761]LogTemp: Warning: P=0.000000 Y=57.224628 R=0.000000
+[2021.06.04-15.26.23:377][761]LogTemp: Warning: Yaw is : 57.224628
+[2021.06.04-15.26.23:386][762]LogTemp: Warning: P=0.000000 Y=57.880093 R=0.000000
+[2021.06.04-15.26.23:386][762]LogTemp: Warning: Yaw is : 57.880093
+[2021.06.04-15.26.23:394][763]LogTemp: Warning: P=0.000000 Y=58.522465 R=0.000000
+[2021.06.04-15.26.23:394][763]LogTemp: Warning: Yaw is : 58.522465
+[2021.06.04-15.26.23:403][764]LogTemp: Warning: P=0.000000 Y=59.151989 R=0.000000
+[2021.06.04-15.26.23:403][764]LogTemp: Warning: Yaw is : 59.151989
+[2021.06.04-15.26.23:411][765]LogTemp: Warning: P=0.000000 Y=59.768921 R=0.000000
+[2021.06.04-15.26.23:411][765]LogTemp: Warning: Yaw is : 59.768921
+[2021.06.04-15.26.23:419][766]LogTemp: Warning: P=0.000000 Y=60.373543 R=0.000000
+[2021.06.04-15.26.23:419][766]LogTemp: Warning: Yaw is : 60.373543
+[2021.06.04-15.26.23:427][767]LogTemp: Warning: P=0.000000 Y=60.966072 R=0.000000
+[2021.06.04-15.26.23:427][767]LogTemp: Warning: Yaw is : 60.966072
+[2021.06.04-15.26.23:436][768]LogTemp: Warning: P=0.000000 Y=61.546741 R=0.000000
+[2021.06.04-15.26.23:436][768]LogTemp: Warning: Yaw is : 61.546741
+[2021.06.04-15.26.23:444][769]LogTemp: Warning: P=0.000000 Y=62.115807 R=0.000000
+[2021.06.04-15.26.23:444][769]LogTemp: Warning: Yaw is : 62.115807
+[2021.06.04-15.26.23:452][770]LogTemp: Warning: P=0.000000 Y=62.673519 R=0.000000
+[2021.06.04-15.26.23:452][770]LogTemp: Warning: Yaw is : 62.673519
+[2021.06.04-15.26.23:461][771]LogTemp: Warning: P=0.000000 Y=63.220078 R=0.000000
+[2021.06.04-15.26.23:461][771]LogTemp: Warning: Yaw is : 63.220078
+[2021.06.04-15.26.23:469][772]LogTemp: Warning: P=0.000000 Y=63.755714 R=0.000000
+[2021.06.04-15.26.23:469][772]LogTemp: Warning: Yaw is : 63.755714
+[2021.06.04-15.26.23:477][773]LogTemp: Warning: P=0.000000 Y=64.280640 R=0.000000
+[2021.06.04-15.26.23:477][773]LogTemp: Warning: Yaw is : 64.280640
+[2021.06.04-15.26.23:486][774]LogTemp: Warning: P=0.000000 Y=64.795067 R=0.000000
+[2021.06.04-15.26.23:486][774]LogTemp: Warning: Yaw is : 64.795067
+[2021.06.04-15.26.23:494][775]LogTemp: Warning: P=0.000000 Y=65.299202 R=0.000000
+[2021.06.04-15.26.23:494][775]LogTemp: Warning: Yaw is : 65.299202
+[2021.06.04-15.26.23:502][776]LogTemp: Warning: P=0.000000 Y=65.793259 R=0.000000
+[2021.06.04-15.26.23:502][776]LogTemp: Warning: Yaw is : 65.793259
+[2021.06.04-15.26.23:511][777]LogTemp: Warning: P=0.000000 Y=66.277435 R=0.000000
+[2021.06.04-15.26.23:511][777]LogTemp: Warning: Yaw is : 66.277435
+[2021.06.04-15.26.23:519][778]LogTemp: Warning: P=0.000000 Y=66.751915 R=0.000000
+[2021.06.04-15.26.23:519][778]LogTemp: Warning: Yaw is : 66.751915
+[2021.06.04-15.26.23:527][779]LogTemp: Warning: P=0.000000 Y=67.216904 R=0.000000
+[2021.06.04-15.26.23:527][779]LogTemp: Warning: Yaw is : 67.216904
+[2021.06.04-15.26.23:535][780]LogTemp: Warning: P=0.000000 Y=67.672600 R=0.000000
+[2021.06.04-15.26.23:536][780]LogTemp: Warning: Yaw is : 67.672600
+[2021.06.04-15.26.23:544][781]LogTemp: Warning: P=0.000000 Y=68.119171 R=0.000000
+[2021.06.04-15.26.23:544][781]LogTemp: Warning: Yaw is : 68.119171
+[2021.06.04-15.26.23:552][782]LogTemp: Warning: P=0.000000 Y=68.556808 R=0.000000
+[2021.06.04-15.26.23:552][782]LogTemp: Warning: Yaw is : 68.556808
+[2021.06.04-15.26.23:560][783]LogTemp: Warning: P=0.000000 Y=68.985687 R=0.000000
+[2021.06.04-15.26.23:561][783]LogTemp: Warning: Yaw is : 68.985687
+[2021.06.04-15.26.23:569][784]LogTemp: Warning: P=0.000000 Y=69.405991 R=0.000000
+[2021.06.04-15.26.23:569][784]LogTemp: Warning: Yaw is : 69.405991
+[2021.06.04-15.26.23:577][785]LogTemp: Warning: P=0.000000 Y=69.817879 R=0.000000
+[2021.06.04-15.26.23:577][785]LogTemp: Warning: Yaw is : 69.817879
+[2021.06.04-15.26.23:585][786]LogTemp: Warning: P=0.000000 Y=70.221504 R=0.000000
+[2021.06.04-15.26.23:586][786]LogTemp: Warning: Yaw is : 70.221504
+[2021.06.04-15.26.23:594][787]LogTemp: Warning: P=0.000000 Y=70.617065 R=0.000000
+[2021.06.04-15.26.23:594][787]LogTemp: Warning: Yaw is : 70.617065
+[2021.06.04-15.26.23:602][788]LogTemp: Warning: P=0.000000 Y=71.004700 R=0.000000
+[2021.06.04-15.26.23:602][788]LogTemp: Warning: Yaw is : 71.004700
+[2021.06.04-15.26.23:611][789]LogTemp: Warning: P=0.000000 Y=71.384583 R=0.000000
+[2021.06.04-15.26.23:611][789]LogTemp: Warning: Yaw is : 71.384583
+[2021.06.04-15.26.23:619][790]LogTemp: Warning: P=0.000000 Y=71.756874 R=0.000000
+[2021.06.04-15.26.23:619][790]LogTemp: Warning: Yaw is : 71.756874
+[2021.06.04-15.26.23:627][791]LogTemp: Warning: P=0.000000 Y=72.121719 R=0.000000
+[2021.06.04-15.26.23:627][791]LogTemp: Warning: Yaw is : 72.121719
+[2021.06.04-15.26.23:636][792]LogTemp: Warning: P=0.000000 Y=72.479256 R=0.000000
+[2021.06.04-15.26.23:636][792]LogTemp: Warning: Yaw is : 72.479256
+[2021.06.04-15.26.23:644][793]LogTemp: Warning: P=0.000000 Y=72.829643 R=0.000000
+[2021.06.04-15.26.23:644][793]LogTemp: Warning: Yaw is : 72.829643
+[2021.06.04-15.26.23:652][794]LogTemp: Warning: P=0.000000 Y=73.173012 R=0.000000
+[2021.06.04-15.26.23:652][794]LogTemp: Warning: Yaw is : 73.173012
+[2021.06.04-15.26.23:661][795]LogTemp: Warning: P=0.000000 Y=73.509514 R=0.000000
+[2021.06.04-15.26.23:661][795]LogTemp: Warning: Yaw is : 73.509514
+[2021.06.04-15.26.23:669][796]LogTemp: Warning: P=0.000000 Y=73.839287 R=0.000000
+[2021.06.04-15.26.23:669][796]LogTemp: Warning: Yaw is : 73.839287
+[2021.06.04-15.26.23:678][797]LogTemp: Warning: P=0.000000 Y=74.162453 R=0.000000
+[2021.06.04-15.26.23:678][797]LogTemp: Warning: Yaw is : 74.162453
+[2021.06.04-15.26.23:685][798]LogTemp: Warning: P=0.000000 Y=74.479156 R=0.000000
+[2021.06.04-15.26.23:685][798]LogTemp: Warning: Yaw is : 74.479156
+[2021.06.04-15.26.23:693][799]LogTemp: Warning: P=0.000000 Y=74.789536 R=0.000000
+[2021.06.04-15.26.23:694][799]LogTemp: Warning: Yaw is : 74.789536
+[2021.06.04-15.26.23:702][800]LogTemp: Warning: P=0.000000 Y=75.093689 R=0.000000
+[2021.06.04-15.26.23:702][800]LogTemp: Warning: Yaw is : 75.093689
+[2021.06.04-15.26.23:710][801]LogTemp: Warning: P=0.000000 Y=75.391769 R=0.000000
+[2021.06.04-15.26.23:710][801]LogTemp: Warning: Yaw is : 75.391769
+[2021.06.04-15.26.23:718][802]LogTemp: Warning: P=0.000000 Y=75.683899 R=0.000000
+[2021.06.04-15.26.23:719][802]LogTemp: Warning: Yaw is : 75.683899
+[2021.06.04-15.26.23:727][803]LogTemp: Warning: P=0.000000 Y=75.970169 R=0.000000
+[2021.06.04-15.26.23:727][803]LogTemp: Warning: Yaw is : 75.970169
+[2021.06.04-15.26.23:736][804]LogTemp: Warning: P=0.000000 Y=76.250725 R=0.000000
+[2021.06.04-15.26.23:736][804]LogTemp: Warning: Yaw is : 76.250725
+[2021.06.04-15.26.23:744][805]LogTemp: Warning: P=0.000000 Y=76.525665 R=0.000000
+[2021.06.04-15.26.23:744][805]LogTemp: Warning: Yaw is : 76.525665
+[2021.06.04-15.26.23:752][806]LogTemp: Warning: P=0.000000 Y=76.795113 R=0.000000
+[2021.06.04-15.26.23:752][806]LogTemp: Warning: Yaw is : 76.795113
+[2021.06.04-15.26.23:761][807]LogTemp: Warning: P=0.000000 Y=77.059166 R=0.000000
+[2021.06.04-15.26.23:761][807]LogTemp: Warning: Yaw is : 77.059166
+[2021.06.04-15.26.23:769][808]LogTemp: Warning: P=0.000000 Y=77.317932 R=0.000000
+[2021.06.04-15.26.23:769][808]LogTemp: Warning: Yaw is : 77.317932
+[2021.06.04-15.26.23:778][809]LogTemp: Warning: P=0.000000 Y=77.571526 R=0.000000
+[2021.06.04-15.26.23:778][809]LogTemp: Warning: Yaw is : 77.571526
+[2021.06.04-15.26.23:786][810]LogTemp: Warning: P=0.000000 Y=77.820045 R=0.000000
+[2021.06.04-15.26.23:786][810]LogTemp: Warning: Yaw is : 77.820045
+[2021.06.04-15.26.23:794][811]LogTemp: Warning: P=0.000000 Y=78.063591 R=0.000000
+[2021.06.04-15.26.23:794][811]LogTemp: Warning: Yaw is : 78.063591
+[2021.06.04-15.26.23:803][812]LogTemp: Warning: P=0.000000 Y=78.302277 R=0.000000
+[2021.06.04-15.26.23:803][812]LogTemp: Warning: Yaw is : 78.302277
+[2021.06.04-15.26.23:811][813]LogTemp: Warning: P=0.000000 Y=78.536179 R=0.000000
+[2021.06.04-15.26.23:811][813]LogTemp: Warning: Yaw is : 78.536179
+[2021.06.04-15.26.23:819][814]LogTemp: Warning: P=0.000000 Y=78.765411 R=0.000000
+[2021.06.04-15.26.23:819][814]LogTemp: Warning: Yaw is : 78.765411
+[2021.06.04-15.26.23:827][815]LogTemp: Warning: P=0.000000 Y=78.990059 R=0.000000
+[2021.06.04-15.26.23:827][815]LogTemp: Warning: Yaw is : 78.990059
+[2021.06.04-15.26.23:836][816]LogTemp: Warning: P=0.000000 Y=79.210213 R=0.000000
+[2021.06.04-15.26.23:836][816]LogTemp: Warning: Yaw is : 79.210213
+[2021.06.04-15.26.23:844][817]LogTemp: Warning: P=0.000000 Y=79.425972 R=0.000000
+[2021.06.04-15.26.23:844][817]LogTemp: Warning: Yaw is : 79.425972
+[2021.06.04-15.26.23:852][818]LogTemp: Warning: P=0.000000 Y=79.637421 R=0.000000
+[2021.06.04-15.26.23:852][818]LogTemp: Warning: Yaw is : 79.637421
+[2021.06.04-15.26.23:860][819]LogTemp: Warning: P=0.000000 Y=79.844635 R=0.000000
+[2021.06.04-15.26.23:860][819]LogTemp: Warning: Yaw is : 79.844635
+[2021.06.04-15.26.23:869][820]LogTemp: Warning: P=0.000000 Y=80.047714 R=0.000000
+[2021.06.04-15.26.23:869][820]LogTemp: Warning: Yaw is : 80.047714
+[2021.06.04-15.26.23:877][821]LogTemp: Warning: P=0.000000 Y=80.246735 R=0.000000
+[2021.06.04-15.26.23:877][821]LogTemp: Warning: Yaw is : 80.246735
+[2021.06.04-15.26.23:885][822]LogTemp: Warning: P=0.000000 Y=80.441772 R=0.000000
+[2021.06.04-15.26.23:886][822]LogTemp: Warning: Yaw is : 80.441772
+[2021.06.04-15.26.23:894][823]LogTemp: Warning: P=0.000000 Y=80.632904 R=0.000000
+[2021.06.04-15.26.23:894][823]LogTemp: Warning: Yaw is : 80.632904
+[2021.06.04-15.26.23:903][824]LogTemp: Warning: P=0.000000 Y=80.820213 R=0.000000
+[2021.06.04-15.26.23:903][824]LogTemp: Warning: Yaw is : 80.820213
+[2021.06.04-15.26.23:911][825]LogTemp: Warning: P=0.000000 Y=81.003761 R=0.000000
+[2021.06.04-15.26.23:911][825]LogTemp: Warning: Yaw is : 81.003761
+[2021.06.04-15.26.23:919][826]LogTemp: Warning: P=0.000000 Y=81.183647 R=0.000000
+[2021.06.04-15.26.23:919][826]LogTemp: Warning: Yaw is : 81.183647
+[2021.06.04-15.26.23:927][827]LogTemp: Warning: P=0.000000 Y=81.359955 R=0.000000
+[2021.06.04-15.26.23:927][827]LogTemp: Warning: Yaw is : 81.359955
+[2021.06.04-15.26.23:936][828]LogTemp: Warning: P=0.000000 Y=81.532738 R=0.000000
+[2021.06.04-15.26.23:936][828]LogTemp: Warning: Yaw is : 81.532738
+[2021.06.04-15.26.23:944][829]LogTemp: Warning: P=0.000000 Y=81.702065 R=0.000000
+[2021.06.04-15.26.23:944][829]LogTemp: Warning: Yaw is : 81.702065
+[2021.06.04-15.26.23:952][830]LogTemp: Warning: P=0.000000 Y=81.868004 R=0.000000
+[2021.06.04-15.26.23:952][830]LogTemp: Warning: Yaw is : 81.868004
+[2021.06.04-15.26.23:961][831]LogTemp: Warning: P=0.000000 Y=82.030624 R=0.000000
+[2021.06.04-15.26.23:961][831]LogTemp: Warning: Yaw is : 82.030624
+[2021.06.04-15.26.23:969][832]LogTemp: Warning: P=0.000000 Y=82.189987 R=0.000000
+[2021.06.04-15.26.23:969][832]LogTemp: Warning: Yaw is : 82.189987
+[2021.06.04-15.26.23:978][833]LogTemp: Warning: P=0.000000 Y=82.346153 R=0.000000
+[2021.06.04-15.26.23:978][833]LogTemp: Warning: Yaw is : 82.346153
+[2021.06.04-15.26.23:986][834]LogTemp: Warning: P=0.000000 Y=82.499229 R=0.000000
+[2021.06.04-15.26.23:986][834]LogTemp: Warning: Yaw is : 82.499229
+[2021.06.04-15.26.23:994][835]LogTemp: Warning: P=0.000000 Y=82.649223 R=0.000000
+[2021.06.04-15.26.23:994][835]LogTemp: Warning: Yaw is : 82.649223
+[2021.06.04-15.26.24:003][836]LogTemp: Warning: P=0.000000 Y=82.796219 R=0.000000
+[2021.06.04-15.26.24:003][836]LogTemp: Warning: Yaw is : 82.796219
+[2021.06.04-15.26.24:011][837]LogTemp: Warning: P=0.000000 Y=82.940277 R=0.000000
+[2021.06.04-15.26.24:011][837]LogTemp: Warning: Yaw is : 82.940277
+[2021.06.04-15.26.24:019][838]LogTemp: Warning: P=0.000000 Y=83.081444 R=0.000000
+[2021.06.04-15.26.24:019][838]LogTemp: Warning: Yaw is : 83.081444
+[2021.06.04-15.26.24:027][839]LogTemp: Warning: P=0.000000 Y=83.219795 R=0.000000
+[2021.06.04-15.26.24:027][839]LogTemp: Warning: Yaw is : 83.219795
+[2021.06.04-15.26.24:036][840]LogTemp: Warning: P=0.000000 Y=83.355377 R=0.000000
+[2021.06.04-15.26.24:036][840]LogTemp: Warning: Yaw is : 83.355377
+[2021.06.04-15.26.24:044][841]LogTemp: Warning: P=0.000000 Y=83.488243 R=0.000000
+[2021.06.04-15.26.24:044][841]LogTemp: Warning: Yaw is : 83.488243
+[2021.06.04-15.26.24:052][842]LogTemp: Warning: P=0.000000 Y=83.618454 R=0.000000
+[2021.06.04-15.26.24:052][842]LogTemp: Warning: Yaw is : 83.618454
+[2021.06.04-15.26.24:061][843]LogTemp: Warning: P=0.000000 Y=83.746063 R=0.000000
+[2021.06.04-15.26.24:061][843]LogTemp: Warning: Yaw is : 83.746063
+[2021.06.04-15.26.24:069][844]LogTemp: Warning: P=0.000000 Y=83.871117 R=0.000000
+[2021.06.04-15.26.24:069][844]LogTemp: Warning: Yaw is : 83.871117
+[2021.06.04-15.26.24:077][845]LogTemp: Warning: P=0.000000 Y=83.993683 R=0.000000
+[2021.06.04-15.26.24:077][845]LogTemp: Warning: Yaw is : 83.993683
+[2021.06.04-15.26.24:086][846]LogTemp: Warning: P=0.000000 Y=84.113792 R=0.000000
+[2021.06.04-15.26.24:086][846]LogTemp: Warning: Yaw is : 84.113792
+[2021.06.04-15.26.24:094][847]LogTemp: Warning: P=0.000000 Y=84.231491 R=0.000000
+[2021.06.04-15.26.24:094][847]LogTemp: Warning: Yaw is : 84.231491
+[2021.06.04-15.26.24:102][848]LogTemp: Warning: P=0.000000 Y=84.346848 R=0.000000
+[2021.06.04-15.26.24:102][848]LogTemp: Warning: Yaw is : 84.346848
+[2021.06.04-15.26.24:111][849]LogTemp: Warning: P=0.000000 Y=84.459900 R=0.000000
+[2021.06.04-15.26.24:111][849]LogTemp: Warning: Yaw is : 84.459900
+[2021.06.04-15.26.24:119][850]LogTemp: Warning: P=0.000000 Y=84.570679 R=0.000000
+[2021.06.04-15.26.24:119][850]LogTemp: Warning: Yaw is : 84.570679
+[2021.06.04-15.26.24:127][851]LogTemp: Warning: P=0.000000 Y=84.679245 R=0.000000
+[2021.06.04-15.26.24:127][851]LogTemp: Warning: Yaw is : 84.679245
+[2021.06.04-15.26.24:136][852]LogTemp: Warning: P=0.000000 Y=84.785652 R=0.000000
+[2021.06.04-15.26.24:136][852]LogTemp: Warning: Yaw is : 84.785652
+[2021.06.04-15.26.24:144][853]LogTemp: Warning: P=0.000000 Y=84.889915 R=0.000000
+[2021.06.04-15.26.24:144][853]LogTemp: Warning: Yaw is : 84.889915
+[2021.06.04-15.26.24:153][854]LogTemp: Warning: P=0.000000 Y=84.992104 R=0.000000
+[2021.06.04-15.26.24:153][854]LogTemp: Warning: Yaw is : 84.992104
+[2021.06.04-15.26.24:161][855]LogTemp: Warning: P=0.000000 Y=85.092247 R=0.000000
+[2021.06.04-15.26.24:161][855]LogTemp: Warning: Yaw is : 85.092247
+[2021.06.04-15.26.24:169][856]LogTemp: Warning: P=0.000000 Y=85.190399 R=0.000000
+[2021.06.04-15.26.24:169][856]LogTemp: Warning: Yaw is : 85.190399
+[2021.06.04-15.26.24:178][857]LogTemp: Warning: P=0.000000 Y=85.286583 R=0.000000
+[2021.06.04-15.26.24:178][857]LogTemp: Warning: Yaw is : 85.286583
+[2021.06.04-15.26.24:186][858]LogTemp: Warning: P=0.000000 Y=85.380829 R=0.000000
+[2021.06.04-15.26.24:186][858]LogTemp: Warning: Yaw is : 85.380829
+[2021.06.04-15.26.24:194][859]LogTemp: Warning: P=0.000000 Y=85.473213 R=0.000000
+[2021.06.04-15.26.24:194][859]LogTemp: Warning: Yaw is : 85.473213
+[2021.06.04-15.26.24:203][860]LogTemp: Warning: P=0.000000 Y=85.563751 R=0.000000
+[2021.06.04-15.26.24:203][860]LogTemp: Warning: Yaw is : 85.563751
+[2021.06.04-15.26.24:211][861]LogTemp: Warning: P=0.000000 Y=85.652458 R=0.000000
+[2021.06.04-15.26.24:211][861]LogTemp: Warning: Yaw is : 85.652458
+[2021.06.04-15.26.24:219][862]LogTemp: Warning: P=0.000000 Y=85.739395 R=0.000000
+[2021.06.04-15.26.24:219][862]LogTemp: Warning: Yaw is : 85.739395
+[2021.06.04-15.26.24:227][863]LogTemp: Warning: P=0.000000 Y=85.824593 R=0.000000
+[2021.06.04-15.26.24:227][863]LogTemp: Warning: Yaw is : 85.824593
+[2021.06.04-15.26.24:236][864]LogTemp: Warning: P=0.000000 Y=85.908096 R=0.000000
+[2021.06.04-15.26.24:236][864]LogTemp: Warning: Yaw is : 85.908096
+[2021.06.04-15.26.24:244][865]LogTemp: Warning: P=0.000000 Y=85.989929 R=0.000000
+[2021.06.04-15.26.24:244][865]LogTemp: Warning: Yaw is : 85.989929
+[2021.06.04-15.26.24:252][866]LogTemp: Warning: P=0.000000 Y=86.070122 R=0.000000
+[2021.06.04-15.26.24:252][866]LogTemp: Warning: Yaw is : 86.070122
+[2021.06.04-15.26.24:261][867]LogTemp: Warning: P=0.000000 Y=86.148712 R=0.000000
+[2021.06.04-15.26.24:261][867]LogTemp: Warning: Yaw is : 86.148712
+[2021.06.04-15.26.24:269][868]LogTemp: Warning: P=0.000000 Y=86.225716 R=0.000000
+[2021.06.04-15.26.24:269][868]LogTemp: Warning: Yaw is : 86.225716
+[2021.06.04-15.26.24:277][869]LogTemp: Warning: P=0.000000 Y=86.301201 R=0.000000
+[2021.06.04-15.26.24:277][869]LogTemp: Warning: Yaw is : 86.301201
+[2021.06.04-15.26.24:286][870]LogTemp: Warning: P=0.000000 Y=86.375153 R=0.000000
+[2021.06.04-15.26.24:286][870]LogTemp: Warning: Yaw is : 86.375153
+[2021.06.04-15.26.24:294][871]LogTemp: Warning: P=0.000000 Y=86.447647 R=0.000000
+[2021.06.04-15.26.24:294][871]LogTemp: Warning: Yaw is : 86.447647
+[2021.06.04-15.26.24:302][872]LogTemp: Warning: P=0.000000 Y=86.518677 R=0.000000
+[2021.06.04-15.26.24:302][872]LogTemp: Warning: Yaw is : 86.518677
+[2021.06.04-15.26.24:311][873]LogTemp: Warning: P=0.000000 Y=86.588287 R=0.000000
+[2021.06.04-15.26.24:311][873]LogTemp: Warning: Yaw is : 86.588287
+[2021.06.04-15.26.24:319][874]LogTemp: Warning: P=0.000000 Y=86.656525 R=0.000000
+[2021.06.04-15.26.24:319][874]LogTemp: Warning: Yaw is : 86.656525
+[2021.06.04-15.26.24:327][875]LogTemp: Warning: P=0.000000 Y=86.723381 R=0.000000
+[2021.06.04-15.26.24:327][875]LogTemp: Warning: Yaw is : 86.723381
+[2021.06.04-15.26.24:335][876]LogTemp: Warning: P=0.000000 Y=86.788910 R=0.000000
+[2021.06.04-15.26.24:335][876]LogTemp: Warning: Yaw is : 86.788910
+[2021.06.04-15.26.24:344][877]LogTemp: Warning: P=0.000000 Y=86.853119 R=0.000000
+[2021.06.04-15.26.24:344][877]LogTemp: Warning: Yaw is : 86.853119
+[2021.06.04-15.26.24:352][878]LogTemp: Warning: P=0.000000 Y=86.916054 R=0.000000
+[2021.06.04-15.26.24:352][878]LogTemp: Warning: Yaw is : 86.916054
+[2021.06.04-15.26.24:360][879]LogTemp: Warning: P=0.000000 Y=86.977707 R=0.000000
+[2021.06.04-15.26.24:360][879]LogTemp: Warning: Yaw is : 86.977707
+[2021.06.04-15.26.24:369][880]LogTemp: Warning: P=0.000000 Y=87.038155 R=0.000000
+[2021.06.04-15.26.24:369][880]LogTemp: Warning: Yaw is : 87.038155
+[2021.06.04-15.26.24:377][881]LogTemp: Warning: P=0.000000 Y=87.097389 R=0.000000
+[2021.06.04-15.26.24:377][881]LogTemp: Warning: Yaw is : 87.097389
+[2021.06.04-15.26.24:386][882]LogTemp: Warning: P=0.000000 Y=87.155441 R=0.000000
+[2021.06.04-15.26.24:386][882]LogTemp: Warning: Yaw is : 87.155441
+[2021.06.04-15.26.24:394][883]LogTemp: Warning: P=0.000000 Y=87.212334 R=0.000000
+[2021.06.04-15.26.24:394][883]LogTemp: Warning: Yaw is : 87.212334
+[2021.06.04-15.26.24:403][884]LogTemp: Warning: P=0.000000 Y=87.268089 R=0.000000
+[2021.06.04-15.26.24:403][884]LogTemp: Warning: Yaw is : 87.268089
+[2021.06.04-15.26.24:411][885]LogTemp: Warning: P=0.000000 Y=87.322731 R=0.000000
+[2021.06.04-15.26.24:411][885]LogTemp: Warning: Yaw is : 87.322731
+[2021.06.04-15.26.24:419][886]LogTemp: Warning: P=0.000000 Y=87.376274 R=0.000000
+[2021.06.04-15.26.24:419][886]LogTemp: Warning: Yaw is : 87.376274
+[2021.06.04-15.26.24:427][887]LogTemp: Warning: P=0.000000 Y=87.428749 R=0.000000
+[2021.06.04-15.26.24:427][887]LogTemp: Warning: Yaw is : 87.428749
+[2021.06.04-15.26.24:436][888]LogTemp: Warning: P=0.000000 Y=87.480164 R=0.000000
+[2021.06.04-15.26.24:436][888]LogTemp: Warning: Yaw is : 87.480164
+[2021.06.04-15.26.24:444][889]LogTemp: Warning: P=0.000000 Y=87.530563 R=0.000000
+[2021.06.04-15.26.24:444][889]LogTemp: Warning: Yaw is : 87.530563
+[2021.06.04-15.26.24:452][890]LogTemp: Warning: P=0.000000 Y=87.579948 R=0.000000
+[2021.06.04-15.26.24:452][890]LogTemp: Warning: Yaw is : 87.579948
+[2021.06.04-15.26.24:461][891]LogTemp: Warning: P=0.000000 Y=87.628334 R=0.000000
+[2021.06.04-15.26.24:461][891]LogTemp: Warning: Yaw is : 87.628334
+[2021.06.04-15.26.24:469][892]LogTemp: Warning: P=0.000000 Y=87.675758 R=0.000000
+[2021.06.04-15.26.24:469][892]LogTemp: Warning: Yaw is : 87.675758
+[2021.06.04-15.26.24:477][893]LogTemp: Warning: P=0.000000 Y=87.722244 R=0.000000
+[2021.06.04-15.26.24:477][893]LogTemp: Warning: Yaw is : 87.722244
+[2021.06.04-15.26.24:486][894]LogTemp: Warning: P=0.000000 Y=87.767799 R=0.000000
+[2021.06.04-15.26.24:486][894]LogTemp: Warning: Yaw is : 87.767799
+[2021.06.04-15.26.24:494][895]LogTemp: Warning: P=0.000000 Y=87.812447 R=0.000000
+[2021.06.04-15.26.24:494][895]LogTemp: Warning: Yaw is : 87.812447
+[2021.06.04-15.26.24:503][896]LogTemp: Warning: P=0.000000 Y=87.856201 R=0.000000
+[2021.06.04-15.26.24:503][896]LogTemp: Warning: Yaw is : 87.856201
+[2021.06.04-15.26.24:511][897]LogTemp: Warning: P=0.000000 Y=87.899071 R=0.000000
+[2021.06.04-15.26.24:511][897]LogTemp: Warning: Yaw is : 87.899071
+[2021.06.04-15.26.24:519][898]LogTemp: Warning: P=0.000000 Y=87.941086 R=0.000000
+[2021.06.04-15.26.24:519][898]LogTemp: Warning: Yaw is : 87.941086
+[2021.06.04-15.26.24:527][899]LogTemp: Warning: P=0.000000 Y=87.982254 R=0.000000
+[2021.06.04-15.26.24:527][899]LogTemp: Warning: Yaw is : 87.982254
+[2021.06.04-15.26.24:535][900]LogTemp: Warning: P=0.000000 Y=88.022606 R=0.000000
+[2021.06.04-15.26.24:536][900]LogTemp: Warning: Yaw is : 88.022606
+[2021.06.04-15.26.24:544][901]LogTemp: Warning: P=0.000000 Y=88.062134 R=0.000000
+[2021.06.04-15.26.24:544][901]LogTemp: Warning: Yaw is : 88.062134
+[2021.06.04-15.26.24:552][902]LogTemp: Warning: P=0.000000 Y=88.100883 R=0.000000
+[2021.06.04-15.26.24:552][902]LogTemp: Warning: Yaw is : 88.100883
+[2021.06.04-15.26.24:560][903]LogTemp: Warning: P=0.000000 Y=88.138870 R=0.000000
+[2021.06.04-15.26.24:561][903]LogTemp: Warning: Yaw is : 88.138870
+[2021.06.04-15.26.24:569][904]LogTemp: Warning: P=0.000000 Y=88.176079 R=0.000000
+[2021.06.04-15.26.24:569][904]LogTemp: Warning: Yaw is : 88.176079
+[2021.06.04-15.26.24:577][905]LogTemp: Warning: P=0.000000 Y=88.212547 R=0.000000
+[2021.06.04-15.26.24:577][905]LogTemp: Warning: Yaw is : 88.212547
+[2021.06.04-15.26.24:585][906]LogTemp: Warning: P=0.000000 Y=88.248291 R=0.000000
+[2021.06.04-15.26.24:586][906]LogTemp: Warning: Yaw is : 88.248291
+[2021.06.04-15.26.24:594][907]LogTemp: Warning: P=0.000000 Y=88.283310 R=0.000000
+[2021.06.04-15.26.24:594][907]LogTemp: Warning: Yaw is : 88.283310
+[2021.06.04-15.26.24:602][908]LogTemp: Warning: P=0.000000 Y=88.317635 R=0.000000
+[2021.06.04-15.26.24:602][908]LogTemp: Warning: Yaw is : 88.317635
+[2021.06.04-15.26.24:610][909]LogTemp: Warning: P=0.000000 Y=88.351273 R=0.000000
+[2021.06.04-15.26.24:611][909]LogTemp: Warning: Yaw is : 88.351273
+[2021.06.04-15.26.24:619][910]LogTemp: Warning: P=0.000000 Y=88.384247 R=0.000000
+[2021.06.04-15.26.24:619][910]LogTemp: Warning: Yaw is : 88.384247
+[2021.06.04-15.26.24:627][911]LogTemp: Warning: P=0.000000 Y=88.416565 R=0.000000
+[2021.06.04-15.26.24:627][911]LogTemp: Warning: Yaw is : 88.416565
+[2021.06.04-15.26.24:636][912]LogTemp: Warning: P=0.000000 Y=88.448219 R=0.000000
+[2021.06.04-15.26.24:636][912]LogTemp: Warning: Yaw is : 88.448219
+[2021.06.04-15.26.24:644][913]LogTemp: Warning: P=0.000000 Y=88.479233 R=0.000000
+[2021.06.04-15.26.24:644][913]LogTemp: Warning: Yaw is : 88.479233
+[2021.06.04-15.26.24:653][914]LogTemp: Warning: P=0.000000 Y=88.509636 R=0.000000
+[2021.06.04-15.26.24:653][914]LogTemp: Warning: Yaw is : 88.509636
+[2021.06.04-15.26.24:661][915]LogTemp: Warning: P=0.000000 Y=88.539429 R=0.000000
+[2021.06.04-15.26.24:661][915]LogTemp: Warning: Yaw is : 88.539429
+[2021.06.04-15.26.24:669][916]LogTemp: Warning: P=0.000000 Y=88.568642 R=0.000000
+[2021.06.04-15.26.24:669][916]LogTemp: Warning: Yaw is : 88.568642
+[2021.06.04-15.26.24:678][917]LogTemp: Warning: P=0.000000 Y=88.597244 R=0.000000
+[2021.06.04-15.26.24:678][917]LogTemp: Warning: Yaw is : 88.597244
+[2021.06.04-15.26.24:686][918]LogTemp: Warning: P=0.000000 Y=88.625290 R=0.000000
+[2021.06.04-15.26.24:686][918]LogTemp: Warning: Yaw is : 88.625290
+[2021.06.04-15.26.24:694][919]LogTemp: Warning: P=0.000000 Y=88.652786 R=0.000000
+[2021.06.04-15.26.24:694][919]LogTemp: Warning: Yaw is : 88.652786
+[2021.06.04-15.26.24:702][920]LogTemp: Warning: P=0.000000 Y=88.679726 R=0.000000
+[2021.06.04-15.26.24:702][920]LogTemp: Warning: Yaw is : 88.679726
+[2021.06.04-15.26.24:711][921]LogTemp: Warning: P=0.000000 Y=88.706131 R=0.000000
+[2021.06.04-15.26.24:711][921]LogTemp: Warning: Yaw is : 88.706131
+[2021.06.04-15.26.24:719][922]LogTemp: Warning: P=0.000000 Y=88.732010 R=0.000000
+[2021.06.04-15.26.24:719][922]LogTemp: Warning: Yaw is : 88.732010
+[2021.06.04-15.26.24:727][923]LogTemp: Warning: P=0.000000 Y=88.757370 R=0.000000
+[2021.06.04-15.26.24:727][923]LogTemp: Warning: Yaw is : 88.757370
+[2021.06.04-15.26.24:735][924]LogTemp: Warning: P=0.000000 Y=88.782219 R=0.000000
+[2021.06.04-15.26.24:736][924]LogTemp: Warning: Yaw is : 88.782219
+[2021.06.04-15.26.24:744][925]LogTemp: Warning: P=0.000000 Y=88.806564 R=0.000000
+[2021.06.04-15.26.24:744][925]LogTemp: Warning: Yaw is : 88.806564
+[2021.06.04-15.26.24:752][926]LogTemp: Warning: P=0.000000 Y=88.830444 R=0.000000
+[2021.06.04-15.26.24:752][926]LogTemp: Warning: Yaw is : 88.830444
+[2021.06.04-15.26.24:760][927]LogTemp: Warning: P=0.000000 Y=88.853821 R=0.000000
+[2021.06.04-15.26.24:761][927]LogTemp: Warning: Yaw is : 88.853821
+[2021.06.04-15.26.24:769][928]LogTemp: Warning: P=0.000000 Y=88.876732 R=0.000000
+[2021.06.04-15.26.24:769][928]LogTemp: Warning: Yaw is : 88.876732
+[2021.06.04-15.26.24:777][929]LogTemp: Warning: P=0.000000 Y=88.899185 R=0.000000
+[2021.06.04-15.26.24:777][929]LogTemp: Warning: Yaw is : 88.899185
+[2021.06.04-15.26.24:785][930]LogTemp: Warning: P=0.000000 Y=88.921181 R=0.000000
+[2021.06.04-15.26.24:785][930]LogTemp: Warning: Yaw is : 88.921181
+[2021.06.04-15.26.24:794][931]LogTemp: Warning: P=0.000000 Y=88.942749 R=0.000000
+[2021.06.04-15.26.24:794][931]LogTemp: Warning: Yaw is : 88.942749
+[2021.06.04-15.26.24:802][932]LogTemp: Warning: P=0.000000 Y=88.963890 R=0.000000
+[2021.06.04-15.26.24:802][932]LogTemp: Warning: Yaw is : 88.963890
+[2021.06.04-15.26.24:810][933]LogTemp: Warning: P=0.000000 Y=88.984612 R=0.000000
+[2021.06.04-15.26.24:810][933]LogTemp: Warning: Yaw is : 88.984612
+[2021.06.04-15.26.24:819][934]LogTemp: Warning: P=0.000000 Y=89.004921 R=0.000000
+[2021.06.04-15.26.24:819][934]LogTemp: Warning: Yaw is : 89.004921
+[2021.06.04-15.26.24:827][935]LogTemp: Warning: P=0.000000 Y=89.024811 R=0.000000
+[2021.06.04-15.26.24:827][935]LogTemp: Warning: Yaw is : 89.024811
+[2021.06.04-15.26.24:835][936]LogTemp: Warning: P=0.000000 Y=89.044296 R=0.000000
+[2021.06.04-15.26.24:835][936]LogTemp: Warning: Yaw is : 89.044296
+[2021.06.04-15.26.24:844][937]LogTemp: Warning: P=0.000000 Y=89.063408 R=0.000000
+[2021.06.04-15.26.24:844][937]LogTemp: Warning: Yaw is : 89.063408
+[2021.06.04-15.26.24:852][938]LogTemp: Warning: P=0.000000 Y=89.082123 R=0.000000
+[2021.06.04-15.26.24:852][938]LogTemp: Warning: Yaw is : 89.082123
+[2021.06.04-15.26.24:860][939]LogTemp: Warning: P=0.000000 Y=89.100479 R=0.000000
+[2021.06.04-15.26.24:860][939]LogTemp: Warning: Yaw is : 89.100479
+[2021.06.04-15.26.24:869][940]LogTemp: Warning: P=0.000000 Y=89.118469 R=0.000000
+[2021.06.04-15.26.24:869][940]LogTemp: Warning: Yaw is : 89.118469
+[2021.06.04-15.26.24:877][941]LogTemp: Warning: P=0.000000 Y=89.136093 R=0.000000
+[2021.06.04-15.26.24:877][941]LogTemp: Warning: Yaw is : 89.136093
+[2021.06.04-15.26.24:885][942]LogTemp: Warning: P=0.000000 Y=89.153358 R=0.000000
+[2021.06.04-15.26.24:886][942]LogTemp: Warning: Yaw is : 89.153358
+[2021.06.04-15.26.24:894][943]LogTemp: Warning: P=0.000000 Y=89.170280 R=0.000000
+[2021.06.04-15.26.24:894][943]LogTemp: Warning: Yaw is : 89.170280
+[2021.06.04-15.26.24:902][944]LogTemp: Warning: P=0.000000 Y=89.186859 R=0.000000
+[2021.06.04-15.26.24:902][944]LogTemp: Warning: Yaw is : 89.186859
+[2021.06.04-15.26.24:910][945]LogTemp: Warning: P=0.000000 Y=89.203110 R=0.000000
+[2021.06.04-15.26.24:910][945]LogTemp: Warning: Yaw is : 89.203110
+[2021.06.04-15.26.24:919][946]LogTemp: Warning: P=0.000000 Y=89.219048 R=0.000000
+[2021.06.04-15.26.24:919][946]LogTemp: Warning: Yaw is : 89.219048
+[2021.06.04-15.26.24:928][947]LogTemp: Warning: P=0.000000 Y=89.234665 R=0.000000
+[2021.06.04-15.26.24:928][947]LogTemp: Warning: Yaw is : 89.234665
+[2021.06.04-15.26.24:936][948]LogTemp: Warning: P=0.000000 Y=89.249954 R=0.000000
+[2021.06.04-15.26.24:936][948]LogTemp: Warning: Yaw is : 89.249954
+[2021.06.04-15.26.24:944][949]LogTemp: Warning: P=0.000000 Y=89.264954 R=0.000000
+[2021.06.04-15.26.24:944][949]LogTemp: Warning: Yaw is : 89.264954
+[2021.06.04-15.26.24:953][950]LogTemp: Warning: P=0.000000 Y=89.279655 R=0.000000
+[2021.06.04-15.26.24:953][950]LogTemp: Warning: Yaw is : 89.279655
+[2021.06.04-15.26.24:961][951]LogTemp: Warning: P=0.000000 Y=89.294060 R=0.000000
+[2021.06.04-15.26.24:961][951]LogTemp: Warning: Yaw is : 89.294060
+[2021.06.04-15.26.24:969][952]LogTemp: Warning: P=0.000000 Y=89.308182 R=0.000000
+[2021.06.04-15.26.24:969][952]LogTemp: Warning: Yaw is : 89.308182
+[2021.06.04-15.26.24:978][953]LogTemp: Warning: P=0.000000 Y=89.322021 R=0.000000
+[2021.06.04-15.26.24:978][953]LogTemp: Warning: Yaw is : 89.322021
+[2021.06.04-15.26.24:986][954]LogTemp: Warning: P=0.000000 Y=89.335571 R=0.000000
+[2021.06.04-15.26.24:986][954]LogTemp: Warning: Yaw is : 89.335571
+[2021.06.04-15.26.24:994][955]LogTemp: Warning: P=0.000000 Y=89.348862 R=0.000000
+[2021.06.04-15.26.24:994][955]LogTemp: Warning: Yaw is : 89.348862
+[2021.06.04-15.26.25:003][956]LogTemp: Warning: P=0.000000 Y=89.361885 R=0.000000
+[2021.06.04-15.26.25:003][956]LogTemp: Warning: Yaw is : 89.361885
+[2021.06.04-15.26.25:011][957]LogTemp: Warning: P=0.000000 Y=89.374649 R=0.000000
+[2021.06.04-15.26.25:011][957]LogTemp: Warning: Yaw is : 89.374649
+[2021.06.04-15.26.25:019][958]LogTemp: Warning: P=0.000000 Y=89.387146 R=0.000000
+[2021.06.04-15.26.25:019][958]LogTemp: Warning: Yaw is : 89.387146
+[2021.06.04-15.26.25:027][959]LogTemp: Warning: P=0.000000 Y=89.399406 R=0.000000
+[2021.06.04-15.26.25:028][959]LogTemp: Warning: Yaw is : 89.399406
+[2021.06.04-15.26.25:036][960]LogTemp: Warning: P=0.000000 Y=89.411415 R=0.000000
+[2021.06.04-15.26.25:036][960]LogTemp: Warning: Yaw is : 89.411415
+[2021.06.04-15.26.25:044][961]LogTemp: Warning: P=0.000000 Y=89.423180 R=0.000000
+[2021.06.04-15.26.25:044][961]LogTemp: Warning: Yaw is : 89.423180
+[2021.06.04-15.26.25:053][962]LogTemp: Warning: P=0.000000 Y=89.434700 R=0.000000
+[2021.06.04-15.26.25:053][962]LogTemp: Warning: Yaw is : 89.434700
+[2021.06.04-15.26.25:061][963]LogTemp: Warning: P=0.000000 Y=89.446007 R=0.000000
+[2021.06.04-15.26.25:061][963]LogTemp: Warning: Yaw is : 89.446007
+[2021.06.04-15.26.25:069][964]LogTemp: Warning: P=0.000000 Y=89.457069 R=0.000000
+[2021.06.04-15.26.25:069][964]LogTemp: Warning: Yaw is : 89.457069
+[2021.06.04-15.26.25:077][965]LogTemp: Warning: P=0.000000 Y=89.467918 R=0.000000
+[2021.06.04-15.26.25:077][965]LogTemp: Warning: Yaw is : 89.467918
+[2021.06.04-15.26.25:086][966]LogTemp: Warning: P=0.000000 Y=89.478539 R=0.000000
+[2021.06.04-15.26.25:086][966]LogTemp: Warning: Yaw is : 89.478539
+[2021.06.04-15.26.25:094][967]LogTemp: Warning: P=0.000000 Y=89.488968 R=0.000000
+[2021.06.04-15.26.25:094][967]LogTemp: Warning: Yaw is : 89.488968
+[2021.06.04-15.26.25:103][968]LogTemp: Warning: P=0.000000 Y=89.499191 R=0.000000
+[2021.06.04-15.26.25:103][968]LogTemp: Warning: Yaw is : 89.499191
+[2021.06.04-15.26.25:111][969]LogTemp: Warning: P=0.000000 Y=89.509193 R=0.000000
+[2021.06.04-15.26.25:111][969]LogTemp: Warning: Yaw is : 89.509193
+[2021.06.04-15.26.25:119][970]LogTemp: Warning: P=0.000000 Y=89.519005 R=0.000000
+[2021.06.04-15.26.25:119][970]LogTemp: Warning: Yaw is : 89.519005
+[2021.06.04-15.26.25:127][971]LogTemp: Warning: P=0.000000 Y=89.528610 R=0.000000
+[2021.06.04-15.26.25:127][971]LogTemp: Warning: Yaw is : 89.528610
+[2021.06.04-15.26.25:136][972]LogTemp: Warning: P=0.000000 Y=89.538040 R=0.000000
+[2021.06.04-15.26.25:136][972]LogTemp: Warning: Yaw is : 89.538040
+[2021.06.04-15.26.25:144][973]LogTemp: Warning: P=0.000000 Y=89.547279 R=0.000000
+[2021.06.04-15.26.25:144][973]LogTemp: Warning: Yaw is : 89.547279
+[2021.06.04-15.26.25:152][974]LogTemp: Warning: P=0.000000 Y=89.556320 R=0.000000
+[2021.06.04-15.26.25:152][974]LogTemp: Warning: Yaw is : 89.556320
+[2021.06.04-15.26.25:160][975]LogTemp: Warning: P=0.000000 Y=89.565170 R=0.000000
+[2021.06.04-15.26.25:160][975]LogTemp: Warning: Yaw is : 89.565170
+[2021.06.04-15.26.25:169][976]LogTemp: Warning: P=0.000000 Y=89.573860 R=0.000000
+[2021.06.04-15.26.25:169][976]LogTemp: Warning: Yaw is : 89.573860
+[2021.06.04-15.26.25:177][977]LogTemp: Warning: P=0.000000 Y=89.582382 R=0.000000
+[2021.06.04-15.26.25:177][977]LogTemp: Warning: Yaw is : 89.582382
+[2021.06.04-15.26.25:186][978]LogTemp: Warning: P=0.000000 Y=89.590736 R=0.000000
+[2021.06.04-15.26.25:186][978]LogTemp: Warning: Yaw is : 89.590736
+[2021.06.04-15.26.25:194][979]LogTemp: Warning: P=0.000000 Y=89.598907 R=0.000000
+[2021.06.04-15.26.25:194][979]LogTemp: Warning: Yaw is : 89.598907
+[2021.06.04-15.26.25:203][980]LogTemp: Warning: P=0.000000 Y=89.606926 R=0.000000
+[2021.06.04-15.26.25:203][980]LogTemp: Warning: Yaw is : 89.606926
+[2021.06.04-15.26.25:211][981]LogTemp: Warning: P=0.000000 Y=89.614792 R=0.000000
+[2021.06.04-15.26.25:211][981]LogTemp: Warning: Yaw is : 89.614792
+[2021.06.04-15.26.25:219][982]LogTemp: Warning: P=0.000000 Y=89.622498 R=0.000000
+[2021.06.04-15.26.25:219][982]LogTemp: Warning: Yaw is : 89.622498
+[2021.06.04-15.26.25:228][983]LogTemp: Warning: P=0.000000 Y=89.630051 R=0.000000
+[2021.06.04-15.26.25:228][983]LogTemp: Warning: Yaw is : 89.630051
+[2021.06.04-15.26.25:236][984]LogTemp: Warning: P=0.000000 Y=89.637436 R=0.000000
+[2021.06.04-15.26.25:236][984]LogTemp: Warning: Yaw is : 89.637436
+[2021.06.04-15.26.25:244][985]LogTemp: Warning: P=0.000000 Y=89.644676 R=0.000000
+[2021.06.04-15.26.25:244][985]LogTemp: Warning: Yaw is : 89.644676
+[2021.06.04-15.26.25:253][986]LogTemp: Warning: P=0.000000 Y=89.651764 R=0.000000
+[2021.06.04-15.26.25:253][986]LogTemp: Warning: Yaw is : 89.651764
+[2021.06.04-15.26.25:261][987]LogTemp: Warning: P=0.000000 Y=89.658730 R=0.000000
+[2021.06.04-15.26.25:261][987]LogTemp: Warning: Yaw is : 89.658730
+[2021.06.04-15.26.25:269][988]LogTemp: Warning: P=0.000000 Y=89.665558 R=0.000000
+[2021.06.04-15.26.25:269][988]LogTemp: Warning: Yaw is : 89.665558
+[2021.06.04-15.26.25:278][989]LogTemp: Warning: P=0.000000 Y=89.672249 R=0.000000
+[2021.06.04-15.26.25:278][989]LogTemp: Warning: Yaw is : 89.672249
+[2021.06.04-15.26.25:286][990]LogTemp: Warning: P=0.000000 Y=89.678802 R=0.000000
+[2021.06.04-15.26.25:286][990]LogTemp: Warning: Yaw is : 89.678802
+[2021.06.04-15.26.25:294][991]LogTemp: Warning: P=0.000000 Y=89.685211 R=0.000000
+[2021.06.04-15.26.25:294][991]LogTemp: Warning: Yaw is : 89.685211
+[2021.06.04-15.26.25:303][992]LogTemp: Warning: P=0.000000 Y=89.691505 R=0.000000
+[2021.06.04-15.26.25:303][992]LogTemp: Warning: Yaw is : 89.691505
+[2021.06.04-15.26.25:311][993]LogTemp: Warning: P=0.000000 Y=89.697678 R=0.000000
+[2021.06.04-15.26.25:311][993]LogTemp: Warning: Yaw is : 89.697678
+[2021.06.04-15.26.25:319][994]LogTemp: Warning: P=0.000000 Y=89.703720 R=0.000000
+[2021.06.04-15.26.25:319][994]LogTemp: Warning: Yaw is : 89.703720
+[2021.06.04-15.26.25:328][995]LogTemp: Warning: P=0.000000 Y=89.709625 R=0.000000
+[2021.06.04-15.26.25:328][995]LogTemp: Warning: Yaw is : 89.709625
+[2021.06.04-15.26.25:336][996]LogTemp: Warning: P=0.000000 Y=89.715424 R=0.000000
+[2021.06.04-15.26.25:336][996]LogTemp: Warning: Yaw is : 89.715424
+[2021.06.04-15.26.25:344][997]LogTemp: Warning: P=0.000000 Y=89.721092 R=0.000000
+[2021.06.04-15.26.25:344][997]LogTemp: Warning: Yaw is : 89.721092
+[2021.06.04-15.26.25:352][998]LogTemp: Warning: P=0.000000 Y=89.726677 R=0.000000
+[2021.06.04-15.26.25:352][998]LogTemp: Warning: Yaw is : 89.726677
+[2021.06.04-15.26.25:361][999]LogTemp: Warning: P=0.000000 Y=89.732147 R=0.000000
+[2021.06.04-15.26.25:361][999]LogTemp: Warning: Yaw is : 89.732147
+[2021.06.04-15.26.25:369][  0]LogTemp: Warning: P=0.000000 Y=89.737503 R=0.000000
+[2021.06.04-15.26.25:369][  0]LogTemp: Warning: Yaw is : 89.737503
+[2021.06.04-15.26.25:377][  1]LogTemp: Warning: P=0.000000 Y=89.742737 R=0.000000
+[2021.06.04-15.26.25:377][  1]LogTemp: Warning: Yaw is : 89.742737
+[2021.06.04-15.26.25:386][  2]LogTemp: Warning: P=0.000000 Y=89.747871 R=0.000000
+[2021.06.04-15.26.25:386][  2]LogTemp: Warning: Yaw is : 89.747871
+[2021.06.04-15.26.25:395][  3]LogTemp: Warning: P=0.000000 Y=89.752914 R=0.000000
+[2021.06.04-15.26.25:395][  3]LogTemp: Warning: Yaw is : 89.752914
+[2021.06.04-15.26.25:402][  4]LogTemp: Warning: P=0.000000 Y=89.757851 R=0.000000
+[2021.06.04-15.26.25:402][  4]LogTemp: Warning: Yaw is : 89.757851
+[2021.06.04-15.26.25:410][  5]LogTemp: Warning: P=0.000000 Y=89.762672 R=0.000000
+[2021.06.04-15.26.25:410][  5]LogTemp: Warning: Yaw is : 89.762672
+[2021.06.04-15.26.25:419][  6]LogTemp: Warning: P=0.000000 Y=89.767403 R=0.000000
+[2021.06.04-15.26.25:419][  6]LogTemp: Warning: Yaw is : 89.767403
+[2021.06.04-15.26.25:427][  7]LogTemp: Warning: P=0.000000 Y=89.772064 R=0.000000
+[2021.06.04-15.26.25:427][  7]LogTemp: Warning: Yaw is : 89.772064
+[2021.06.04-15.26.25:435][  8]LogTemp: Warning: P=0.000000 Y=89.776627 R=0.000000
+[2021.06.04-15.26.25:435][  8]LogTemp: Warning: Yaw is : 89.776627
+[2021.06.04-15.26.25:444][  9]LogTemp: Warning: P=0.000000 Y=89.781082 R=0.000000
+[2021.06.04-15.26.25:444][  9]LogTemp: Warning: Yaw is : 89.781082
+[2021.06.04-15.26.25:452][ 10]LogTemp: Warning: P=0.000000 Y=89.785439 R=0.000000
+[2021.06.04-15.26.25:452][ 10]LogTemp: Warning: Yaw is : 89.785439
+[2021.06.04-15.26.25:460][ 11]LogTemp: Warning: P=0.000000 Y=89.789734 R=0.000000
+[2021.06.04-15.26.25:460][ 11]LogTemp: Warning: Yaw is : 89.789734
+[2021.06.04-15.26.25:470][ 12]LogTemp: Warning: P=0.000000 Y=89.793915 R=0.000000
+[2021.06.04-15.26.25:470][ 12]LogTemp: Warning: Yaw is : 89.793915
+[2021.06.04-15.26.25:478][ 13]LogTemp: Warning: P=0.000000 Y=89.798019 R=0.000000
+[2021.06.04-15.26.25:478][ 13]LogTemp: Warning: Yaw is : 89.798019
+[2021.06.04-15.26.25:486][ 14]LogTemp: Warning: P=0.000000 Y=89.802055 R=0.000000
+[2021.06.04-15.26.25:486][ 14]LogTemp: Warning: Yaw is : 89.802055
+[2021.06.04-15.26.25:494][ 15]LogTemp: Warning: P=0.000000 Y=89.806015 R=0.000000
+[2021.06.04-15.26.25:494][ 15]LogTemp: Warning: Yaw is : 89.806015
+[2021.06.04-15.26.25:502][ 16]LogTemp: Warning: P=0.000000 Y=89.809875 R=0.000000
+[2021.06.04-15.26.25:502][ 16]LogTemp: Warning: Yaw is : 89.809875
+[2021.06.04-15.26.25:511][ 17]LogTemp: Warning: P=0.000000 Y=89.813660 R=0.000000
+[2021.06.04-15.26.25:511][ 17]LogTemp: Warning: Yaw is : 89.813660
+[2021.06.04-15.26.25:520][ 18]LogTemp: Warning: P=0.000000 Y=89.817383 R=0.000000
+[2021.06.04-15.26.25:520][ 18]LogTemp: Warning: Yaw is : 89.817383
+[2021.06.04-15.26.25:528][ 19]LogTemp: Warning: P=0.000000 Y=89.821030 R=0.000000
+[2021.06.04-15.26.25:528][ 19]LogTemp: Warning: Yaw is : 89.821030
+[2021.06.04-15.26.25:536][ 20]LogTemp: Warning: P=0.000000 Y=89.824608 R=0.000000
+[2021.06.04-15.26.25:536][ 20]LogTemp: Warning: Yaw is : 89.824608
+[2021.06.04-15.26.25:544][ 21]LogTemp: Warning: P=0.000000 Y=89.828102 R=0.000000
+[2021.06.04-15.26.25:544][ 21]LogTemp: Warning: Yaw is : 89.828102
+[2021.06.04-15.26.25:552][ 22]LogTemp: Warning: P=0.000000 Y=89.831543 R=0.000000
+[2021.06.04-15.26.25:553][ 22]LogTemp: Warning: Yaw is : 89.831543
+[2021.06.04-15.26.25:560][ 23]LogTemp: Warning: P=0.000000 Y=89.834915 R=0.000000
+[2021.06.04-15.26.25:560][ 23]LogTemp: Warning: Yaw is : 89.834915
+[2021.06.04-15.26.25:569][ 24]LogTemp: Warning: P=0.000000 Y=89.838219 R=0.000000
+[2021.06.04-15.26.25:569][ 24]LogTemp: Warning: Yaw is : 89.838219
+[2021.06.04-15.26.25:577][ 25]LogTemp: Warning: P=0.000000 Y=89.841438 R=0.000000
+[2021.06.04-15.26.25:577][ 25]LogTemp: Warning: Yaw is : 89.841438
+[2021.06.04-15.26.25:585][ 26]LogTemp: Warning: P=0.000000 Y=89.844589 R=0.000000
+[2021.06.04-15.26.25:585][ 26]LogTemp: Warning: Yaw is : 89.844589
+[2021.06.04-15.26.25:594][ 27]LogTemp: Warning: P=0.000000 Y=89.847694 R=0.000000
+[2021.06.04-15.26.25:594][ 27]LogTemp: Warning: Yaw is : 89.847694
+[2021.06.04-15.26.25:603][ 28]LogTemp: Warning: P=0.000000 Y=89.850731 R=0.000000
+[2021.06.04-15.26.25:603][ 28]LogTemp: Warning: Yaw is : 89.850731
+[2021.06.04-15.26.25:610][ 29]LogTemp: Warning: P=0.000000 Y=89.853699 R=0.000000
+[2021.06.04-15.26.25:610][ 29]LogTemp: Warning: Yaw is : 89.853699
+[2021.06.04-15.26.25:619][ 30]LogTemp: Warning: P=0.000000 Y=89.856628 R=0.000000
+[2021.06.04-15.26.25:619][ 30]LogTemp: Warning: Yaw is : 89.856628
+[2021.06.04-15.26.25:627][ 31]LogTemp: Warning: P=0.000000 Y=89.859489 R=0.000000
+[2021.06.04-15.26.25:627][ 31]LogTemp: Warning: Yaw is : 89.859489
+[2021.06.04-15.26.25:635][ 32]LogTemp: Warning: P=0.000000 Y=89.862297 R=0.000000
+[2021.06.04-15.26.25:635][ 32]LogTemp: Warning: Yaw is : 89.862297
+[2021.06.04-15.26.25:644][ 33]LogTemp: Warning: P=0.000000 Y=89.865044 R=0.000000
+[2021.06.04-15.26.25:644][ 33]LogTemp: Warning: Yaw is : 89.865044
+[2021.06.04-15.26.25:656][ 34]LogTemp: Warning: P=0.000000 Y=89.867729 R=0.000000
+[2021.06.04-15.26.25:656][ 34]LogTemp: Warning: Yaw is : 89.867729
+[2021.06.04-15.26.25:660][ 35]LogTemp: Warning: P=0.000000 Y=89.870377 R=0.000000
+[2021.06.04-15.26.25:660][ 35]LogTemp: Warning: Yaw is : 89.870377
+[2021.06.04-15.26.25:669][ 36]LogTemp: Warning: P=0.000000 Y=89.872948 R=0.000000
+[2021.06.04-15.26.25:669][ 36]LogTemp: Warning: Yaw is : 89.872948
+[2021.06.04-15.26.25:677][ 37]LogTemp: Warning: P=0.000000 Y=89.875473 R=0.000000
+[2021.06.04-15.26.25:677][ 37]LogTemp: Warning: Yaw is : 89.875473
+[2021.06.04-15.26.25:686][ 38]LogTemp: Warning: P=0.000000 Y=89.877953 R=0.000000
+[2021.06.04-15.26.25:686][ 38]LogTemp: Warning: Yaw is : 89.877953
+[2021.06.04-15.26.25:694][ 39]LogTemp: Warning: P=0.000000 Y=89.880379 R=0.000000
+[2021.06.04-15.26.25:694][ 39]LogTemp: Warning: Yaw is : 89.880379
+[2021.06.04-15.26.25:702][ 40]LogTemp: Warning: P=0.000000 Y=89.882774 R=0.000000
+[2021.06.04-15.26.25:702][ 40]LogTemp: Warning: Yaw is : 89.882774
+[2021.06.04-15.26.25:710][ 41]LogTemp: Warning: P=0.000000 Y=89.885117 R=0.000000
+[2021.06.04-15.26.25:711][ 41]LogTemp: Warning: Yaw is : 89.885117
+[2021.06.04-15.26.25:719][ 42]LogTemp: Warning: P=0.000000 Y=89.887405 R=0.000000
+[2021.06.04-15.26.25:719][ 42]LogTemp: Warning: Yaw is : 89.887405
+[2021.06.04-15.26.25:727][ 43]LogTemp: Warning: P=0.000000 Y=89.889641 R=0.000000
+[2021.06.04-15.26.25:727][ 43]LogTemp: Warning: Yaw is : 89.889641
+[2021.06.04-15.26.25:736][ 44]LogTemp: Warning: P=0.000000 Y=89.891838 R=0.000000
+[2021.06.04-15.26.25:736][ 44]LogTemp: Warning: Yaw is : 89.891838
+[2021.06.04-15.26.25:744][ 45]LogTemp: Warning: P=0.000000 Y=89.893990 R=0.000000
+[2021.06.04-15.26.25:744][ 45]LogTemp: Warning: Yaw is : 89.893990
+[2021.06.04-15.26.25:752][ 46]LogTemp: Warning: P=0.000000 Y=89.896095 R=0.000000
+[2021.06.04-15.26.25:752][ 46]LogTemp: Warning: Yaw is : 89.896095
+[2021.06.04-15.26.25:761][ 47]LogTemp: Warning: P=0.000000 Y=89.898163 R=0.000000
+[2021.06.04-15.26.25:761][ 47]LogTemp: Warning: Yaw is : 89.898163
+[2021.06.04-15.26.25:769][ 48]LogTemp: Warning: P=0.000000 Y=89.900200 R=0.000000
+[2021.06.04-15.26.25:769][ 48]LogTemp: Warning: Yaw is : 89.900200
+[2021.06.04-15.26.25:778][ 49]LogTemp: Warning: P=0.000000 Y=89.902199 R=0.000000
+[2021.06.04-15.26.25:778][ 49]LogTemp: Warning: Yaw is : 89.902199
+[2021.06.04-15.26.25:786][ 50]LogTemp: Warning: P=0.000000 Y=89.904160 R=0.000000
+[2021.06.04-15.26.25:786][ 50]LogTemp: Warning: Yaw is : 89.904160
+[2021.06.04-15.26.25:794][ 51]LogTemp: Warning: P=0.000000 Y=89.906067 R=0.000000
+[2021.06.04-15.26.25:794][ 51]LogTemp: Warning: Yaw is : 89.906067
+[2021.06.04-15.26.25:803][ 52]LogTemp: Warning: P=0.000000 Y=89.907944 R=0.000000
+[2021.06.04-15.26.25:803][ 52]LogTemp: Warning: Yaw is : 89.907944
+[2021.06.04-15.26.25:811][ 53]LogTemp: Warning: P=0.000000 Y=89.909767 R=0.000000
+[2021.06.04-15.26.25:811][ 53]LogTemp: Warning: Yaw is : 89.909767
+[2021.06.04-15.26.25:819][ 54]LogTemp: Warning: P=0.000000 Y=89.911560 R=0.000000
+[2021.06.04-15.26.25:819][ 54]LogTemp: Warning: Yaw is : 89.911560
+[2021.06.04-15.26.25:828][ 55]LogTemp: Warning: P=0.000000 Y=89.913315 R=0.000000
+[2021.06.04-15.26.25:828][ 55]LogTemp: Warning: Yaw is : 89.913315
+[2021.06.04-15.26.25:836][ 56]LogTemp: Warning: P=0.000000 Y=89.915047 R=0.000000
+[2021.06.04-15.26.25:836][ 56]LogTemp: Warning: Yaw is : 89.915047
+[2021.06.04-15.26.25:845][ 57]LogTemp: Warning: P=0.000000 Y=89.916748 R=0.000000
+[2021.06.04-15.26.25:845][ 57]LogTemp: Warning: Yaw is : 89.916748
+[2021.06.04-15.26.25:853][ 58]LogTemp: Warning: P=0.000000 Y=89.918411 R=0.000000
+[2021.06.04-15.26.25:853][ 58]LogTemp: Warning: Yaw is : 89.918411
+[2021.06.04-15.26.25:861][ 59]LogTemp: Warning: P=0.000000 Y=89.920021 R=0.000000
+[2021.06.04-15.26.25:861][ 59]LogTemp: Warning: Yaw is : 89.920021
+[2021.06.04-15.26.25:870][ 60]LogTemp: Warning: P=0.000000 Y=89.921608 R=0.000000
+[2021.06.04-15.26.25:870][ 60]LogTemp: Warning: Yaw is : 89.921608
+[2021.06.04-15.26.25:878][ 61]LogTemp: Warning: P=0.000000 Y=89.923149 R=0.000000
+[2021.06.04-15.26.25:878][ 61]LogTemp: Warning: Yaw is : 89.923149
+[2021.06.04-15.26.25:886][ 62]LogTemp: Warning: P=0.000000 Y=89.924667 R=0.000000
+[2021.06.04-15.26.25:886][ 62]LogTemp: Warning: Yaw is : 89.924667
+[2021.06.04-15.26.25:895][ 63]LogTemp: Warning: P=0.000000 Y=89.926163 R=0.000000
+[2021.06.04-15.26.25:895][ 63]LogTemp: Warning: Yaw is : 89.926163
+[2021.06.04-15.26.25:903][ 64]LogTemp: Warning: P=0.000000 Y=89.927635 R=0.000000
+[2021.06.04-15.26.25:903][ 64]LogTemp: Warning: Yaw is : 89.927635
+[2021.06.04-15.26.25:911][ 65]LogTemp: Warning: P=0.000000 Y=89.929077 R=0.000000
+[2021.06.04-15.26.25:911][ 65]LogTemp: Warning: Yaw is : 89.929077
+[2021.06.04-15.26.25:919][ 66]LogTemp: Warning: P=0.000000 Y=89.930496 R=0.000000
+[2021.06.04-15.26.25:919][ 66]LogTemp: Warning: Yaw is : 89.930496
+[2021.06.04-15.26.25:928][ 67]LogTemp: Warning: P=0.000000 Y=89.931885 R=0.000000
+[2021.06.04-15.26.25:928][ 67]LogTemp: Warning: Yaw is : 89.931885
+[2021.06.04-15.26.25:936][ 68]LogTemp: Warning: P=0.000000 Y=89.933243 R=0.000000
+[2021.06.04-15.26.25:936][ 68]LogTemp: Warning: Yaw is : 89.933243
+[2021.06.04-15.26.25:944][ 69]LogTemp: Warning: P=0.000000 Y=89.934555 R=0.000000
+[2021.06.04-15.26.25:944][ 69]LogTemp: Warning: Yaw is : 89.934555
+[2021.06.04-15.26.25:953][ 70]LogTemp: Warning: P=0.000000 Y=89.935852 R=0.000000
+[2021.06.04-15.26.25:953][ 70]LogTemp: Warning: Yaw is : 89.935852
+[2021.06.04-15.26.25:961][ 71]LogTemp: Warning: P=0.000000 Y=89.937119 R=0.000000
+[2021.06.04-15.26.25:961][ 71]LogTemp: Warning: Yaw is : 89.937119
+[2021.06.04-15.26.25:969][ 72]LogTemp: Warning: P=0.000000 Y=89.938354 R=0.000000
+[2021.06.04-15.26.25:969][ 72]LogTemp: Warning: Yaw is : 89.938354
+[2021.06.04-15.26.25:978][ 73]LogTemp: Warning: P=0.000000 Y=89.939568 R=0.000000
+[2021.06.04-15.26.25:978][ 73]LogTemp: Warning: Yaw is : 89.939568
+[2021.06.04-15.26.25:986][ 74]LogTemp: Warning: P=0.000000 Y=89.940758 R=0.000000
+[2021.06.04-15.26.25:986][ 74]LogTemp: Warning: Yaw is : 89.940758
+[2021.06.04-15.26.25:994][ 75]LogTemp: Warning: P=0.000000 Y=89.941925 R=0.000000
+[2021.06.04-15.26.25:994][ 75]LogTemp: Warning: Yaw is : 89.941925
+[2021.06.04-15.26.26:003][ 76]LogTemp: Warning: P=0.000000 Y=89.943077 R=0.000000
+[2021.06.04-15.26.26:003][ 76]LogTemp: Warning: Yaw is : 89.943077
+[2021.06.04-15.26.26:011][ 77]LogTemp: Warning: P=0.000000 Y=89.944199 R=0.000000
+[2021.06.04-15.26.26:011][ 77]LogTemp: Warning: Yaw is : 89.944199
+[2021.06.04-15.26.26:019][ 78]LogTemp: Warning: P=0.000000 Y=89.945297 R=0.000000
+[2021.06.04-15.26.26:019][ 78]LogTemp: Warning: Yaw is : 89.945297
+[2021.06.04-15.26.26:028][ 79]LogTemp: Warning: P=0.000000 Y=89.946388 R=0.000000
+[2021.06.04-15.26.26:028][ 79]LogTemp: Warning: Yaw is : 89.946388
+[2021.06.04-15.26.26:036][ 80]LogTemp: Warning: P=0.000000 Y=89.947449 R=0.000000
+[2021.06.04-15.26.26:036][ 80]LogTemp: Warning: Yaw is : 89.947449
+[2021.06.04-15.26.26:044][ 81]LogTemp: Warning: P=0.000000 Y=89.948494 R=0.000000
+[2021.06.04-15.26.26:045][ 81]LogTemp: Warning: Yaw is : 89.948494
+[2021.06.04-15.26.26:053][ 82]LogTemp: Warning: P=0.000000 Y=89.949509 R=0.000000
+[2021.06.04-15.26.26:053][ 82]LogTemp: Warning: Yaw is : 89.949509
+[2021.06.04-15.26.26:061][ 83]LogTemp: Warning: P=0.000000 Y=89.950516 R=0.000000
+[2021.06.04-15.26.26:061][ 83]LogTemp: Warning: Yaw is : 89.950516
+[2021.06.04-15.26.26:069][ 84]LogTemp: Warning: P=0.000000 Y=89.951500 R=0.000000
+[2021.06.04-15.26.26:069][ 84]LogTemp: Warning: Yaw is : 89.951500
+[2021.06.04-15.26.26:078][ 85]LogTemp: Warning: P=0.000000 Y=89.952477 R=0.000000
+[2021.06.04-15.26.26:078][ 85]LogTemp: Warning: Yaw is : 89.952477
+[2021.06.04-15.26.26:086][ 86]LogTemp: Warning: P=0.000000 Y=89.953407 R=0.000000
+[2021.06.04-15.26.26:086][ 86]LogTemp: Warning: Yaw is : 89.953407
+[2021.06.04-15.26.26:094][ 87]LogTemp: Warning: P=0.000000 Y=89.954323 R=0.000000
+[2021.06.04-15.26.26:095][ 87]LogTemp: Warning: Yaw is : 89.954323
+[2021.06.04-15.26.26:103][ 88]LogTemp: Warning: P=0.000000 Y=89.955215 R=0.000000
+[2021.06.04-15.26.26:103][ 88]LogTemp: Warning: Yaw is : 89.955215
+[2021.06.04-15.26.26:111][ 89]LogTemp: Warning: P=0.000000 Y=89.956093 R=0.000000
+[2021.06.04-15.26.26:111][ 89]LogTemp: Warning: Yaw is : 89.956093
+[2021.06.04-15.26.26:119][ 90]LogTemp: Warning: P=0.000000 Y=89.956970 R=0.000000
+[2021.06.04-15.26.26:119][ 90]LogTemp: Warning: Yaw is : 89.956970
+[2021.06.04-15.26.26:128][ 91]LogTemp: Warning: P=0.000000 Y=89.957825 R=0.000000
+[2021.06.04-15.26.26:128][ 91]LogTemp: Warning: Yaw is : 89.957825
+[2021.06.04-15.26.26:136][ 92]LogTemp: Warning: P=0.000000 Y=89.958672 R=0.000000
+[2021.06.04-15.26.26:136][ 92]LogTemp: Warning: Yaw is : 89.958672
+[2021.06.04-15.26.26:145][ 93]LogTemp: Warning: P=0.000000 Y=89.959480 R=0.000000
+[2021.06.04-15.26.26:145][ 93]LogTemp: Warning: Yaw is : 89.959480
+[2021.06.04-15.26.26:153][ 94]LogTemp: Warning: P=0.000000 Y=89.960274 R=0.000000
+[2021.06.04-15.26.26:153][ 94]LogTemp: Warning: Yaw is : 89.960274
+[2021.06.04-15.26.26:161][ 95]LogTemp: Warning: P=0.000000 Y=89.961044 R=0.000000
+[2021.06.04-15.26.26:161][ 95]LogTemp: Warning: Yaw is : 89.961044
+[2021.06.04-15.26.26:170][ 96]LogTemp: Warning: P=0.000000 Y=89.961807 R=0.000000
+[2021.06.04-15.26.26:170][ 96]LogTemp: Warning: Yaw is : 89.961807
+[2021.06.04-15.26.26:178][ 97]LogTemp: Warning: P=0.000000 Y=89.962563 R=0.000000
+[2021.06.04-15.26.26:178][ 97]LogTemp: Warning: Yaw is : 89.962563
+[2021.06.04-15.26.26:186][ 98]LogTemp: Warning: P=0.000000 Y=89.963303 R=0.000000
+[2021.06.04-15.26.26:186][ 98]LogTemp: Warning: Yaw is : 89.963303
+[2021.06.04-15.26.26:195][ 99]LogTemp: Warning: P=0.000000 Y=89.964027 R=0.000000
+[2021.06.04-15.26.26:195][ 99]LogTemp: Warning: Yaw is : 89.964027
+[2021.06.04-15.26.26:203][100]LogTemp: Warning: P=0.000000 Y=89.964737 R=0.000000
+[2021.06.04-15.26.26:203][100]LogTemp: Warning: Yaw is : 89.964737
+[2021.06.04-15.26.26:211][101]LogTemp: Warning: P=0.000000 Y=89.965416 R=0.000000
+[2021.06.04-15.26.26:211][101]LogTemp: Warning: Yaw is : 89.965416
+[2021.06.04-15.26.26:219][102]LogTemp: Warning: P=0.000000 Y=89.966103 R=0.000000
+[2021.06.04-15.26.26:219][102]LogTemp: Warning: Yaw is : 89.966103
+[2021.06.04-15.26.26:228][103]LogTemp: Warning: P=0.000000 Y=89.966782 R=0.000000
+[2021.06.04-15.26.26:228][103]LogTemp: Warning: Yaw is : 89.966782
+[2021.06.04-15.26.26:236][104]LogTemp: Warning: P=0.000000 Y=89.967438 R=0.000000
+[2021.06.04-15.26.26:236][104]LogTemp: Warning: Yaw is : 89.967438
+[2021.06.04-15.26.26:244][105]LogTemp: Warning: P=0.000000 Y=89.968063 R=0.000000
+[2021.06.04-15.26.26:244][105]LogTemp: Warning: Yaw is : 89.968063
+[2021.06.04-15.26.26:253][106]LogTemp: Warning: P=0.000000 Y=89.968704 R=0.000000
+[2021.06.04-15.26.26:253][106]LogTemp: Warning: Yaw is : 89.968704
+[2021.06.04-15.26.26:261][107]LogTemp: Warning: P=0.000000 Y=89.969330 R=0.000000
+[2021.06.04-15.26.26:261][107]LogTemp: Warning: Yaw is : 89.969330
+[2021.06.04-15.26.26:270][108]LogTemp: Warning: P=0.000000 Y=89.969940 R=0.000000
+[2021.06.04-15.26.26:270][108]LogTemp: Warning: Yaw is : 89.969940
+[2021.06.04-15.26.26:278][109]LogTemp: Warning: P=0.000000 Y=89.970528 R=0.000000
+[2021.06.04-15.26.26:278][109]LogTemp: Warning: Yaw is : 89.970528
+[2021.06.04-15.26.26:287][110]LogTemp: Warning: P=0.000000 Y=89.971100 R=0.000000
+[2021.06.04-15.26.26:287][110]LogTemp: Warning: Yaw is : 89.971100
+[2021.06.04-15.26.26:294][111]LogTemp: Warning: P=0.000000 Y=89.971680 R=0.000000
+[2021.06.04-15.26.26:294][111]LogTemp: Warning: Yaw is : 89.971680
+[2021.06.04-15.26.26:304][112]LogTemp: Warning: P=0.000000 Y=89.972244 R=0.000000
+[2021.06.04-15.26.26:304][112]LogTemp: Warning: Yaw is : 89.972244
+[2021.06.04-15.26.26:311][113]LogTemp: Warning: P=0.000000 Y=89.972801 R=0.000000
+[2021.06.04-15.26.26:311][113]LogTemp: Warning: Yaw is : 89.972801
+[2021.06.04-15.26.26:319][114]LogTemp: Warning: P=0.000000 Y=89.973343 R=0.000000
+[2021.06.04-15.26.26:319][114]LogTemp: Warning: Yaw is : 89.973343
+[2021.06.04-15.26.26:328][115]LogTemp: Warning: P=0.000000 Y=89.973869 R=0.000000
+[2021.06.04-15.26.26:328][115]LogTemp: Warning: Yaw is : 89.973869
+[2021.06.04-15.26.26:336][116]LogTemp: Warning: P=0.000000 Y=89.974388 R=0.000000
+[2021.06.04-15.26.26:336][116]LogTemp: Warning: Yaw is : 89.974388
+[2021.06.04-15.26.26:345][117]LogTemp: Warning: P=0.000000 Y=89.974899 R=0.000000
+[2021.06.04-15.26.26:345][117]LogTemp: Warning: Yaw is : 89.974899
+[2021.06.04-15.26.26:353][118]LogTemp: Warning: P=0.000000 Y=89.975380 R=0.000000
+[2021.06.04-15.26.26:353][118]LogTemp: Warning: Yaw is : 89.975380
+[2021.06.04-15.26.26:374][119]LogTemp: Warning: P=0.000000 Y=89.975883 R=0.000000
+[2021.06.04-15.26.26:374][119]LogTemp: Warning: Yaw is : 89.975883
+[2021.06.04-15.26.26:382][120]LogTemp: Warning: P=0.000000 Y=89.976341 R=0.000000
+[2021.06.04-15.26.26:382][120]LogTemp: Warning: Yaw is : 89.976341
+[2021.06.04-15.26.26:390][121]LogTemp: Warning: P=0.000000 Y=89.976799 R=0.000000
+[2021.06.04-15.26.26:390][121]LogTemp: Warning: Yaw is : 89.976799
+[2021.06.04-15.26.26:398][122]LogTemp: Warning: P=0.000000 Y=89.977249 R=0.000000
+[2021.06.04-15.26.26:398][122]LogTemp: Warning: Yaw is : 89.977249
+[2021.06.04-15.26.26:406][123]LogTemp: Warning: P=0.000000 Y=89.977707 R=0.000000
+[2021.06.04-15.26.26:406][123]LogTemp: Warning: Yaw is : 89.977707
+[2021.06.04-15.26.26:414][124]LogTemp: Warning: P=0.000000 Y=89.978127 R=0.000000
+[2021.06.04-15.26.26:414][124]LogTemp: Warning: Yaw is : 89.978127
+[2021.06.04-15.26.26:423][125]LogTemp: Warning: P=0.000000 Y=89.978561 R=0.000000
+[2021.06.04-15.26.26:423][125]LogTemp: Warning: Yaw is : 89.978561
+[2021.06.04-15.26.26:431][126]LogTemp: Warning: P=0.000000 Y=89.978966 R=0.000000
+[2021.06.04-15.26.26:431][126]LogTemp: Warning: Yaw is : 89.978966
+[2021.06.04-15.26.26:439][127]LogTemp: Warning: P=0.000000 Y=89.979385 R=0.000000
+[2021.06.04-15.26.26:439][127]LogTemp: Warning: Yaw is : 89.979385
+[2021.06.04-15.26.26:448][128]LogTemp: Warning: P=0.000000 Y=89.979797 R=0.000000
+[2021.06.04-15.26.26:448][128]LogTemp: Warning: Yaw is : 89.979797
+[2021.06.04-15.26.26:456][129]LogTemp: Warning: P=0.000000 Y=89.980186 R=0.000000
+[2021.06.04-15.26.26:456][129]LogTemp: Warning: Yaw is : 89.980186
+[2021.06.04-15.26.26:464][130]LogTemp: Warning: P=0.000000 Y=89.980576 R=0.000000
+[2021.06.04-15.26.26:464][130]LogTemp: Warning: Yaw is : 89.980576
+[2021.06.04-15.26.26:473][131]LogTemp: Warning: P=0.000000 Y=89.980972 R=0.000000
+[2021.06.04-15.26.26:473][131]LogTemp: Warning: Yaw is : 89.980972
+[2021.06.04-15.26.26:481][132]LogTemp: Warning: P=0.000000 Y=89.981361 R=0.000000
+[2021.06.04-15.26.26:481][132]LogTemp: Warning: Yaw is : 89.981361
+[2021.06.04-15.26.26:489][133]LogTemp: Warning: P=0.000000 Y=89.981720 R=0.000000
+[2021.06.04-15.26.26:489][133]LogTemp: Warning: Yaw is : 89.981720
+[2021.06.04-15.26.26:498][134]LogTemp: Warning: P=0.000000 Y=89.982071 R=0.000000
+[2021.06.04-15.26.26:498][134]LogTemp: Warning: Yaw is : 89.982071
+[2021.06.04-15.26.26:506][135]LogTemp: Warning: P=0.000000 Y=89.982414 R=0.000000
+[2021.06.04-15.26.26:506][135]LogTemp: Warning: Yaw is : 89.982414
+[2021.06.04-15.26.26:514][136]LogTemp: Warning: P=0.000000 Y=89.982765 R=0.000000
+[2021.06.04-15.26.26:515][136]LogTemp: Warning: Yaw is : 89.982765
+[2021.06.04-15.26.26:523][137]LogTemp: Warning: P=0.000000 Y=89.983093 R=0.000000
+[2021.06.04-15.26.26:523][137]LogTemp: Warning: Yaw is : 89.983093
+[2021.06.04-15.26.26:531][138]LogTemp: Warning: P=0.000000 Y=89.983406 R=0.000000
+[2021.06.04-15.26.26:531][138]LogTemp: Warning: Yaw is : 89.983406
+[2021.06.04-15.26.26:539][139]LogTemp: Warning: P=0.000000 Y=89.983719 R=0.000000
+[2021.06.04-15.26.26:540][139]LogTemp: Warning: Yaw is : 89.983719
+[2021.06.04-15.26.26:548][140]LogTemp: Warning: P=0.000000 Y=89.984047 R=0.000000
+[2021.06.04-15.26.26:548][140]LogTemp: Warning: Yaw is : 89.984047
+[2021.06.04-15.26.26:556][141]LogTemp: Warning: P=0.000000 Y=89.984360 R=0.000000
+[2021.06.04-15.26.26:556][141]LogTemp: Warning: Yaw is : 89.984360
+[2021.06.04-15.26.26:564][142]LogTemp: Warning: P=0.000000 Y=89.984657 R=0.000000
+[2021.06.04-15.26.26:564][142]LogTemp: Warning: Yaw is : 89.984657
+[2021.06.04-15.26.26:573][143]LogTemp: Warning: P=0.000000 Y=89.984955 R=0.000000
+[2021.06.04-15.26.26:573][143]LogTemp: Warning: Yaw is : 89.984955
+[2021.06.04-15.26.26:581][144]LogTemp: Warning: P=0.000000 Y=89.985237 R=0.000000
+[2021.06.04-15.26.26:581][144]LogTemp: Warning: Yaw is : 89.985237
+[2021.06.04-15.26.26:589][145]LogTemp: Warning: P=0.000000 Y=89.985535 R=0.000000
+[2021.06.04-15.26.26:589][145]LogTemp: Warning: Yaw is : 89.985535
+[2021.06.04-15.26.26:598][146]LogTemp: Warning: P=0.000000 Y=89.985825 R=0.000000
+[2021.06.04-15.26.26:598][146]LogTemp: Warning: Yaw is : 89.985825
+[2021.06.04-15.26.26:606][147]LogTemp: Warning: P=0.000000 Y=89.986107 R=0.000000
+[2021.06.04-15.26.26:606][147]LogTemp: Warning: Yaw is : 89.986107
+[2021.06.04-15.26.26:614][148]LogTemp: Warning: P=0.000000 Y=89.986382 R=0.000000
+[2021.06.04-15.26.26:615][148]LogTemp: Warning: Yaw is : 89.986382
+[2021.06.04-15.26.26:623][149]LogTemp: Warning: P=0.000000 Y=89.986656 R=0.000000
+[2021.06.04-15.26.26:623][149]LogTemp: Warning: Yaw is : 89.986656
+[2021.06.04-15.26.26:631][150]LogTemp: Warning: P=0.000000 Y=89.986900 R=0.000000
+[2021.06.04-15.26.26:631][150]LogTemp: Warning: Yaw is : 89.986900
+[2021.06.04-15.26.26:639][151]LogTemp: Warning: P=0.000000 Y=89.987160 R=0.000000
+[2021.06.04-15.26.26:639][151]LogTemp: Warning: Yaw is : 89.987160
+[2021.06.04-15.26.26:648][152]LogTemp: Warning: P=0.000000 Y=89.987419 R=0.000000
+[2021.06.04-15.26.26:648][152]LogTemp: Warning: Yaw is : 89.987419
+[2021.06.04-15.26.26:656][153]LogTemp: Warning: P=0.000000 Y=89.987663 R=0.000000
+[2021.06.04-15.26.26:656][153]LogTemp: Warning: Yaw is : 89.987663
+[2021.06.04-15.26.26:664][154]LogTemp: Warning: P=0.000000 Y=89.987892 R=0.000000
+[2021.06.04-15.26.26:664][154]LogTemp: Warning: Yaw is : 89.987892
+[2021.06.04-15.26.26:673][155]LogTemp: Warning: P=0.000000 Y=89.988136 R=0.000000
+[2021.06.04-15.26.26:673][155]LogTemp: Warning: Yaw is : 89.988136
+[2021.06.04-15.26.26:681][156]LogTemp: Warning: P=0.000000 Y=89.988350 R=0.000000
+[2021.06.04-15.26.26:681][156]LogTemp: Warning: Yaw is : 89.988350
+[2021.06.04-15.26.26:690][157]LogTemp: Warning: P=0.000000 Y=89.988579 R=0.000000
+[2021.06.04-15.26.26:690][157]LogTemp: Warning: Yaw is : 89.988579
+[2021.06.04-15.26.26:698][158]LogTemp: Warning: P=0.000000 Y=89.988792 R=0.000000
+[2021.06.04-15.26.26:698][158]LogTemp: Warning: Yaw is : 89.988792
+[2021.06.04-15.26.26:706][159]LogTemp: Warning: P=0.000000 Y=89.989014 R=0.000000
+[2021.06.04-15.26.26:706][159]LogTemp: Warning: Yaw is : 89.989014
+[2021.06.04-15.26.26:715][160]LogTemp: Warning: P=0.000000 Y=89.989212 R=0.000000
+[2021.06.04-15.26.26:715][160]LogTemp: Warning: Yaw is : 89.989212
+[2021.06.04-15.26.26:723][161]LogTemp: Warning: P=0.000000 Y=89.989410 R=0.000000
+[2021.06.04-15.26.26:723][161]LogTemp: Warning: Yaw is : 89.989410
+[2021.06.04-15.26.26:731][162]LogTemp: Warning: P=0.000000 Y=89.989624 R=0.000000
+[2021.06.04-15.26.26:731][162]LogTemp: Warning: Yaw is : 89.989624
+[2021.06.04-15.26.26:740][163]LogTemp: Warning: P=0.000000 Y=89.989838 R=0.000000
+[2021.06.04-15.26.26:740][163]LogTemp: Warning: Yaw is : 89.989838
+[2021.06.04-15.26.26:748][164]LogTemp: Warning: P=0.000000 Y=89.990044 R=0.000000
+[2021.06.04-15.26.26:748][164]LogTemp: Warning: Yaw is : 89.990044
+[2021.06.04-15.26.26:756][165]LogTemp: Warning: P=0.000000 Y=89.990219 R=0.000000
+[2021.06.04-15.26.26:756][165]LogTemp: Warning: Yaw is : 89.990219
+[2021.06.04-15.26.26:765][166]LogTemp: Warning: P=0.000000 Y=89.990417 R=0.000000
+[2021.06.04-15.26.26:765][166]LogTemp: Warning: Yaw is : 89.990417
+[2021.06.04-15.26.26:773][167]LogTemp: Warning: P=0.000000 Y=89.990608 R=0.000000
+[2021.06.04-15.26.26:773][167]LogTemp: Warning: Yaw is : 89.990608
+[2021.06.04-15.26.26:781][168]LogTemp: Warning: P=0.000000 Y=89.990776 R=0.000000
+[2021.06.04-15.26.26:781][168]LogTemp: Warning: Yaw is : 89.990776
+[2021.06.04-15.26.26:790][169]LogTemp: Warning: P=0.000000 Y=89.990944 R=0.000000
+[2021.06.04-15.26.26:790][169]LogTemp: Warning: Yaw is : 89.990944
+[2021.06.04-15.26.26:798][170]LogTemp: Warning: P=0.000000 Y=89.991104 R=0.000000
+[2021.06.04-15.26.26:798][170]LogTemp: Warning: Yaw is : 89.991104
+[2021.06.04-15.26.26:806][171]LogTemp: Warning: P=0.000000 Y=89.991264 R=0.000000
+[2021.06.04-15.26.26:806][171]LogTemp: Warning: Yaw is : 89.991264
+[2021.06.04-15.26.26:815][172]LogTemp: Warning: P=0.000000 Y=89.991440 R=0.000000
+[2021.06.04-15.26.26:815][172]LogTemp: Warning: Yaw is : 89.991440
+[2021.06.04-15.26.26:823][173]LogTemp: Warning: P=0.000000 Y=89.991608 R=0.000000
+[2021.06.04-15.26.26:823][173]LogTemp: Warning: Yaw is : 89.991608
+[2021.06.04-15.26.26:832][174]LogTemp: Warning: P=0.000000 Y=89.991768 R=0.000000
+[2021.06.04-15.26.26:832][174]LogTemp: Warning: Yaw is : 89.991768
+[2021.06.04-15.26.26:839][175]LogTemp: Warning: P=0.000000 Y=89.991928 R=0.000000
+[2021.06.04-15.26.26:839][175]LogTemp: Warning: Yaw is : 89.991928
+[2021.06.04-15.26.26:848][176]LogTemp: Warning: P=0.000000 Y=89.992073 R=0.000000
+[2021.06.04-15.26.26:848][176]LogTemp: Warning: Yaw is : 89.992073
+[2021.06.04-15.26.26:856][177]LogTemp: Warning: P=0.000000 Y=89.992233 R=0.000000
+[2021.06.04-15.26.26:856][177]LogTemp: Warning: Yaw is : 89.992233
+[2021.06.04-15.26.26:864][178]LogTemp: Warning: P=0.000000 Y=89.992378 R=0.000000
+[2021.06.04-15.26.26:864][178]LogTemp: Warning: Yaw is : 89.992378
+[2021.06.04-15.26.26:873][179]LogTemp: Warning: P=0.000000 Y=89.992516 R=0.000000
+[2021.06.04-15.26.26:873][179]LogTemp: Warning: Yaw is : 89.992516
+[2021.06.04-15.26.26:881][180]LogTemp: Warning: P=0.000000 Y=89.992668 R=0.000000
+[2021.06.04-15.26.26:881][180]LogTemp: Warning: Yaw is : 89.992668
+[2021.06.04-15.26.26:889][181]LogTemp: Warning: P=0.000000 Y=89.992798 R=0.000000
+[2021.06.04-15.26.26:889][181]LogTemp: Warning: Yaw is : 89.992798
+[2021.06.04-15.26.26:898][182]LogTemp: Warning: P=0.000000 Y=89.992935 R=0.000000
+[2021.06.04-15.26.26:898][182]LogTemp: Warning: Yaw is : 89.992935
+[2021.06.04-15.26.26:906][183]LogTemp: Warning: P=0.000000 Y=89.993080 R=0.000000
+[2021.06.04-15.26.26:906][183]LogTemp: Warning: Yaw is : 89.993080
+[2021.06.04-15.26.26:914][184]LogTemp: Warning: P=0.000000 Y=89.993225 R=0.000000
+[2021.06.04-15.26.26:914][184]LogTemp: Warning: Yaw is : 89.993225
+[2021.06.04-15.26.26:923][185]LogTemp: Warning: P=0.000000 Y=89.993362 R=0.000000
+[2021.06.04-15.26.26:923][185]LogTemp: Warning: Yaw is : 89.993362
+[2021.06.04-15.26.26:931][186]LogTemp: Warning: P=0.000000 Y=89.993492 R=0.000000
+[2021.06.04-15.26.26:931][186]LogTemp: Warning: Yaw is : 89.993492
+[2021.06.04-15.26.26:939][187]LogTemp: Warning: P=0.000000 Y=89.993622 R=0.000000
+[2021.06.04-15.26.26:939][187]LogTemp: Warning: Yaw is : 89.993622
+[2021.06.04-15.26.26:948][188]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:948][188]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.26:956][189]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:956][189]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.26:964][190]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:964][190]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.26:973][191]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:973][191]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.26:981][192]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:981][192]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.26:989][193]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:989][193]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.26:998][194]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.26:998][194]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:006][195]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:006][195]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:014][196]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:014][196]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:023][197]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:023][197]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:031][198]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:031][198]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:039][199]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:039][199]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:048][200]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:048][200]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:056][201]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:056][201]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:064][202]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:064][202]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:073][203]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:073][203]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:081][204]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:081][204]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:089][205]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:089][205]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:098][206]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:098][206]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:106][207]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:106][207]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:114][208]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:114][208]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:123][209]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:123][209]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:131][210]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:131][210]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:139][211]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:139][211]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:148][212]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:148][212]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:156][213]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:156][213]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:164][214]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:164][214]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:173][215]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:173][215]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:181][216]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:181][216]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:190][217]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:190][217]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:198][218]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:199][218]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:207][219]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:207][219]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:215][220]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:215][220]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:223][221]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:224][221]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:232][222]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:232][222]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:240][223]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:240][223]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:248][224]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:248][224]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:257][225]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:257][225]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:265][226]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:265][226]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:273][227]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:273][227]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:282][228]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:282][228]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:290][229]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:290][229]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:299][230]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:299][230]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:307][231]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:307][231]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:315][232]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:315][232]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:323][233]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:324][233]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:332][234]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:332][234]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:340][235]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:340][235]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:348][236]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:348][236]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:357][237]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:357][237]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:366][238]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:366][238]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:373][239]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:373][239]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:381][240]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:381][240]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:389][241]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:389][241]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:398][242]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:398][242]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:407][243]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:407][243]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:414][244]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:415][244]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:423][245]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:423][245]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:431][246]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:431][246]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:440][247]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:440][247]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:448][248]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:448][248]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:457][249]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:457][249]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:465][250]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:465][250]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:473][251]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:473][251]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:482][252]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:482][252]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:490][253]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:490][253]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:498][254]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:498][254]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:507][255]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:507][255]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:515][256]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:515][256]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:523][257]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:523][257]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:531][258]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:531][258]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:540][259]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:540][259]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:548][260]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:548][260]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:556][261]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:556][261]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:565][262]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:565][262]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:573][263]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:573][263]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:581][264]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:581][264]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:590][265]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:590][265]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:598][266]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:598][266]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:606][267]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:606][267]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:617][268]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:617][268]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:624][269]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:624][269]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:633][270]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:633][270]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:641][271]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:641][271]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:650][272]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:650][272]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:657][273]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:657][273]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:666][274]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:666][274]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:673][275]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:674][275]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:682][276]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:682][276]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:691][277]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:691][277]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:698][278]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:698][278]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:707][279]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:707][279]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:715][280]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:715][280]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:723][281]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:723][281]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:732][282]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:732][282]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:740][283]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:740][283]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:749][284]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:749][284]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:757][285]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:757][285]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:765][286]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:765][286]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:773][287]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:773][287]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:782][288]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:782][288]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:790][289]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:790][289]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:798][290]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:798][290]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:806][291]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:806][291]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:815][292]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:815][292]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:823][293]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:823][293]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:831][294]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:831][294]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:840][295]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:840][295]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:848][296]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:848][296]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:856][297]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:856][297]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:865][298]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:865][298]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:873][299]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:873][299]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:881][300]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:881][300]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:890][301]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:890][301]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:898][302]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:898][302]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:906][303]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:906][303]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:915][304]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:915][304]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:923][305]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:923][305]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:931][306]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:931][306]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:940][307]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:940][307]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:948][308]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:948][308]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:957][309]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:957][309]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:965][310]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:965][310]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:973][311]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:973][311]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:982][312]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:982][312]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:990][313]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:990][313]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.27:998][314]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.27:998][314]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:007][315]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:007][315]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:015][316]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:015][316]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:023][317]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:023][317]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:032][318]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:032][318]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:040][319]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:040][319]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:048][320]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:048][320]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:057][321]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:057][321]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:065][322]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:065][322]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:073][323]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:073][323]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:082][324]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:082][324]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:090][325]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:090][325]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:099][326]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:099][326]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:107][327]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:107][327]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:115][328]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:115][328]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:124][329]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:124][329]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:132][330]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:132][330]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:140][331]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:140][331]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:148][332]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:148][332]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:157][333]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:157][333]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:165][334]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:165][334]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:173][335]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:173][335]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:183][336]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:183][336]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:190][337]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:190][337]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:199][338]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:199][338]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:207][339]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:207][339]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:215][340]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:215][340]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:223][341]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:223][341]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:232][342]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:232][342]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:240][343]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:240][343]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:248][344]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:248][344]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:257][345]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:257][345]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:265][346]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:265][346]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:273][347]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:273][347]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:282][348]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:282][348]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:290][349]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:290][349]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:298][350]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:298][350]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:307][351]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:307][351]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:315][352]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:315][352]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:323][353]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:323][353]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:332][354]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:332][354]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:340][355]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:340][355]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:348][356]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:348][356]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:356][357]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:356][357]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:365][358]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:365][358]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:373][359]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:373][359]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:382][360]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:382][360]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:390][361]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:390][361]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:398][362]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:398][362]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:406][363]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:406][363]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:415][364]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:415][364]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:423][365]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:423][365]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:432][366]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:432][366]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:440][367]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:440][367]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:448][368]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:449][368]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:457][369]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:457][369]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:466][370]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:466][370]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:474][371]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:474][371]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:482][372]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:482][372]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:490][373]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:490][373]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:499][374]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:499][374]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:507][375]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:507][375]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:515][376]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:515][376]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:523][377]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:523][377]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:531][378]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:531][378]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:539][379]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:539][379]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:548][380]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:548][380]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:556][381]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:556][381]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:564][382]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:564][382]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:573][383]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:573][383]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:581][384]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:581][384]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:589][385]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:589][385]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:598][386]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:598][386]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:606][387]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:606][387]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:614][388]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:614][388]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:623][389]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:623][389]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:631][390]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:631][390]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:640][391]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:640][391]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:648][392]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:648][392]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:656][393]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:656][393]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:665][394]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:665][394]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:673][395]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:673][395]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:681][396]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:681][396]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:690][397]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:690][397]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:698][398]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:698][398]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:707][399]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:707][399]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:715][400]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:715][400]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:723][401]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:723][401]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:732][402]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:732][402]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:740][403]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:740][403]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:748][404]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:748][404]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:757][405]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:757][405]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:765][406]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:765][406]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:773][407]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:773][407]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:782][408]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:782][408]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:790][409]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:790][409]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:798][410]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:798][410]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:807][411]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:807][411]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:815][412]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:815][412]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:823][413]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:823][413]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:832][414]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:832][414]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:840][415]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:840][415]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:848][416]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:848][416]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:856][417]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:856][417]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:864][418]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:864][418]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:873][419]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:873][419]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:881][420]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:881][420]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:889][421]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:889][421]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:898][422]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:898][422]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:906][423]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:906][423]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:914][424]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:914][424]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:923][425]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:923][425]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:932][426]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:932][426]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:940][427]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:940][427]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:948][428]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:949][428]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:957][429]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:957][429]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:965][430]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:965][430]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:973][431]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:974][431]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:982][432]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:982][432]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:990][433]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:990][433]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.28:998][434]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.28:998][434]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:007][435]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:007][435]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:015][436]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:015][436]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:023][437]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:023][437]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:032][438]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:032][438]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:040][439]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:040][439]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:048][440]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:048][440]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:057][441]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:057][441]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:065][442]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:065][442]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:074][443]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:074][443]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:082][444]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:082][444]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:090][445]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:090][445]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:098][446]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:099][446]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:107][447]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:107][447]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:115][448]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:115][448]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:123][449]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:123][449]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:132][450]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:132][450]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:140][451]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:140][451]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:148][452]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:148][452]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:157][453]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:157][453]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:165][454]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:165][454]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:174][455]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:174][455]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:182][456]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:182][456]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:191][457]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:191][457]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:199][458]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:199][458]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:207][459]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:207][459]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:215][460]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:215][460]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:224][461]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:224][461]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:232][462]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:232][462]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:240][463]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:241][463]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:249][464]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:249][464]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:257][465]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:257][465]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:265][466]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:265][466]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:274][467]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:274][467]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:282][468]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:282][468]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:291][469]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:291][469]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:299][470]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:299][470]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:307][471]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:307][471]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:316][472]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:316][472]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:324][473]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:324][473]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:331][474]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:332][474]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:341][475]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:341][475]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:349][476]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:349][476]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:357][477]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:357][477]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:366][478]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:366][478]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:374][479]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:374][479]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:382][480]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:382][480]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:391][481]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:391][481]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:399][482]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:399][482]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:407][483]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:407][483]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:415][484]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:415][484]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:424][485]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:424][485]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:432][486]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:432][486]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:440][487]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:440][487]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:449][488]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:449][488]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:457][489]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:457][489]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:465][490]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:466][490]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:474][491]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:474][491]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:482][492]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:482][492]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:491][493]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:491][493]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:499][494]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:499][494]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:507][495]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:507][495]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:515][496]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:516][496]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:524][497]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:524][497]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:532][498]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:532][498]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:541][499]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:541][499]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:549][500]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:549][500]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:557][501]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:557][501]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:565][502]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:565][502]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:574][503]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:574][503]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:582][504]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:582][504]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:590][505]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:590][505]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:599][506]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:599][506]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:607][507]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:607][507]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:616][508]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:616][508]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:624][509]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:624][509]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:631][510]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:631][510]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:640][511]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:640][511]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:648][512]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:648][512]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:656][513]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:656][513]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:664][514]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:665][514]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:673][515]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:673][515]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:681][516]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:681][516]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:689][517]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:689][517]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:698][518]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:698][518]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:707][519]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:707][519]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:715][520]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:715][520]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:724][521]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:724][521]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:731][522]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:731][522]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:740][523]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:740][523]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:748][524]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:748][524]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:757][525]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:757][525]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:766][526]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:766][526]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:773][527]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:773][527]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:782][528]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:782][528]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:793][529]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:793][529]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:799][530]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:799][530]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:807][531]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:807][531]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:815][532]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:816][532]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:823][533]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:824][533]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:833][534]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:833][534]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:841][535]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:841][535]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:849][536]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:849][536]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:857][537]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:857][537]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:865][538]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:865][538]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:873][539]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:874][539]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:882][540]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:882][540]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:890][541]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:890][541]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:899][542]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:899][542]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:907][543]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:907][543]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:915][544]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:915][544]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:924][545]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:924][545]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:932][546]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:932][546]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:940][547]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:940][547]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:949][548]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:949][548]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:958][549]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:958][549]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:965][550]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:965][550]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:974][551]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:974][551]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:982][552]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:982][552]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:990][553]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:990][553]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.29:999][554]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.29:999][554]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:007][555]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:007][555]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:015][556]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:016][556]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:024][557]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:024][557]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:031][558]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:031][558]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:040][559]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:040][559]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:049][560]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:049][560]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:057][561]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:057][561]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:065][562]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:065][562]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:074][563]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:074][563]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:082][564]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:082][564]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:091][565]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:091][565]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:099][566]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:099][566]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:107][567]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:107][567]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:115][568]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:115][568]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:124][569]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:124][569]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:132][570]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:132][570]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:140][571]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:140][571]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:148][572]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:148][572]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:157][573]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:157][573]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:165][574]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:165][574]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:173][575]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:173][575]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:181][576]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:181][576]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:190][577]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:190][577]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:199][578]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:199][578]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:207][579]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:207][579]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:215][580]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:215][580]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:223][581]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:223][581]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:231][582]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:231][582]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:240][583]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:240][583]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:248][584]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:248][584]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:256][585]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:256][585]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:265][586]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:265][586]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:273][587]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:273][587]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:281][588]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:281][588]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:290][589]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:290][589]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:298][590]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:298][590]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:306][591]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:306][591]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:315][592]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:315][592]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:323][593]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:323][593]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:331][594]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:331][594]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:340][595]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:340][595]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:348][596]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:348][596]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:357][597]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:357][597]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:365][598]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:365][598]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:373][599]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:373][599]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:382][600]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:382][600]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:390][601]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:390][601]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:399][602]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:399][602]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:407][603]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:407][603]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:415][604]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:416][604]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:424][605]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:424][605]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:432][606]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:432][606]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:440][607]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:441][607]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:449][608]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:449][608]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:457][609]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:457][609]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:466][610]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:466][610]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:474][611]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:474][611]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:482][612]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:482][612]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:490][613]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:490][613]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:498][614]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:498][614]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:507][615]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:507][615]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:515][616]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:515][616]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:523][617]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:523][617]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:532][618]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:532][618]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:540][619]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:540][619]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:548][620]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:549][620]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:557][621]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:557][621]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:565][622]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:565][622]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:573][623]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:573][623]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:582][624]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:582][624]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:590][625]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:590][625]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:599][626]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:599][626]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:607][627]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:607][627]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:615][628]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:616][628]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:623][629]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:623][629]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:632][630]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:632][630]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:640][631]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:640][631]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:648][632]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:648][632]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:657][633]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:657][633]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:665][634]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:665][634]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:673][635]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:673][635]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:682][636]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:682][636]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:690][637]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:690][637]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:698][638]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:698][638]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:707][639]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:707][639]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:715][640]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:715][640]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:724][641]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:724][641]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:732][642]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:732][642]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:740][643]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:740][643]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:748][644]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:748][644]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:756][645]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:756][645]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:765][646]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:765][646]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:773][647]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:773][647]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:782][648]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:782][648]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:790][649]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:790][649]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:799][650]LogTemp: Warning: P=0.000000 Y=89.993736 R=0.000000
+[2021.06.04-15.26.30:799][650]LogTemp: Warning: Yaw is : 89.993736
+[2021.06.04-15.26.30:823][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-15.26.30:823][650]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.04-15.26.30:823][650]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-15.26.30:823][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-15.26.30:833][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-15.26.30:834][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-15.26.30:838][650]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.04-15.26.30:838][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.04-15.26.30:839][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.04-15.26.30:852][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-15.26.30:854][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.04-15.26.30:904][653]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.06.04-15.26.31:920][775]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-15.26.31:924][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.04-15.26.31:924][775]PIE: New page: PIE session: Building_Escape (Jun 4, 2021, 7:26:31 AM)
+[2021.06.04-15.26.31:952][775]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.04-15.26.31:958][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005205s)
+[2021.06.04-15.26.31:958][775]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.04-15.26.31:959][775]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2021.06.04-15.26.31:959][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006162s)
+[2021.06.04-15.26.31:963][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.06.04-15.26.31:963][775]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-15.26.31:963][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-15.26.31:963][775]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-15.26.31:963][775]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-15.26.31:966][775]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-15.26.31:966][775]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-15.26.31:973][775]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.04-15.26.31:973][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.04-15.26.31:973][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.04-15.26.31:973][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.04-15.26.31:973][775]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.04-15.26.31:973][775]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.04-15.26.31:973][775]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.04-15.26.31:985][775]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.04-15.26.31:985][775]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.04-15.26.31:985][775]LogInit: FAudioDevice initialized.
+[2021.06.04-15.26.31:985][775]LogAudio: Display: Audio Device (ID: 7) registered with world 'Building_Escape'.
+[2021.06.04-15.26.31:995][775]LogLoad: Game class is 'GameModeBase'
+[2021.06.04-15.26.31:997][775]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.04-11.26.31
+[2021.06.04-15.26.31:997][775]LogWorld: Bringing up level for play took: 0.000679
+[2021.06.04-15.26.31:997][775]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.06.04-15.26.31:998][775]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-230.000 Z=110.000
+[2021.06.04-15.26.31:998][775]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.04-15.26.31:998][775]PIE: Server logged in
+[2021.06.04-15.26.31:999][775]PIE: Play in editor total start time 0.076 seconds.
+[2021.06.04-15.26.31:999][775]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.26.31:999][775]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.26.32:018][776]LogTemp: Warning: P=0.000000 Y=1.800000 R=0.000000
+[2021.06.04-15.26.32:018][776]LogTemp: Warning: Yaw is : 1.800000
+[2021.06.04-15.26.32:026][777]LogTemp: Warning: P=0.000000 Y=3.564002 R=0.000000
+[2021.06.04-15.26.32:026][777]LogTemp: Warning: Yaw is : 3.564002
+[2021.06.04-15.26.32:034][778]LogTemp: Warning: P=0.000000 Y=5.292728 R=0.000000
+[2021.06.04-15.26.32:034][778]LogTemp: Warning: Yaw is : 5.292728
+[2021.06.04-15.26.32:043][779]LogTemp: Warning: P=0.000000 Y=6.986886 R=0.000000
+[2021.06.04-15.26.32:043][779]LogTemp: Warning: Yaw is : 6.986886
+[2021.06.04-15.26.32:051][780]LogTemp: Warning: P=0.000000 Y=8.647169 R=0.000000
+[2021.06.04-15.26.32:051][780]LogTemp: Warning: Yaw is : 8.647169
+[2021.06.04-15.26.32:059][781]LogTemp: Warning: P=0.000000 Y=10.274253 R=0.000000
+[2021.06.04-15.26.32:059][781]LogTemp: Warning: Yaw is : 10.274253
+[2021.06.04-15.26.32:068][782]LogTemp: Warning: P=0.000000 Y=11.868804 R=0.000000
+[2021.06.04-15.26.32:068][782]LogTemp: Warning: Yaw is : 11.868804
+[2021.06.04-15.26.32:076][783]LogTemp: Warning: P=0.000000 Y=13.431467 R=0.000000
+[2021.06.04-15.26.32:076][783]LogTemp: Warning: Yaw is : 13.431467
+[2021.06.04-15.26.32:084][784]LogTemp: Warning: P=0.000000 Y=14.962877 R=0.000000
+[2021.06.04-15.26.32:084][784]LogTemp: Warning: Yaw is : 14.962877
+[2021.06.04-15.26.32:093][785]LogTemp: Warning: P=0.000000 Y=16.463654 R=0.000000
+[2021.06.04-15.26.32:093][785]LogTemp: Warning: Yaw is : 16.463654
+[2021.06.04-15.26.32:101][786]LogTemp: Warning: P=0.000000 Y=17.934399 R=0.000000
+[2021.06.04-15.26.32:101][786]LogTemp: Warning: Yaw is : 17.934399
+[2021.06.04-15.26.32:109][787]LogTemp: Warning: P=0.000000 Y=19.375715 R=0.000000
+[2021.06.04-15.26.32:109][787]LogTemp: Warning: Yaw is : 19.375715
+[2021.06.04-15.26.32:118][788]LogTemp: Warning: P=0.000000 Y=20.788187 R=0.000000
+[2021.06.04-15.26.32:118][788]LogTemp: Warning: Yaw is : 20.788187
+[2021.06.04-15.26.32:126][789]LogTemp: Warning: P=0.000000 Y=22.172398 R=0.000000
+[2021.06.04-15.26.32:126][789]LogTemp: Warning: Yaw is : 22.172398
+[2021.06.04-15.26.32:134][790]LogTemp: Warning: P=0.000000 Y=23.528910 R=0.000000
+[2021.06.04-15.26.32:134][790]LogTemp: Warning: Yaw is : 23.528910
+[2021.06.04-15.26.32:142][791]LogTemp: Warning: P=0.000000 Y=24.858288 R=0.000000
+[2021.06.04-15.26.32:143][791]LogTemp: Warning: Yaw is : 24.858288
+[2021.06.04-15.26.32:151][792]LogTemp: Warning: P=0.000000 Y=26.161079 R=0.000000
+[2021.06.04-15.26.32:151][792]LogTemp: Warning: Yaw is : 26.161079
+[2021.06.04-15.26.32:159][793]LogTemp: Warning: P=0.000000 Y=27.437832 R=0.000000
+[2021.06.04-15.26.32:159][793]LogTemp: Warning: Yaw is : 27.437832
+[2021.06.04-15.26.32:167][794]LogTemp: Warning: P=0.000000 Y=28.689068 R=0.000000
+[2021.06.04-15.26.32:168][794]LogTemp: Warning: Yaw is : 28.689068
+[2021.06.04-15.26.32:176][795]LogTemp: Warning: P=0.000000 Y=29.915295 R=0.000000
+[2021.06.04-15.26.32:176][795]LogTemp: Warning: Yaw is : 29.915295
+[2021.06.04-15.26.32:184][796]LogTemp: Warning: P=0.000000 Y=31.117012 R=0.000000
+[2021.06.04-15.26.32:184][796]LogTemp: Warning: Yaw is : 31.117012
+[2021.06.04-15.26.32:192][797]LogTemp: Warning: P=0.000000 Y=32.294701 R=0.000000
+[2021.06.04-15.26.32:193][797]LogTemp: Warning: Yaw is : 32.294701
+[2021.06.04-15.26.32:201][798]LogTemp: Warning: P=0.000000 Y=33.448841 R=0.000000
+[2021.06.04-15.26.32:201][798]LogTemp: Warning: Yaw is : 33.448841
+[2021.06.04-15.26.32:210][799]LogTemp: Warning: P=0.000000 Y=34.579880 R=0.000000
+[2021.06.04-15.26.32:210][799]LogTemp: Warning: Yaw is : 34.579880
+[2021.06.04-15.26.32:218][800]LogTemp: Warning: P=0.000000 Y=35.688278 R=0.000000
+[2021.06.04-15.26.32:218][800]LogTemp: Warning: Yaw is : 35.688278
+[2021.06.04-15.26.32:226][801]LogTemp: Warning: P=0.000000 Y=36.774498 R=0.000000
+[2021.06.04-15.26.32:226][801]LogTemp: Warning: Yaw is : 36.774498
+[2021.06.04-15.26.32:235][802]LogTemp: Warning: P=0.000000 Y=37.838963 R=0.000000
+[2021.06.04-15.26.32:235][802]LogTemp: Warning: Yaw is : 37.838963
+[2021.06.04-15.26.32:243][803]LogTemp: Warning: P=0.000000 Y=38.882137 R=0.000000
+[2021.06.04-15.26.32:243][803]LogTemp: Warning: Yaw is : 38.882137
+[2021.06.04-15.26.32:251][804]LogTemp: Warning: P=0.000000 Y=39.904465 R=0.000000
+[2021.06.04-15.26.32:251][804]LogTemp: Warning: Yaw is : 39.904465
+[2021.06.04-15.26.32:260][805]LogTemp: Warning: P=0.000000 Y=40.906384 R=0.000000
+[2021.06.04-15.26.32:260][805]LogTemp: Warning: Yaw is : 40.906384
+[2021.06.04-15.26.32:268][806]LogTemp: Warning: P=0.000000 Y=41.888283 R=0.000000
+[2021.06.04-15.26.32:268][806]LogTemp: Warning: Yaw is : 41.888283
+[2021.06.04-15.26.32:276][807]LogTemp: Warning: P=0.000000 Y=42.850548 R=0.000000
+[2021.06.04-15.26.32:276][807]LogTemp: Warning: Yaw is : 42.850548
+[2021.06.04-15.26.32:285][808]LogTemp: Warning: P=0.000000 Y=43.793518 R=0.000000
+[2021.06.04-15.26.32:285][808]LogTemp: Warning: Yaw is : 43.793518
+[2021.06.04-15.26.32:293][809]LogTemp: Warning: P=0.000000 Y=44.717602 R=0.000000
+[2021.06.04-15.26.32:293][809]LogTemp: Warning: Yaw is : 44.717602
+[2021.06.04-15.26.32:301][810]LogTemp: Warning: P=0.000000 Y=45.623291 R=0.000000
+[2021.06.04-15.26.32:301][810]LogTemp: Warning: Yaw is : 45.623291
+[2021.06.04-15.26.32:310][811]LogTemp: Warning: P=0.000000 Y=46.510818 R=0.000000
+[2021.06.04-15.26.32:310][811]LogTemp: Warning: Yaw is : 46.510818
+[2021.06.04-15.26.32:318][812]LogTemp: Warning: P=0.000000 Y=47.380566 R=0.000000
+[2021.06.04-15.26.32:318][812]LogTemp: Warning: Yaw is : 47.380566
+[2021.06.04-15.26.32:326][813]LogTemp: Warning: P=0.000000 Y=48.232914 R=0.000000
+[2021.06.04-15.26.32:326][813]LogTemp: Warning: Yaw is : 48.232914
+[2021.06.04-15.26.32:335][814]LogTemp: Warning: P=0.000000 Y=49.068241 R=0.000000
+[2021.06.04-15.26.32:335][814]LogTemp: Warning: Yaw is : 49.068241
+[2021.06.04-15.26.32:343][815]LogTemp: Warning: P=0.000000 Y=49.886890 R=0.000000
+[2021.06.04-15.26.32:343][815]LogTemp: Warning: Yaw is : 49.886890
+[2021.06.04-15.26.32:351][816]LogTemp: Warning: P=0.000000 Y=50.689182 R=0.000000
+[2021.06.04-15.26.32:351][816]LogTemp: Warning: Yaw is : 50.689182
+[2021.06.04-15.26.32:360][817]LogTemp: Warning: P=0.000000 Y=51.475437 R=0.000000
+[2021.06.04-15.26.32:360][817]LogTemp: Warning: Yaw is : 51.475437
+[2021.06.04-15.26.32:368][818]LogTemp: Warning: P=0.000000 Y=52.245964 R=0.000000
+[2021.06.04-15.26.32:368][818]LogTemp: Warning: Yaw is : 52.245964
+[2021.06.04-15.26.32:376][819]LogTemp: Warning: P=0.000000 Y=53.001068 R=0.000000
+[2021.06.04-15.26.32:376][819]LogTemp: Warning: Yaw is : 53.001068
+[2021.06.04-15.26.32:384][820]LogTemp: Warning: P=0.000000 Y=53.741055 R=0.000000
+[2021.06.04-15.26.32:385][820]LogTemp: Warning: Yaw is : 53.741055
+[2021.06.04-15.26.32:393][821]LogTemp: Warning: P=0.000000 Y=54.466217 R=0.000000
+[2021.06.04-15.26.32:393][821]LogTemp: Warning: Yaw is : 54.466217
+[2021.06.04-15.26.32:401][822]LogTemp: Warning: P=0.000000 Y=55.176865 R=0.000000
+[2021.06.04-15.26.32:401][822]LogTemp: Warning: Yaw is : 55.176865
+[2021.06.04-15.26.32:409][823]LogTemp: Warning: P=0.000000 Y=55.873295 R=0.000000
+[2021.06.04-15.26.32:409][823]LogTemp: Warning: Yaw is : 55.873295
+[2021.06.04-15.26.32:418][824]LogTemp: Warning: P=0.000000 Y=56.555790 R=0.000000
+[2021.06.04-15.26.32:418][824]LogTemp: Warning: Yaw is : 56.555790
+[2021.06.04-15.26.32:426][825]LogTemp: Warning: P=0.000000 Y=57.224628 R=0.000000
+[2021.06.04-15.26.32:426][825]LogTemp: Warning: Yaw is : 57.224628
+[2021.06.04-15.26.32:434][826]LogTemp: Warning: P=0.000000 Y=57.880093 R=0.000000
+[2021.06.04-15.26.32:434][826]LogTemp: Warning: Yaw is : 57.880093
+[2021.06.04-15.26.32:443][827]LogTemp: Warning: P=0.000000 Y=58.522465 R=0.000000
+[2021.06.04-15.26.32:443][827]LogTemp: Warning: Yaw is : 58.522465
+[2021.06.04-15.26.32:451][828]LogTemp: Warning: P=0.000000 Y=59.151989 R=0.000000
+[2021.06.04-15.26.32:451][828]LogTemp: Warning: Yaw is : 59.151989
+[2021.06.04-15.26.32:459][829]LogTemp: Warning: P=0.000000 Y=59.768921 R=0.000000
+[2021.06.04-15.26.32:459][829]LogTemp: Warning: Yaw is : 59.768921
+[2021.06.04-15.26.32:468][830]LogTemp: Warning: P=0.000000 Y=60.373543 R=0.000000
+[2021.06.04-15.26.32:468][830]LogTemp: Warning: Yaw is : 60.373543
+[2021.06.04-15.26.32:476][831]LogTemp: Warning: P=0.000000 Y=60.966072 R=0.000000
+[2021.06.04-15.26.32:476][831]LogTemp: Warning: Yaw is : 60.966072
+[2021.06.04-15.26.32:484][832]LogTemp: Warning: P=0.000000 Y=61.546741 R=0.000000
+[2021.06.04-15.26.32:484][832]LogTemp: Warning: Yaw is : 61.546741
+[2021.06.04-15.26.32:493][833]LogTemp: Warning: P=0.000000 Y=62.115807 R=0.000000
+[2021.06.04-15.26.32:493][833]LogTemp: Warning: Yaw is : 62.115807
+[2021.06.04-15.26.32:501][834]LogTemp: Warning: P=0.000000 Y=62.673519 R=0.000000
+[2021.06.04-15.26.32:501][834]LogTemp: Warning: Yaw is : 62.673519
+[2021.06.04-15.26.32:509][835]LogTemp: Warning: P=0.000000 Y=63.220078 R=0.000000
+[2021.06.04-15.26.32:509][835]LogTemp: Warning: Yaw is : 63.220078
+[2021.06.04-15.26.32:518][836]LogTemp: Warning: P=0.000000 Y=63.755714 R=0.000000
+[2021.06.04-15.26.32:518][836]LogTemp: Warning: Yaw is : 63.755714
+[2021.06.04-15.26.32:526][837]LogTemp: Warning: P=0.000000 Y=64.280640 R=0.000000
+[2021.06.04-15.26.32:526][837]LogTemp: Warning: Yaw is : 64.280640
+[2021.06.04-15.26.32:535][838]LogTemp: Warning: P=0.000000 Y=64.795067 R=0.000000
+[2021.06.04-15.26.32:535][838]LogTemp: Warning: Yaw is : 64.795067
+[2021.06.04-15.26.32:543][839]LogTemp: Warning: P=0.000000 Y=65.299202 R=0.000000
+[2021.06.04-15.26.32:543][839]LogTemp: Warning: Yaw is : 65.299202
+[2021.06.04-15.26.32:551][840]LogTemp: Warning: P=0.000000 Y=65.793259 R=0.000000
+[2021.06.04-15.26.32:551][840]LogTemp: Warning: Yaw is : 65.793259
+[2021.06.04-15.26.32:560][841]LogTemp: Warning: P=0.000000 Y=66.277435 R=0.000000
+[2021.06.04-15.26.32:560][841]LogTemp: Warning: Yaw is : 66.277435
+[2021.06.04-15.26.32:568][842]LogTemp: Warning: P=0.000000 Y=66.751915 R=0.000000
+[2021.06.04-15.26.32:568][842]LogTemp: Warning: Yaw is : 66.751915
+[2021.06.04-15.26.32:576][843]LogTemp: Warning: P=0.000000 Y=67.216904 R=0.000000
+[2021.06.04-15.26.32:576][843]LogTemp: Warning: Yaw is : 67.216904
+[2021.06.04-15.26.32:585][844]LogTemp: Warning: P=0.000000 Y=67.672600 R=0.000000
+[2021.06.04-15.26.32:585][844]LogTemp: Warning: Yaw is : 67.672600
+[2021.06.04-15.26.32:593][845]LogTemp: Warning: P=0.000000 Y=68.119171 R=0.000000
+[2021.06.04-15.26.32:593][845]LogTemp: Warning: Yaw is : 68.119171
+[2021.06.04-15.26.32:601][846]LogTemp: Warning: P=0.000000 Y=68.556808 R=0.000000
+[2021.06.04-15.26.32:601][846]LogTemp: Warning: Yaw is : 68.556808
+[2021.06.04-15.26.32:610][847]LogTemp: Warning: P=0.000000 Y=68.985687 R=0.000000
+[2021.06.04-15.26.32:610][847]LogTemp: Warning: Yaw is : 68.985687
+[2021.06.04-15.26.32:618][848]LogTemp: Warning: P=0.000000 Y=69.405991 R=0.000000
+[2021.06.04-15.26.32:618][848]LogTemp: Warning: Yaw is : 69.405991
+[2021.06.04-15.26.32:626][849]LogTemp: Warning: P=0.000000 Y=69.817879 R=0.000000
+[2021.06.04-15.26.32:626][849]LogTemp: Warning: Yaw is : 69.817879
+[2021.06.04-15.26.32:635][850]LogTemp: Warning: P=0.000000 Y=70.221504 R=0.000000
+[2021.06.04-15.26.32:635][850]LogTemp: Warning: Yaw is : 70.221504
+[2021.06.04-15.26.32:643][851]LogTemp: Warning: P=0.000000 Y=70.617065 R=0.000000
+[2021.06.04-15.26.32:643][851]LogTemp: Warning: Yaw is : 70.617065
+[2021.06.04-15.26.32:652][852]LogTemp: Warning: P=0.000000 Y=71.004700 R=0.000000
+[2021.06.04-15.26.32:652][852]LogTemp: Warning: Yaw is : 71.004700
+[2021.06.04-15.26.32:660][853]LogTemp: Warning: P=0.000000 Y=71.384583 R=0.000000
+[2021.06.04-15.26.32:660][853]LogTemp: Warning: Yaw is : 71.384583
+[2021.06.04-15.26.32:668][854]LogTemp: Warning: P=0.000000 Y=71.756874 R=0.000000
+[2021.06.04-15.26.32:668][854]LogTemp: Warning: Yaw is : 71.756874
+[2021.06.04-15.26.32:677][855]LogTemp: Warning: P=0.000000 Y=72.121719 R=0.000000
+[2021.06.04-15.26.32:677][855]LogTemp: Warning: Yaw is : 72.121719
+[2021.06.04-15.26.32:685][856]LogTemp: Warning: P=0.000000 Y=72.479256 R=0.000000
+[2021.06.04-15.26.32:685][856]LogTemp: Warning: Yaw is : 72.479256
+[2021.06.04-15.26.32:693][857]LogTemp: Warning: P=0.000000 Y=72.829643 R=0.000000
+[2021.06.04-15.26.32:693][857]LogTemp: Warning: Yaw is : 72.829643
+[2021.06.04-15.26.32:701][858]LogTemp: Warning: P=0.000000 Y=73.173012 R=0.000000
+[2021.06.04-15.26.32:701][858]LogTemp: Warning: Yaw is : 73.173012
+[2021.06.04-15.26.32:710][859]LogTemp: Warning: P=0.000000 Y=73.509514 R=0.000000
+[2021.06.04-15.26.32:710][859]LogTemp: Warning: Yaw is : 73.509514
+[2021.06.04-15.26.32:717][860]LogTemp: Warning: P=0.000000 Y=73.839287 R=0.000000
+[2021.06.04-15.26.32:718][860]LogTemp: Warning: Yaw is : 73.839287
+[2021.06.04-15.26.32:726][861]LogTemp: Warning: P=0.000000 Y=74.162453 R=0.000000
+[2021.06.04-15.26.32:726][861]LogTemp: Warning: Yaw is : 74.162453
+[2021.06.04-15.26.32:734][862]LogTemp: Warning: P=0.000000 Y=74.479156 R=0.000000
+[2021.06.04-15.26.32:734][862]LogTemp: Warning: Yaw is : 74.479156
+[2021.06.04-15.26.32:742][863]LogTemp: Warning: P=0.000000 Y=74.789536 R=0.000000
+[2021.06.04-15.26.32:743][863]LogTemp: Warning: Yaw is : 74.789536
+[2021.06.04-15.26.32:751][864]LogTemp: Warning: P=0.000000 Y=75.093689 R=0.000000
+[2021.06.04-15.26.32:751][864]LogTemp: Warning: Yaw is : 75.093689
+[2021.06.04-15.26.32:759][865]LogTemp: Warning: P=0.000000 Y=75.391769 R=0.000000
+[2021.06.04-15.26.32:759][865]LogTemp: Warning: Yaw is : 75.391769
+[2021.06.04-15.26.32:767][866]LogTemp: Warning: P=0.000000 Y=75.683899 R=0.000000
+[2021.06.04-15.26.32:768][866]LogTemp: Warning: Yaw is : 75.683899
+[2021.06.04-15.26.32:776][867]LogTemp: Warning: P=0.000000 Y=75.970169 R=0.000000
+[2021.06.04-15.26.32:776][867]LogTemp: Warning: Yaw is : 75.970169
+[2021.06.04-15.26.32:785][868]LogTemp: Warning: P=0.000000 Y=76.250725 R=0.000000
+[2021.06.04-15.26.32:785][868]LogTemp: Warning: Yaw is : 76.250725
+[2021.06.04-15.26.32:793][869]LogTemp: Warning: P=0.000000 Y=76.525665 R=0.000000
+[2021.06.04-15.26.32:793][869]LogTemp: Warning: Yaw is : 76.525665
+[2021.06.04-15.26.32:801][870]LogTemp: Warning: P=0.000000 Y=76.795113 R=0.000000
+[2021.06.04-15.26.32:801][870]LogTemp: Warning: Yaw is : 76.795113
+[2021.06.04-15.26.32:810][871]LogTemp: Warning: P=0.000000 Y=77.059166 R=0.000000
+[2021.06.04-15.26.32:810][871]LogTemp: Warning: Yaw is : 77.059166
+[2021.06.04-15.26.32:818][872]LogTemp: Warning: P=0.000000 Y=77.317932 R=0.000000
+[2021.06.04-15.26.32:818][872]LogTemp: Warning: Yaw is : 77.317932
+[2021.06.04-15.26.32:826][873]LogTemp: Warning: P=0.000000 Y=77.571526 R=0.000000
+[2021.06.04-15.26.32:826][873]LogTemp: Warning: Yaw is : 77.571526
+[2021.06.04-15.26.32:835][874]LogTemp: Warning: P=0.000000 Y=77.820045 R=0.000000
+[2021.06.04-15.26.32:835][874]LogTemp: Warning: Yaw is : 77.820045
+[2021.06.04-15.26.32:843][875]LogTemp: Warning: P=0.000000 Y=78.063591 R=0.000000
+[2021.06.04-15.26.32:843][875]LogTemp: Warning: Yaw is : 78.063591
+[2021.06.04-15.26.32:852][876]LogTemp: Warning: P=0.000000 Y=78.302277 R=0.000000
+[2021.06.04-15.26.32:852][876]LogTemp: Warning: Yaw is : 78.302277
+[2021.06.04-15.26.32:860][877]LogTemp: Warning: P=0.000000 Y=78.536179 R=0.000000
+[2021.06.04-15.26.32:860][877]LogTemp: Warning: Yaw is : 78.536179
+[2021.06.04-15.26.32:868][878]LogTemp: Warning: P=0.000000 Y=78.765411 R=0.000000
+[2021.06.04-15.26.32:868][878]LogTemp: Warning: Yaw is : 78.765411
+[2021.06.04-15.26.32:876][879]LogTemp: Warning: P=0.000000 Y=78.990059 R=0.000000
+[2021.06.04-15.26.32:876][879]LogTemp: Warning: Yaw is : 78.990059
+[2021.06.04-15.26.32:885][880]LogTemp: Warning: P=0.000000 Y=79.210213 R=0.000000
+[2021.06.04-15.26.32:885][880]LogTemp: Warning: Yaw is : 79.210213
+[2021.06.04-15.26.32:893][881]LogTemp: Warning: P=0.000000 Y=79.425972 R=0.000000
+[2021.06.04-15.26.32:893][881]LogTemp: Warning: Yaw is : 79.425972
+[2021.06.04-15.26.32:901][882]LogTemp: Warning: P=0.000000 Y=79.637421 R=0.000000
+[2021.06.04-15.26.32:901][882]LogTemp: Warning: Yaw is : 79.637421
+[2021.06.04-15.26.32:910][883]LogTemp: Warning: P=0.000000 Y=79.844635 R=0.000000
+[2021.06.04-15.26.32:910][883]LogTemp: Warning: Yaw is : 79.844635
+[2021.06.04-15.26.32:918][884]LogTemp: Warning: P=0.000000 Y=80.047714 R=0.000000
+[2021.06.04-15.26.32:918][884]LogTemp: Warning: Yaw is : 80.047714
+[2021.06.04-15.26.32:926][885]LogTemp: Warning: P=0.000000 Y=80.246735 R=0.000000
+[2021.06.04-15.26.32:926][885]LogTemp: Warning: Yaw is : 80.246735
+[2021.06.04-15.26.32:935][886]LogTemp: Warning: P=0.000000 Y=80.441772 R=0.000000
+[2021.06.04-15.26.32:935][886]LogTemp: Warning: Yaw is : 80.441772
+[2021.06.04-15.26.32:943][887]LogTemp: Warning: P=0.000000 Y=80.632904 R=0.000000
+[2021.06.04-15.26.32:943][887]LogTemp: Warning: Yaw is : 80.632904
+[2021.06.04-15.26.32:951][888]LogTemp: Warning: P=0.000000 Y=80.820213 R=0.000000
+[2021.06.04-15.26.32:951][888]LogTemp: Warning: Yaw is : 80.820213
+[2021.06.04-15.26.32:959][889]LogTemp: Warning: P=0.000000 Y=81.003761 R=0.000000
+[2021.06.04-15.26.32:959][889]LogTemp: Warning: Yaw is : 81.003761
+[2021.06.04-15.26.32:968][890]LogTemp: Warning: P=0.000000 Y=81.183647 R=0.000000
+[2021.06.04-15.26.32:968][890]LogTemp: Warning: Yaw is : 81.183647
+[2021.06.04-15.26.32:976][891]LogTemp: Warning: P=0.000000 Y=81.359955 R=0.000000
+[2021.06.04-15.26.32:976][891]LogTemp: Warning: Yaw is : 81.359955
+[2021.06.04-15.26.32:984][892]LogTemp: Warning: P=0.000000 Y=81.532738 R=0.000000
+[2021.06.04-15.26.32:984][892]LogTemp: Warning: Yaw is : 81.532738
+[2021.06.04-15.26.32:993][893]LogTemp: Warning: P=0.000000 Y=81.702065 R=0.000000
+[2021.06.04-15.26.32:993][893]LogTemp: Warning: Yaw is : 81.702065
+[2021.06.04-15.26.33:001][894]LogTemp: Warning: P=0.000000 Y=81.868004 R=0.000000
+[2021.06.04-15.26.33:001][894]LogTemp: Warning: Yaw is : 81.868004
+[2021.06.04-15.26.33:009][895]LogTemp: Warning: P=0.000000 Y=82.030624 R=0.000000
+[2021.06.04-15.26.33:009][895]LogTemp: Warning: Yaw is : 82.030624
+[2021.06.04-15.26.33:018][896]LogTemp: Warning: P=0.000000 Y=82.189987 R=0.000000
+[2021.06.04-15.26.33:018][896]LogTemp: Warning: Yaw is : 82.189987
+[2021.06.04-15.26.33:026][897]LogTemp: Warning: P=0.000000 Y=82.346153 R=0.000000
+[2021.06.04-15.26.33:026][897]LogTemp: Warning: Yaw is : 82.346153
+[2021.06.04-15.26.33:035][898]LogTemp: Warning: P=0.000000 Y=82.499229 R=0.000000
+[2021.06.04-15.26.33:035][898]LogTemp: Warning: Yaw is : 82.499229
+[2021.06.04-15.26.33:043][899]LogTemp: Warning: P=0.000000 Y=82.649223 R=0.000000
+[2021.06.04-15.26.33:043][899]LogTemp: Warning: Yaw is : 82.649223
+[2021.06.04-15.26.33:051][900]LogTemp: Warning: P=0.000000 Y=82.796219 R=0.000000
+[2021.06.04-15.26.33:052][900]LogTemp: Warning: Yaw is : 82.796219
+[2021.06.04-15.26.33:060][901]LogTemp: Warning: P=0.000000 Y=82.940277 R=0.000000
+[2021.06.04-15.26.33:060][901]LogTemp: Warning: Yaw is : 82.940277
+[2021.06.04-15.26.33:068][902]LogTemp: Warning: P=0.000000 Y=83.081444 R=0.000000
+[2021.06.04-15.26.33:068][902]LogTemp: Warning: Yaw is : 83.081444
+[2021.06.04-15.26.33:076][903]LogTemp: Warning: P=0.000000 Y=83.219795 R=0.000000
+[2021.06.04-15.26.33:077][903]LogTemp: Warning: Yaw is : 83.219795
+[2021.06.04-15.26.33:085][904]LogTemp: Warning: P=0.000000 Y=83.355377 R=0.000000
+[2021.06.04-15.26.33:085][904]LogTemp: Warning: Yaw is : 83.355377
+[2021.06.04-15.26.33:093][905]LogTemp: Warning: P=0.000000 Y=83.488243 R=0.000000
+[2021.06.04-15.26.33:093][905]LogTemp: Warning: Yaw is : 83.488243
+[2021.06.04-15.26.33:101][906]LogTemp: Warning: P=0.000000 Y=83.618454 R=0.000000
+[2021.06.04-15.26.33:102][906]LogTemp: Warning: Yaw is : 83.618454
+[2021.06.04-15.26.33:110][907]LogTemp: Warning: P=0.000000 Y=83.746063 R=0.000000
+[2021.06.04-15.26.33:110][907]LogTemp: Warning: Yaw is : 83.746063
+[2021.06.04-15.26.33:118][908]LogTemp: Warning: P=0.000000 Y=83.871117 R=0.000000
+[2021.06.04-15.26.33:118][908]LogTemp: Warning: Yaw is : 83.871117
+[2021.06.04-15.26.33:126][909]LogTemp: Warning: P=0.000000 Y=83.993683 R=0.000000
+[2021.06.04-15.26.33:127][909]LogTemp: Warning: Yaw is : 83.993683
+[2021.06.04-15.26.33:135][910]LogTemp: Warning: P=0.000000 Y=84.113792 R=0.000000
+[2021.06.04-15.26.33:135][910]LogTemp: Warning: Yaw is : 84.113792
+[2021.06.04-15.26.33:143][911]LogTemp: Warning: P=0.000000 Y=84.231491 R=0.000000
+[2021.06.04-15.26.33:143][911]LogTemp: Warning: Yaw is : 84.231491
+[2021.06.04-15.26.33:152][912]LogTemp: Warning: P=0.000000 Y=84.346848 R=0.000000
+[2021.06.04-15.26.33:152][912]LogTemp: Warning: Yaw is : 84.346848
+[2021.06.04-15.26.33:160][913]LogTemp: Warning: P=0.000000 Y=84.459900 R=0.000000
+[2021.06.04-15.26.33:160][913]LogTemp: Warning: Yaw is : 84.459900
+[2021.06.04-15.26.33:168][914]LogTemp: Warning: P=0.000000 Y=84.570679 R=0.000000
+[2021.06.04-15.26.33:168][914]LogTemp: Warning: Yaw is : 84.570679
+[2021.06.04-15.26.33:177][915]LogTemp: Warning: P=0.000000 Y=84.679245 R=0.000000
+[2021.06.04-15.26.33:177][915]LogTemp: Warning: Yaw is : 84.679245
+[2021.06.04-15.26.33:185][916]LogTemp: Warning: P=0.000000 Y=84.785652 R=0.000000
+[2021.06.04-15.26.33:185][916]LogTemp: Warning: Yaw is : 84.785652
+[2021.06.04-15.26.33:193][917]LogTemp: Warning: P=0.000000 Y=84.889915 R=0.000000
+[2021.06.04-15.26.33:193][917]LogTemp: Warning: Yaw is : 84.889915
+[2021.06.04-15.26.33:202][918]LogTemp: Warning: P=0.000000 Y=84.992104 R=0.000000
+[2021.06.04-15.26.33:202][918]LogTemp: Warning: Yaw is : 84.992104
+[2021.06.04-15.26.33:210][919]LogTemp: Warning: P=0.000000 Y=85.092247 R=0.000000
+[2021.06.04-15.26.33:210][919]LogTemp: Warning: Yaw is : 85.092247
+[2021.06.04-15.26.33:218][920]LogTemp: Warning: P=0.000000 Y=85.190399 R=0.000000
+[2021.06.04-15.26.33:218][920]LogTemp: Warning: Yaw is : 85.190399
+[2021.06.04-15.26.33:226][921]LogTemp: Warning: P=0.000000 Y=85.286583 R=0.000000
+[2021.06.04-15.26.33:226][921]LogTemp: Warning: Yaw is : 85.286583
+[2021.06.04-15.26.33:235][922]LogTemp: Warning: P=0.000000 Y=85.380829 R=0.000000
+[2021.06.04-15.26.33:235][922]LogTemp: Warning: Yaw is : 85.380829
+[2021.06.04-15.26.33:243][923]LogTemp: Warning: P=0.000000 Y=85.473213 R=0.000000
+[2021.06.04-15.26.33:243][923]LogTemp: Warning: Yaw is : 85.473213
+[2021.06.04-15.26.33:251][924]LogTemp: Warning: P=0.000000 Y=85.563751 R=0.000000
+[2021.06.04-15.26.33:251][924]LogTemp: Warning: Yaw is : 85.563751
+[2021.06.04-15.26.33:260][925]LogTemp: Warning: P=0.000000 Y=85.652458 R=0.000000
+[2021.06.04-15.26.33:260][925]LogTemp: Warning: Yaw is : 85.652458
+[2021.06.04-15.26.33:268][926]LogTemp: Warning: P=0.000000 Y=85.739395 R=0.000000
+[2021.06.04-15.26.33:268][926]LogTemp: Warning: Yaw is : 85.739395
+[2021.06.04-15.26.33:276][927]LogTemp: Warning: P=0.000000 Y=85.824593 R=0.000000
+[2021.06.04-15.26.33:276][927]LogTemp: Warning: Yaw is : 85.824593
+[2021.06.04-15.26.33:285][928]LogTemp: Warning: P=0.000000 Y=85.908096 R=0.000000
+[2021.06.04-15.26.33:285][928]LogTemp: Warning: Yaw is : 85.908096
+[2021.06.04-15.26.33:293][929]LogTemp: Warning: P=0.000000 Y=85.989929 R=0.000000
+[2021.06.04-15.26.33:293][929]LogTemp: Warning: Yaw is : 85.989929
+[2021.06.04-15.26.33:301][930]LogTemp: Warning: P=0.000000 Y=86.070122 R=0.000000
+[2021.06.04-15.26.33:301][930]LogTemp: Warning: Yaw is : 86.070122
+[2021.06.04-15.26.33:310][931]LogTemp: Warning: P=0.000000 Y=86.148712 R=0.000000
+[2021.06.04-15.26.33:310][931]LogTemp: Warning: Yaw is : 86.148712
+[2021.06.04-15.26.33:318][932]LogTemp: Warning: P=0.000000 Y=86.225716 R=0.000000
+[2021.06.04-15.26.33:318][932]LogTemp: Warning: Yaw is : 86.225716
+[2021.06.04-15.26.33:326][933]LogTemp: Warning: P=0.000000 Y=86.301201 R=0.000000
+[2021.06.04-15.26.33:326][933]LogTemp: Warning: Yaw is : 86.301201
+[2021.06.04-15.26.33:335][934]LogTemp: Warning: P=0.000000 Y=86.375153 R=0.000000
+[2021.06.04-15.26.33:335][934]LogTemp: Warning: Yaw is : 86.375153
+[2021.06.04-15.26.33:343][935]LogTemp: Warning: P=0.000000 Y=86.447647 R=0.000000
+[2021.06.04-15.26.33:343][935]LogTemp: Warning: Yaw is : 86.447647
+[2021.06.04-15.26.33:352][936]LogTemp: Warning: P=0.000000 Y=86.518677 R=0.000000
+[2021.06.04-15.26.33:352][936]LogTemp: Warning: Yaw is : 86.518677
+[2021.06.04-15.26.33:360][937]LogTemp: Warning: P=0.000000 Y=86.588287 R=0.000000
+[2021.06.04-15.26.33:360][937]LogTemp: Warning: Yaw is : 86.588287
+[2021.06.04-15.26.33:368][938]LogTemp: Warning: P=0.000000 Y=86.656525 R=0.000000
+[2021.06.04-15.26.33:368][938]LogTemp: Warning: Yaw is : 86.656525
+[2021.06.04-15.26.33:377][939]LogTemp: Warning: P=0.000000 Y=86.723381 R=0.000000
+[2021.06.04-15.26.33:377][939]LogTemp: Warning: Yaw is : 86.723381
+[2021.06.04-15.26.33:385][940]LogTemp: Warning: P=0.000000 Y=86.788910 R=0.000000
+[2021.06.04-15.26.33:385][940]LogTemp: Warning: Yaw is : 86.788910
+[2021.06.04-15.26.33:393][941]LogTemp: Warning: P=0.000000 Y=86.853119 R=0.000000
+[2021.06.04-15.26.33:393][941]LogTemp: Warning: Yaw is : 86.853119
+[2021.06.04-15.26.33:402][942]LogTemp: Warning: P=0.000000 Y=86.916054 R=0.000000
+[2021.06.04-15.26.33:402][942]LogTemp: Warning: Yaw is : 86.916054
+[2021.06.04-15.26.33:410][943]LogTemp: Warning: P=0.000000 Y=86.977707 R=0.000000
+[2021.06.04-15.26.33:410][943]LogTemp: Warning: Yaw is : 86.977707
+[2021.06.04-15.26.33:418][944]LogTemp: Warning: P=0.000000 Y=87.038155 R=0.000000
+[2021.06.04-15.26.33:418][944]LogTemp: Warning: Yaw is : 87.038155
+[2021.06.04-15.26.33:427][945]LogTemp: Warning: P=0.000000 Y=87.097389 R=0.000000
+[2021.06.04-15.26.33:427][945]LogTemp: Warning: Yaw is : 87.097389
+[2021.06.04-15.26.33:434][946]LogTemp: Warning: P=0.000000 Y=87.155441 R=0.000000
+[2021.06.04-15.26.33:434][946]LogTemp: Warning: Yaw is : 87.155441
+[2021.06.04-15.26.33:443][947]LogTemp: Warning: P=0.000000 Y=87.212334 R=0.000000
+[2021.06.04-15.26.33:443][947]LogTemp: Warning: Yaw is : 87.212334
+[2021.06.04-15.26.33:451][948]LogTemp: Warning: P=0.000000 Y=87.268089 R=0.000000
+[2021.06.04-15.26.33:451][948]LogTemp: Warning: Yaw is : 87.268089
+[2021.06.04-15.26.33:459][949]LogTemp: Warning: P=0.000000 Y=87.322731 R=0.000000
+[2021.06.04-15.26.33:459][949]LogTemp: Warning: Yaw is : 87.322731
+[2021.06.04-15.26.33:468][950]LogTemp: Warning: P=0.000000 Y=87.376274 R=0.000000
+[2021.06.04-15.26.33:468][950]LogTemp: Warning: Yaw is : 87.376274
+[2021.06.04-15.26.33:476][951]LogTemp: Warning: P=0.000000 Y=87.428749 R=0.000000
+[2021.06.04-15.26.33:476][951]LogTemp: Warning: Yaw is : 87.428749
+[2021.06.04-15.26.33:484][952]LogTemp: Warning: P=0.000000 Y=87.480164 R=0.000000
+[2021.06.04-15.26.33:484][952]LogTemp: Warning: Yaw is : 87.480164
+[2021.06.04-15.26.33:493][953]LogTemp: Warning: P=0.000000 Y=87.530563 R=0.000000
+[2021.06.04-15.26.33:493][953]LogTemp: Warning: Yaw is : 87.530563
+[2021.06.04-15.26.33:501][954]LogTemp: Warning: P=0.000000 Y=87.579948 R=0.000000
+[2021.06.04-15.26.33:501][954]LogTemp: Warning: Yaw is : 87.579948
+[2021.06.04-15.26.33:509][955]LogTemp: Warning: P=0.000000 Y=87.628334 R=0.000000
+[2021.06.04-15.26.33:509][955]LogTemp: Warning: Yaw is : 87.628334
+[2021.06.04-15.26.33:518][956]LogTemp: Warning: P=0.000000 Y=87.675758 R=0.000000
+[2021.06.04-15.26.33:518][956]LogTemp: Warning: Yaw is : 87.675758
+[2021.06.04-15.26.33:526][957]LogTemp: Warning: P=0.000000 Y=87.722244 R=0.000000
+[2021.06.04-15.26.33:526][957]LogTemp: Warning: Yaw is : 87.722244
+[2021.06.04-15.26.33:537][958]LogTemp: Warning: P=0.000000 Y=87.767799 R=0.000000
+[2021.06.04-15.26.33:537][958]LogTemp: Warning: Yaw is : 87.767799
+[2021.06.04-15.26.33:547][959]LogTemp: Warning: P=0.000000 Y=87.812447 R=0.000000
+[2021.06.04-15.26.33:547][959]LogTemp: Warning: Yaw is : 87.812447
+[2021.06.04-15.26.33:557][960]LogTemp: Warning: P=0.000000 Y=87.856201 R=0.000000
+[2021.06.04-15.26.33:557][960]LogTemp: Warning: Yaw is : 87.856201
+[2021.06.04-15.26.33:564][961]LogTemp: Warning: P=0.000000 Y=87.899071 R=0.000000
+[2021.06.04-15.26.33:564][961]LogTemp: Warning: Yaw is : 87.899071
+[2021.06.04-15.26.33:572][962]LogTemp: Warning: P=0.000000 Y=87.941086 R=0.000000
+[2021.06.04-15.26.33:572][962]LogTemp: Warning: Yaw is : 87.941086
+[2021.06.04-15.26.33:581][963]LogTemp: Warning: P=0.000000 Y=87.982254 R=0.000000
+[2021.06.04-15.26.33:581][963]LogTemp: Warning: Yaw is : 87.982254
+[2021.06.04-15.26.33:589][964]LogTemp: Warning: P=0.000000 Y=88.022606 R=0.000000
+[2021.06.04-15.26.33:589][964]LogTemp: Warning: Yaw is : 88.022606
+[2021.06.04-15.26.33:598][965]LogTemp: Warning: P=0.000000 Y=88.062134 R=0.000000
+[2021.06.04-15.26.33:598][965]LogTemp: Warning: Yaw is : 88.062134
+[2021.06.04-15.26.33:605][966]LogTemp: Warning: P=0.000000 Y=88.100883 R=0.000000
+[2021.06.04-15.26.33:605][966]LogTemp: Warning: Yaw is : 88.100883
+[2021.06.04-15.26.33:613][967]LogTemp: Warning: P=0.000000 Y=88.138870 R=0.000000
+[2021.06.04-15.26.33:613][967]LogTemp: Warning: Yaw is : 88.138870
+[2021.06.04-15.26.33:622][968]LogTemp: Warning: P=0.000000 Y=88.176079 R=0.000000
+[2021.06.04-15.26.33:622][968]LogTemp: Warning: Yaw is : 88.176079
+[2021.06.04-15.26.33:630][969]LogTemp: Warning: P=0.000000 Y=88.212547 R=0.000000
+[2021.06.04-15.26.33:630][969]LogTemp: Warning: Yaw is : 88.212547
+[2021.06.04-15.26.33:638][970]LogTemp: Warning: P=0.000000 Y=88.248291 R=0.000000
+[2021.06.04-15.26.33:638][970]LogTemp: Warning: Yaw is : 88.248291
+[2021.06.04-15.26.33:646][971]LogTemp: Warning: P=0.000000 Y=88.283310 R=0.000000
+[2021.06.04-15.26.33:646][971]LogTemp: Warning: Yaw is : 88.283310
+[2021.06.04-15.26.33:656][972]LogTemp: Warning: P=0.000000 Y=88.317635 R=0.000000
+[2021.06.04-15.26.33:656][972]LogTemp: Warning: Yaw is : 88.317635
+[2021.06.04-15.26.33:664][973]LogTemp: Warning: P=0.000000 Y=88.351273 R=0.000000
+[2021.06.04-15.26.33:664][973]LogTemp: Warning: Yaw is : 88.351273
+[2021.06.04-15.26.33:672][974]LogTemp: Warning: P=0.000000 Y=88.384247 R=0.000000
+[2021.06.04-15.26.33:672][974]LogTemp: Warning: Yaw is : 88.384247
+[2021.06.04-15.26.33:681][975]LogTemp: Warning: P=0.000000 Y=88.416565 R=0.000000
+[2021.06.04-15.26.33:681][975]LogTemp: Warning: Yaw is : 88.416565
+[2021.06.04-15.26.33:689][976]LogTemp: Warning: P=0.000000 Y=88.448219 R=0.000000
+[2021.06.04-15.26.33:689][976]LogTemp: Warning: Yaw is : 88.448219
+[2021.06.04-15.26.33:697][977]LogTemp: Warning: P=0.000000 Y=88.479233 R=0.000000
+[2021.06.04-15.26.33:697][977]LogTemp: Warning: Yaw is : 88.479233
+[2021.06.04-15.26.33:706][978]LogTemp: Warning: P=0.000000 Y=88.509636 R=0.000000
+[2021.06.04-15.26.33:706][978]LogTemp: Warning: Yaw is : 88.509636
+[2021.06.04-15.26.33:714][979]LogTemp: Warning: P=0.000000 Y=88.539429 R=0.000000
+[2021.06.04-15.26.33:714][979]LogTemp: Warning: Yaw is : 88.539429
+[2021.06.04-15.26.33:723][980]LogTemp: Warning: P=0.000000 Y=88.568642 R=0.000000
+[2021.06.04-15.26.33:723][980]LogTemp: Warning: Yaw is : 88.568642
+[2021.06.04-15.26.33:731][981]LogTemp: Warning: P=0.000000 Y=88.597244 R=0.000000
+[2021.06.04-15.26.33:731][981]LogTemp: Warning: Yaw is : 88.597244
+[2021.06.04-15.26.33:739][982]LogTemp: Warning: P=0.000000 Y=88.625290 R=0.000000
+[2021.06.04-15.26.33:739][982]LogTemp: Warning: Yaw is : 88.625290
+[2021.06.04-15.26.33:747][983]LogTemp: Warning: P=0.000000 Y=88.652786 R=0.000000
+[2021.06.04-15.26.33:748][983]LogTemp: Warning: Yaw is : 88.652786
+[2021.06.04-15.26.33:756][984]LogTemp: Warning: P=0.000000 Y=88.679726 R=0.000000
+[2021.06.04-15.26.33:756][984]LogTemp: Warning: Yaw is : 88.679726
+[2021.06.04-15.26.33:764][985]LogTemp: Warning: P=0.000000 Y=88.706131 R=0.000000
+[2021.06.04-15.26.33:764][985]LogTemp: Warning: Yaw is : 88.706131
+[2021.06.04-15.26.33:772][986]LogTemp: Warning: P=0.000000 Y=88.732010 R=0.000000
+[2021.06.04-15.26.33:772][986]LogTemp: Warning: Yaw is : 88.732010
+[2021.06.04-15.26.33:780][987]LogTemp: Warning: P=0.000000 Y=88.757370 R=0.000000
+[2021.06.04-15.26.33:780][987]LogTemp: Warning: Yaw is : 88.757370
+[2021.06.04-15.26.33:789][988]LogTemp: Warning: P=0.000000 Y=88.782219 R=0.000000
+[2021.06.04-15.26.33:789][988]LogTemp: Warning: Yaw is : 88.782219
+[2021.06.04-15.26.33:797][989]LogTemp: Warning: P=0.000000 Y=88.806564 R=0.000000
+[2021.06.04-15.26.33:797][989]LogTemp: Warning: Yaw is : 88.806564
+[2021.06.04-15.26.33:805][990]LogTemp: Warning: P=0.000000 Y=88.830444 R=0.000000
+[2021.06.04-15.26.33:805][990]LogTemp: Warning: Yaw is : 88.830444
+[2021.06.04-15.26.33:814][991]LogTemp: Warning: P=0.000000 Y=88.853821 R=0.000000
+[2021.06.04-15.26.33:814][991]LogTemp: Warning: Yaw is : 88.853821
+[2021.06.04-15.26.33:822][992]LogTemp: Warning: P=0.000000 Y=88.876732 R=0.000000
+[2021.06.04-15.26.33:822][992]LogTemp: Warning: Yaw is : 88.876732
+[2021.06.04-15.26.33:831][993]LogTemp: Warning: P=0.000000 Y=88.899185 R=0.000000
+[2021.06.04-15.26.33:831][993]LogTemp: Warning: Yaw is : 88.899185
+[2021.06.04-15.26.33:839][994]LogTemp: Warning: P=0.000000 Y=88.921181 R=0.000000
+[2021.06.04-15.26.33:839][994]LogTemp: Warning: Yaw is : 88.921181
+[2021.06.04-15.26.33:847][995]LogTemp: Warning: P=0.000000 Y=88.942749 R=0.000000
+[2021.06.04-15.26.33:847][995]LogTemp: Warning: Yaw is : 88.942749
+[2021.06.04-15.26.33:855][996]LogTemp: Warning: P=0.000000 Y=88.963890 R=0.000000
+[2021.06.04-15.26.33:855][996]LogTemp: Warning: Yaw is : 88.963890
+[2021.06.04-15.26.33:863][997]LogTemp: Warning: P=0.000000 Y=88.984612 R=0.000000
+[2021.06.04-15.26.33:864][997]LogTemp: Warning: Yaw is : 88.984612
+[2021.06.04-15.26.33:872][998]LogTemp: Warning: P=0.000000 Y=89.004921 R=0.000000
+[2021.06.04-15.26.33:872][998]LogTemp: Warning: Yaw is : 89.004921
+[2021.06.04-15.26.33:880][999]LogTemp: Warning: P=0.000000 Y=89.024811 R=0.000000
+[2021.06.04-15.26.33:880][999]LogTemp: Warning: Yaw is : 89.024811
+[2021.06.04-15.26.33:889][  0]LogTemp: Warning: P=0.000000 Y=89.044296 R=0.000000
+[2021.06.04-15.26.33:889][  0]LogTemp: Warning: Yaw is : 89.044296
+[2021.06.04-15.26.33:897][  1]LogTemp: Warning: P=0.000000 Y=89.063408 R=0.000000
+[2021.06.04-15.26.33:897][  1]LogTemp: Warning: Yaw is : 89.063408
+[2021.06.04-15.26.33:908][  2]LogTemp: Warning: P=0.000000 Y=89.082123 R=0.000000
+[2021.06.04-15.26.33:908][  2]LogTemp: Warning: Yaw is : 89.082123
+[2021.06.04-15.26.33:914][  3]LogTemp: Warning: P=0.000000 Y=89.100479 R=0.000000
+[2021.06.04-15.26.33:914][  3]LogTemp: Warning: Yaw is : 89.100479
+[2021.06.04-15.26.33:923][  4]LogTemp: Warning: P=0.000000 Y=89.118469 R=0.000000
+[2021.06.04-15.26.33:923][  4]LogTemp: Warning: Yaw is : 89.118469
+[2021.06.04-15.26.33:931][  5]LogTemp: Warning: P=0.000000 Y=89.136093 R=0.000000
+[2021.06.04-15.26.33:931][  5]LogTemp: Warning: Yaw is : 89.136093
+[2021.06.04-15.26.33:939][  6]LogTemp: Warning: P=0.000000 Y=89.153358 R=0.000000
+[2021.06.04-15.26.33:939][  6]LogTemp: Warning: Yaw is : 89.153358
+[2021.06.04-15.26.33:948][  7]LogTemp: Warning: P=0.000000 Y=89.170280 R=0.000000
+[2021.06.04-15.26.33:948][  7]LogTemp: Warning: Yaw is : 89.170280
+[2021.06.04-15.26.33:956][  8]LogTemp: Warning: P=0.000000 Y=89.186859 R=0.000000
+[2021.06.04-15.26.33:956][  8]LogTemp: Warning: Yaw is : 89.186859
+[2021.06.04-15.26.33:964][  9]LogTemp: Warning: P=0.000000 Y=89.203110 R=0.000000
+[2021.06.04-15.26.33:964][  9]LogTemp: Warning: Yaw is : 89.203110
+[2021.06.04-15.26.33:972][ 10]LogTemp: Warning: P=0.000000 Y=89.219048 R=0.000000
+[2021.06.04-15.26.33:972][ 10]LogTemp: Warning: Yaw is : 89.219048
+[2021.06.04-15.26.33:980][ 11]LogTemp: Warning: P=0.000000 Y=89.234665 R=0.000000
+[2021.06.04-15.26.33:980][ 11]LogTemp: Warning: Yaw is : 89.234665
+[2021.06.04-15.26.33:989][ 12]LogTemp: Warning: P=0.000000 Y=89.249954 R=0.000000
+[2021.06.04-15.26.33:989][ 12]LogTemp: Warning: Yaw is : 89.249954
+[2021.06.04-15.26.33:997][ 13]LogTemp: Warning: P=0.000000 Y=89.264954 R=0.000000
+[2021.06.04-15.26.33:997][ 13]LogTemp: Warning: Yaw is : 89.264954
+[2021.06.04-15.26.34:005][ 14]LogTemp: Warning: P=0.000000 Y=89.279655 R=0.000000
+[2021.06.04-15.26.34:005][ 14]LogTemp: Warning: Yaw is : 89.279655
+[2021.06.04-15.26.34:013][ 15]LogTemp: Warning: P=0.000000 Y=89.294060 R=0.000000
+[2021.06.04-15.26.34:013][ 15]LogTemp: Warning: Yaw is : 89.294060
+[2021.06.04-15.26.34:022][ 16]LogTemp: Warning: P=0.000000 Y=89.308182 R=0.000000
+[2021.06.04-15.26.34:022][ 16]LogTemp: Warning: Yaw is : 89.308182
+[2021.06.04-15.26.34:030][ 17]LogTemp: Warning: P=0.000000 Y=89.322021 R=0.000000
+[2021.06.04-15.26.34:030][ 17]LogTemp: Warning: Yaw is : 89.322021
+[2021.06.04-15.26.34:038][ 18]LogTemp: Warning: P=0.000000 Y=89.335571 R=0.000000
+[2021.06.04-15.26.34:038][ 18]LogTemp: Warning: Yaw is : 89.335571
+[2021.06.04-15.26.34:047][ 19]LogTemp: Warning: P=0.000000 Y=89.348862 R=0.000000
+[2021.06.04-15.26.34:047][ 19]LogTemp: Warning: Yaw is : 89.348862
+[2021.06.04-15.26.34:055][ 20]LogTemp: Warning: P=0.000000 Y=89.361885 R=0.000000
+[2021.06.04-15.26.34:055][ 20]LogTemp: Warning: Yaw is : 89.361885
+[2021.06.04-15.26.34:063][ 21]LogTemp: Warning: P=0.000000 Y=89.374649 R=0.000000
+[2021.06.04-15.26.34:063][ 21]LogTemp: Warning: Yaw is : 89.374649
+[2021.06.04-15.26.34:072][ 22]LogTemp: Warning: P=0.000000 Y=89.387146 R=0.000000
+[2021.06.04-15.26.34:072][ 22]LogTemp: Warning: Yaw is : 89.387146
+[2021.06.04-15.26.34:080][ 23]LogTemp: Warning: P=0.000000 Y=89.399406 R=0.000000
+[2021.06.04-15.26.34:080][ 23]LogTemp: Warning: Yaw is : 89.399406
+[2021.06.04-15.26.34:089][ 24]LogTemp: Warning: P=0.000000 Y=89.411415 R=0.000000
+[2021.06.04-15.26.34:089][ 24]LogTemp: Warning: Yaw is : 89.411415
+[2021.06.04-15.26.34:097][ 25]LogTemp: Warning: P=0.000000 Y=89.423180 R=0.000000
+[2021.06.04-15.26.34:097][ 25]LogTemp: Warning: Yaw is : 89.423180
+[2021.06.04-15.26.34:106][ 26]LogTemp: Warning: P=0.000000 Y=89.434700 R=0.000000
+[2021.06.04-15.26.34:106][ 26]LogTemp: Warning: Yaw is : 89.434700
+[2021.06.04-15.26.34:114][ 27]LogTemp: Warning: P=0.000000 Y=89.446007 R=0.000000
+[2021.06.04-15.26.34:114][ 27]LogTemp: Warning: Yaw is : 89.446007
+[2021.06.04-15.26.34:122][ 28]LogTemp: Warning: P=0.000000 Y=89.457069 R=0.000000
+[2021.06.04-15.26.34:122][ 28]LogTemp: Warning: Yaw is : 89.457069
+[2021.06.04-15.26.34:130][ 29]LogTemp: Warning: P=0.000000 Y=89.467918 R=0.000000
+[2021.06.04-15.26.34:130][ 29]LogTemp: Warning: Yaw is : 89.467918
+[2021.06.04-15.26.34:139][ 30]LogTemp: Warning: P=0.000000 Y=89.478539 R=0.000000
+[2021.06.04-15.26.34:139][ 30]LogTemp: Warning: Yaw is : 89.478539
+[2021.06.04-15.26.34:147][ 31]LogTemp: Warning: P=0.000000 Y=89.488968 R=0.000000
+[2021.06.04-15.26.34:147][ 31]LogTemp: Warning: Yaw is : 89.488968
+[2021.06.04-15.26.34:155][ 32]LogTemp: Warning: P=0.000000 Y=89.499191 R=0.000000
+[2021.06.04-15.26.34:155][ 32]LogTemp: Warning: Yaw is : 89.499191
+[2021.06.04-15.26.34:164][ 33]LogTemp: Warning: P=0.000000 Y=89.509193 R=0.000000
+[2021.06.04-15.26.34:164][ 33]LogTemp: Warning: Yaw is : 89.509193
+[2021.06.04-15.26.34:172][ 34]LogTemp: Warning: P=0.000000 Y=89.519005 R=0.000000
+[2021.06.04-15.26.34:172][ 34]LogTemp: Warning: Yaw is : 89.519005
+[2021.06.04-15.26.34:180][ 35]LogTemp: Warning: P=0.000000 Y=89.528610 R=0.000000
+[2021.06.04-15.26.34:180][ 35]LogTemp: Warning: Yaw is : 89.528610
+[2021.06.04-15.26.34:189][ 36]LogTemp: Warning: P=0.000000 Y=89.538040 R=0.000000
+[2021.06.04-15.26.34:189][ 36]LogTemp: Warning: Yaw is : 89.538040
+[2021.06.04-15.26.34:197][ 37]LogTemp: Warning: P=0.000000 Y=89.547279 R=0.000000
+[2021.06.04-15.26.34:197][ 37]LogTemp: Warning: Yaw is : 89.547279
+[2021.06.04-15.26.34:206][ 38]LogTemp: Warning: P=0.000000 Y=89.556320 R=0.000000
+[2021.06.04-15.26.34:206][ 38]LogTemp: Warning: Yaw is : 89.556320
+[2021.06.04-15.26.34:214][ 39]LogTemp: Warning: P=0.000000 Y=89.565170 R=0.000000
+[2021.06.04-15.26.34:214][ 39]LogTemp: Warning: Yaw is : 89.565170
+[2021.06.04-15.26.34:223][ 40]LogTemp: Warning: P=0.000000 Y=89.573860 R=0.000000
+[2021.06.04-15.26.34:223][ 40]LogTemp: Warning: Yaw is : 89.573860
+[2021.06.04-15.26.34:230][ 41]LogTemp: Warning: P=0.000000 Y=89.582382 R=0.000000
+[2021.06.04-15.26.34:230][ 41]LogTemp: Warning: Yaw is : 89.582382
+[2021.06.04-15.26.34:239][ 42]LogTemp: Warning: P=0.000000 Y=89.590736 R=0.000000
+[2021.06.04-15.26.34:240][ 42]LogTemp: Warning: Yaw is : 89.590736
+[2021.06.04-15.26.34:248][ 43]LogTemp: Warning: P=0.000000 Y=89.598907 R=0.000000
+[2021.06.04-15.26.34:249][ 43]LogTemp: Warning: Yaw is : 89.598907
+[2021.06.04-15.26.34:271][ 44]LogTemp: Warning: P=0.000000 Y=89.606926 R=0.000000
+[2021.06.04-15.26.34:271][ 44]LogTemp: Warning: Yaw is : 89.606926
+[2021.06.04-15.26.34:292][ 45]LogTemp: Warning: P=0.000000 Y=89.614792 R=0.000000
+[2021.06.04-15.26.34:292][ 45]LogTemp: Warning: Yaw is : 89.614792
+[2021.06.04-15.26.34:305][ 46]LogTemp: Warning: P=0.000000 Y=89.622498 R=0.000000
+[2021.06.04-15.26.34:305][ 46]LogTemp: Warning: Yaw is : 89.622498
+[2021.06.04-15.26.34:319][ 47]LogTemp: Warning: P=0.000000 Y=89.630051 R=0.000000
+[2021.06.04-15.26.34:319][ 47]LogTemp: Warning: Yaw is : 89.630051
+[2021.06.04-15.26.34:332][ 48]LogTemp: Warning: P=0.000000 Y=89.637436 R=0.000000
+[2021.06.04-15.26.34:333][ 48]LogTemp: Warning: Yaw is : 89.637436
+[2021.06.04-15.26.34:340][ 49]LogTemp: Warning: P=0.000000 Y=89.644676 R=0.000000
+[2021.06.04-15.26.34:340][ 49]LogTemp: Warning: Yaw is : 89.644676
+[2021.06.04-15.26.34:349][ 50]LogTemp: Warning: P=0.000000 Y=89.651764 R=0.000000
+[2021.06.04-15.26.34:349][ 50]LogTemp: Warning: Yaw is : 89.651764
+[2021.06.04-15.26.34:357][ 51]LogTemp: Warning: P=0.000000 Y=89.658730 R=0.000000
+[2021.06.04-15.26.34:357][ 51]LogTemp: Warning: Yaw is : 89.658730
+[2021.06.04-15.26.34:365][ 52]LogTemp: Warning: P=0.000000 Y=89.665558 R=0.000000
+[2021.06.04-15.26.34:365][ 52]LogTemp: Warning: Yaw is : 89.665558
+[2021.06.04-15.26.34:374][ 53]LogTemp: Warning: P=0.000000 Y=89.672249 R=0.000000
+[2021.06.04-15.26.34:374][ 53]LogTemp: Warning: Yaw is : 89.672249
+[2021.06.04-15.26.34:432][ 60]LogTemp: Warning: P=0.000000 Y=89.678802 R=0.000000
+[2021.06.04-15.26.34:432][ 60]LogTemp: Warning: Yaw is : 89.678802
+[2021.06.04-15.26.34:463][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-15.26.34:463][ 60]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.04-15.26.34:463][ 60]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-15.26.34:463][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-15.26.34:469][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-15.26.34:470][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-15.26.34:474][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-15.26.34:474][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.04-15.26.34:475][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.04-15.26.34:489][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.06.04-15.26.34:535][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_9
