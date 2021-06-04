@@ -1298,3 +1298,900 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.04-14.55.32:211][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.06.04-14.55.32:226][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
 [2021.06.04-14.55.32:269][455]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.06.04-15.13.44:252][401]Candidate modules for hot reload:
+[2021.06.04-15.13.44:252][401]  Building_Escape
+[2021.06.04-15.13.44:252][401]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,2033 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.04-15.13.44:255][401]Warning: Starting HotReload took  0.0s.
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: New page: Compilation - Jun 4, 2021, 7:13:51 AM
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 3.5877241 seconds
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.04-15.13.51:254][203]CompilerResultsLog: Building 5 actions with 8 processes...
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:   [1/5] OpenDoor.cpp
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2338: Formatting string must be a TCHAR array.
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2059: syntax error: 'string'
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2143: syntax error: missing ';' before '{'
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2065: 'UE_LOG_EXPAND_IS_FATAL_Warning': undeclared identifier
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2143: syntax error: missing ';' before 'string'
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2143: syntax error: missing ')' before ','
+[2021.06.04-15.13.51:254][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2064: term does not evaluate to a function taking 0 arguments
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2059: syntax error: 'if'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2059: syntax error: ')'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2065: '__LogPoint31': undeclared identifier
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2065: 'LCategoryName': undeclared identifier
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2143: syntax error: missing ')' before 'string'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2065: 'LFormat': undeclared identifier
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2065: 'UE_LOG_Args': undeclared identifier
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C3546: '...': there are no parameter packs available to expand
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2672: 'FMsg::Logf_Internal': no matching overloaded function found
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2780: 'void FMsg::Logf_Internal(const ANSICHAR *,int32,const FLogCategoryName &,ELogVerbosity::Type,const FmtType &,Types...)': expects 6 arguments - 3 provided
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(55): note: see declaration of 'FMsg::Logf_Internal'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2059: syntax error: ','
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C3861: 'GetOwner': identifier not found
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2440: 'initializing': cannot convert from 'FLogCategoryLogTemp' to 'int'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:   W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(31) : error C2143: syntax error: missing ')' before ';'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(32) : error C2447: '{': missing function header (old-style formal list?)
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(40) : error C2059: syntax error: '}'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:    W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(40) : error C2143: syntax error: missing ';' before '}'
+[2021.06.04-15.13.51:255][203]CompilerResultsLog:   [2/5] OpenDoor.gen.cpp
+[2021.06.04-15.13.51:255][203]LogMainFrame: MainFrame: Module compiling took 7.010 seconds
+[2021.06.04-15.13.51:269][203]Warning: HotReload failed, recompile failed
+[2021.06.04-15.13.53:873][494]LogSlate: Took 0.007881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.04-15.16.11:058][293]LogSlate: Window 'Message Log' being destroyed
+[2021.06.04-15.16.11:070][293]LogSlate: Window 'Message Log' being destroyed
+[2021.06.04-15.16.12:285][434]Candidate modules for hot reload:
+[2021.06.04-15.16.12:285][434]  Building_Escape
+[2021.06.04-15.16.12:285][434]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,7585 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.04-15.16.12:288][434]Warning: Starting HotReload took  0.0s.
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: New page: Compilation - Jun 4, 2021, 7:16:15 AM
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.04-15.16.15:592][791]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2021.06.04-15.16.15:592][791]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-7585.lib
+[2021.06.04-15.16.15:592][791]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-7585.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-7585.exp
+[2021.06.04-15.16.15:592][791]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-7585.dll
+[2021.06.04-15.16.15:592][791]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-7585.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-7585.suppressed.exp
+[2021.06.04-15.16.15:592][791]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Total time in Parallel executor: 1.41 seconds
+[2021.06.04-15.16.15:592][791]CompilerResultsLog: Total execution time: 3.22 seconds
+[2021.06.04-15.16.15:592][791]LogMainFrame: MainFrame: Module compiling took 3.311 seconds
+[2021.06.04-15.16.15:615][791]LogClass: Could not find existing class OpenDoor in package /Script/Building_Escape for HotReload, assuming new class
+[2021.06.04-15.16.15:618][791]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2021.06.04-15.16.15:625][791]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.04-15.16.15:626][791]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.04-15.16.15:657][791]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3604 classes and 861 folders.
+[2021.06.04-15.16.15:657][791]Display: HotReload took  3.4s.
+[2021.06.04-15.16.20:716][364]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.04-15.16.20:720][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.04-15.16.20:721][364]PIE: New page: PIE session: Building_Escape (Jun 4, 2021, 7:16:20 AM)
+[2021.06.04-15.16.20:754][364]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.04-15.16.20:759][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005612s)
+[2021.06.04-15.16.20:760][364]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.04-15.16.20:761][364]LogPlayLevel: PIE: World Init took: (0.000994s)
+[2021.06.04-15.16.20:761][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006777s)
+[2021.06.04-15.16.20:765][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.04-15.16.20:767][364]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.04-15.16.20:767][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.04-15.16.20:767][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.04-15.16.20:768][364]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.04-15.16.20:768][364]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.04-15.16.20:771][364]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.04-15.16.20:771][364]LogAudioMixer: Display: 1: FrontRight
+[2021.06.04-15.16.20:777][364]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.04-15.16.20:778][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.04-15.16.20:778][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.04-15.16.20:778][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.04-15.16.20:778][364]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.04-15.16.20:778][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.04-15.16.20:778][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.04-15.16.20:790][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.04-15.16.20:790][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.04-15.16.20:790][364]LogInit: FAudioDevice initialized.
+[2021.06.04-15.16.20:790][364]LogAudio: Display: Audio Device (ID: 5) registered with world 'Building_Escape'.
+[2021.06.04-15.16.20:798][364]LogLoad: Game class is 'GameModeBase'
+[2021.06.04-15.16.20:800][364]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.04-11.16.20
+[2021.06.04-15.16.20:800][364]LogWorld: Bringing up level for play took: 0.000765
+[2021.06.04-15.16.20:800][364]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.06.04-15.16.20:802][364]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-230.000 Z=110.000
+[2021.06.04-15.16.20:802][364]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.04-15.16.20:802][364]PIE: Server logged in
+[2021.06.04-15.16.20:802][364]PIE: Play in editor total start time 0.083 seconds.
+[2021.06.04-15.16.20:803][364]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:803][364]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:824][365]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:824][365]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:831][366]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:831][366]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:840][367]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:840][367]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:848][368]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:848][368]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:859][369]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:859][369]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:872][370]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:872][370]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:880][371]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:880][371]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:889][372]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:889][372]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:897][373]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:897][373]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:905][374]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:905][374]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:914][375]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:914][375]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:922][376]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:922][376]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:932][377]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:932][377]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:958][378]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:958][378]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:963][379]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:963][379]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:971][380]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:971][380]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:979][381]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:979][381]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:988][382]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:988][382]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.20:996][383]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.20:996][383]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:005][384]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:005][384]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:013][385]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:013][385]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:021][386]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:021][386]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:029][387]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:029][387]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:038][388]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:038][388]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:046][389]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:046][389]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:054][390]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:054][390]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:062][391]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:062][391]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:071][392]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:071][392]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:079][393]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:079][393]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:087][394]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:087][394]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:096][395]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:096][395]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:104][396]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:104][396]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:112][397]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:112][397]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:121][398]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:121][398]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:129][399]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:129][399]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:137][400]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:137][400]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:146][401]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:146][401]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:154][402]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:154][402]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:162][403]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:162][403]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:171][404]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:171][404]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:179][405]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:179][405]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:187][406]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:187][406]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:196][407]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:196][407]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:204][408]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:204][408]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:212][409]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:212][409]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:221][410]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:221][410]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:229][411]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:229][411]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:237][412]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:237][412]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:246][413]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:246][413]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:254][414]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:254][414]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:262][415]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:262][415]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:271][416]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:271][416]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:279][417]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:279][417]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:287][418]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:287][418]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:296][419]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:296][419]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:304][420]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:304][420]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:312][421]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:312][421]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:320][422]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:320][422]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:329][423]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:329][423]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:337][424]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:337][424]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:346][425]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:346][425]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:354][426]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:354][426]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:362][427]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:362][427]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:371][428]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:371][428]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:379][429]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:379][429]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:387][430]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:387][430]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:396][431]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:396][431]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:404][432]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:404][432]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:412][433]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:412][433]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:421][434]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:421][434]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:429][435]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:429][435]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:437][436]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:437][436]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:446][437]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:446][437]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:454][438]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:454][438]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:462][439]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:462][439]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:471][440]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:471][440]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:479][441]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:479][441]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:487][442]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:487][442]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:496][443]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:496][443]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:504][444]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:504][444]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:512][445]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:513][445]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:521][446]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:521][446]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:529][447]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:529][447]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:538][448]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:538][448]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:546][449]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:546][449]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:554][450]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:554][450]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:562][451]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:562][451]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:571][452]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:571][452]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:579][453]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:579][453]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:588][454]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:588][454]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:596][455]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:596][455]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:604][456]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:604][456]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:613][457]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:613][457]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:621][458]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:621][458]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:629][459]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:629][459]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:638][460]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:638][460]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:646][461]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:646][461]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:654][462]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:654][462]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:663][463]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:663][463]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:671][464]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:671][464]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:679][465]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:679][465]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:689][466]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:689][466]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:696][467]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:696][467]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:704][468]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:704][468]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:712][469]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:712][469]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:721][470]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:721][470]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:729][471]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:729][471]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:737][472]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:737][472]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:746][473]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:746][473]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:754][474]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:754][474]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:762][475]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:762][475]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:771][476]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:771][476]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:779][477]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:779][477]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:787][478]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:787][478]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:796][479]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:796][479]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:804][480]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:804][480]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:812][481]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:812][481]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:820][482]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:821][482]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:829][483]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:829][483]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:837][484]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:837][484]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:846][485]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:846][485]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:854][486]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:854][486]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:862][487]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:862][487]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:871][488]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:871][488]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:879][489]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:879][489]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:887][490]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:887][490]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:896][491]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:896][491]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:904][492]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:904][492]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:912][493]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:912][493]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:921][494]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:921][494]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:929][495]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:929][495]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:937][496]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:937][496]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:946][497]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:946][497]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:954][498]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:954][498]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:962][499]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:962][499]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:971][500]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:971][500]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:979][501]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:979][501]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:987][502]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:987][502]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.21:996][503]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.21:996][503]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:004][504]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:004][504]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:012][505]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:012][505]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:021][506]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:021][506]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:029][507]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:029][507]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:037][508]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:037][508]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:045][509]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:045][509]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:053][510]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:053][510]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:062][511]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:062][511]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:071][512]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:071][512]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:078][513]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:078][513]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:087][514]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:087][514]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:095][515]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:096][515]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:104][516]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:104][516]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:113][517]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:113][517]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:120][518]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:121][518]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:129][519]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:129][519]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:137][520]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:137][520]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:146][521]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:146][521]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:154][522]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:154][522]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:162][523]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:162][523]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:171][524]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:171][524]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:179][525]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:179][525]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:187][526]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:187][526]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:195][527]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:195][527]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:204][528]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:204][528]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:212][529]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:212][529]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:220][530]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:220][530]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:229][531]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:229][531]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:237][532]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:237][532]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:245][533]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:245][533]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:254][534]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:254][534]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:262][535]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:262][535]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:270][536]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:270][536]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:279][537]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:279][537]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:287][538]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:287][538]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:296][539]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:296][539]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:304][540]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:304][540]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:312][541]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:312][541]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:320][542]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:320][542]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:329][543]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:329][543]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:337][544]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:337][544]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:345][545]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:345][545]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:354][546]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:354][546]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:362][547]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:362][547]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:370][548]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:370][548]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:378][549]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:378][549]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:387][550]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:388][550]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:396][551]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:396][551]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:404][552]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:404][552]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:412][553]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:412][553]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:421][554]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:421][554]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:429][555]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:429][555]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:438][556]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:438][556]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:445][557]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:445][557]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:453][558]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:453][558]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:462][559]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:462][559]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:470][560]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:470][560]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:478][561]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:478][561]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:487][562]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:487][562]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:496][563]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:496][563]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:504][564]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:504][564]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:513][565]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:513][565]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:521][566]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:521][566]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:528][567]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:528][567]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:537][568]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:537][568]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:545][569]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:545][569]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:554][570]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:554][570]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:562][571]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:562][571]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:570][572]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:570][572]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:578][573]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:579][573]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:587][574]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:587][574]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:596][575]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:596][575]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:604][576]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:604][576]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:612][577]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:612][577]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:621][578]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:621][578]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:629][579]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:629][579]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:637][580]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:637][580]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:646][581]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:646][581]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:654][582]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:654][582]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:664][583]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:664][583]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:671][584]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:671][584]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:679][585]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:679][585]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:687][586]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:687][586]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:696][587]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:696][587]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:705][588]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:705][588]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:712][589]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:712][589]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:722][590]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:722][590]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:729][591]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:729][591]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:737][592]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:737][592]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:745][593]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:745][593]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:753][594]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:753][594]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:763][595]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:763][595]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:770][596]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:770][596]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:779][597]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:779][597]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:787][598]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:787][598]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:795][599]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:796][599]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:804][600]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:804][600]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:813][601]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:813][601]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:821][602]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:821][602]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:829][603]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:830][603]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:838][604]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:838][604]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:846][605]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:846][605]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:854][606]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:854][606]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:862][607]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:862][607]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:871][608]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:871][608]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:879][609]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:879][609]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:887][610]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:887][610]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:895][611]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:895][611]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:904][612]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:904][612]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:912][613]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:912][613]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:920][614]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:920][614]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:929][615]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:929][615]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:937][616]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:937][616]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:945][617]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:945][617]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:954][618]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:954][618]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:962][619]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:962][619]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:970][620]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:971][620]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:978][621]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:979][621]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:987][622]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:987][622]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.22:996][623]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.22:996][623]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:006][624]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:006][624]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:014][625]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:014][625]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:023][626]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:023][626]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:031][627]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:031][627]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:040][628]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:040][628]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:053][629]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:053][629]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:062][630]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:062][630]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:070][631]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:070][631]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:078][632]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:078][632]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:086][633]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:086][633]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:094][634]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:094][634]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:103][635]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:103][635]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:111][636]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:111][636]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:119][637]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:119][637]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:128][638]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:128][638]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:136][639]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:136][639]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:144][640]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:144][640]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:153][641]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:153][641]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:161][642]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:161][642]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:169][643]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:169][643]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:178][644]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:178][644]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:186][645]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:186][645]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:194][646]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:194][646]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:203][647]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:203][647]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:211][648]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:212][648]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:220][649]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:220][649]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:228][650]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:228][650]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:236][651]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:237][651]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:245][652]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:245][652]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:253][653]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:253][653]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:261][654]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:262][654]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:270][655]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:270][655]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:278][656]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:278][656]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:287][657]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:287][657]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:294][658]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:294][658]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:303][659]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:303][659]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:311][660]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:311][660]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:319][661]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:319][661]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:329][662]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:329][662]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:337][663]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:337][663]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:345][664]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:345][664]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:353][665]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:353][665]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:362][666]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:362][666]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:370][667]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:370][667]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:378][668]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:378][668]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:387][669]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:387][669]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:395][670]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:395][670]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:403][671]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:403][671]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:412][672]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:412][672]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:420][673]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:420][673]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:428][674]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:428][674]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:437][675]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:437][675]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:445][676]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:445][676]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:453][677]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:453][677]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:462][678]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:462][678]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:470][679]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:470][679]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:478][680]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:478][680]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:487][681]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:487][681]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:495][682]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:495][682]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:503][683]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:504][683]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:512][684]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:512][684]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:520][685]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:520][685]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:529][686]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:529][686]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:537][687]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:537][687]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:545][688]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:545][688]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:553][689]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:553][689]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:562][690]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:562][690]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:570][691]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:570][691]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:578][692]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:578][692]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:587][693]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:587][693]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:595][694]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:595][694]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:603][695]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:603][695]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:612][696]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:612][696]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:620][697]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:620][697]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:628][698]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:628][698]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:637][699]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:637][699]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:644][700]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:645][700]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:653][701]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:653][701]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:661][702]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:661][702]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:669][703]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:669][703]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:678][704]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:678][704]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:686][705]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:686][705]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:694][706]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:694][706]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:703][707]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:703][707]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:711][708]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:711][708]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:719][709]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:720][709]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:728][710]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:728][710]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:736][711]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:736][711]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:744][712]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:744][712]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:753][713]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:753][713]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:761][714]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:761][714]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:769][715]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:770][715]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:778][716]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:778][716]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:786][717]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:786][717]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:794][718]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:794][718]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:803][719]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:803][719]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:811][720]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:811][720]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:819][721]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:820][721]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:828][722]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:828][722]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:837][723]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:837][723]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:844][724]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:844][724]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:853][725]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:853][725]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:861][726]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:861][726]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:869][727]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:869][727]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:878][728]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:878][728]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:886][729]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:886][729]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:895][730]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:895][730]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:904][731]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:904][731]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:912][732]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:912][732]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:920][733]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:920][733]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:929][734]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:929][734]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:937][735]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:937][735]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:945][736]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:945][736]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:954][737]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:954][737]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:962][738]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:962][738]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:970][739]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:970][739]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:978][740]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:978][740]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:986][741]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:986][741]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.23:995][742]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.23:995][742]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:003][743]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:003][743]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:011][744]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:011][744]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:020][745]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:020][745]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:028][746]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:028][746]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:036][747]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:036][747]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:045][748]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:045][748]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:170][763]LogTemp: Warning: P=0.000000 Y=0.000000 R=0.000000
+[2021.06.04-15.16.24:170][763]LogTemp: Warning: Yaw is : 0.000000
+[2021.06.04-15.16.24:205][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-15.16.24:205][763]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.04-15.16.24:205][763]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.04-15.16.24:205][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-15.16.24:209][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.04-15.16.24:210][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.04-15.16.24:214][763]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.04-15.16.24:214][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.04-15.16.24:215][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.04-15.16.24:228][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.04-15.16.24:229][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.04-15.16.24:281][767]LogPlayLevel: Display: Destroying online subsystem :Context_7
