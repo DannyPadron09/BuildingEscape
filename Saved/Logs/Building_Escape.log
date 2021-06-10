@@ -869,3 +869,42 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.10-14.53.35:303][ 21]Binding IntelliSense data... 100%
 [2021.06.10-14.53.35:303][ 21]Writing project files...
 [2021.06.10-14.53.35:806][ 21]Writing project files... 100%
+[2021.06.10-15.03.52:783][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.06.10-15.03.56:144][906]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (TriggerVolume)
+[2021.06.10-15.04.43:344][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.06.10-15.04.43:359][205]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape16DF0F834FF53BCD24BE7F8AE1FAB9B1.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.10-15.04.43:364][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.10-15.04.43:377][205]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltData803FED3B4CB65E7BC95171ABFF5542DC.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.10-15.04.43:402][205]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.10-15.04.43:402][205]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.10-15.04.43:402][205]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.10-15.04.44:562][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.06.10-15.04.47:596][647]Candidate modules for hot reload:
+[2021.06.10-15.04.47:596][647]  Building_Escape
+[2021.06.10-15.04.47:596][647]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,1937 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.10-15.04.47:599][647]Warning: Starting HotReload took  0.0s.
+[2021.06.10-15.04.55:487][549]CompilerResultsLog: New page: Compilation - Jun 10, 2021, 7:04:55 AM
+[2021.06.10-15.04.55:487][549]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.10-15.04.55:487][549]CompilerResultsLog: Creating makefile for Building_EscapeEditor (no existing makefile)
+[2021.06.10-15.04.55:487][549]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.10-15.04.55:487][549]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.10-15.04.55:487][549]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.10-15.04.55:487][549]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2021.06.10-15.04.55:487][549]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-1937.lib
+[2021.06.10-15.04.55:487][549]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1937.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1937.exp
+[2021.06.10-15.04.55:487][549]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-1937.dll
+[2021.06.10-15.04.55:488][549]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1937.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1937.suppressed.exp
+[2021.06.10-15.04.55:488][549]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.10-15.04.55:488][549]CompilerResultsLog: Total time in Parallel executor: 5.90 seconds
+[2021.06.10-15.04.55:488][549]CompilerResultsLog: Total execution time: 7.78 seconds
+[2021.06.10-15.04.55:488][549]LogMainFrame: MainFrame: Module compiling took 7.915 seconds
+[2021.06.10-15.04.55:514][549]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 3 classes and 2 folders.
+[2021.06.10-15.04.55:515][549]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.10-15.04.55:550][549]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0072 seconds. Added 3604 classes and 861 folders.
+[2021.06.10-15.04.55:551][549]Display: HotReload took  8.0s.
+[2021.06.10-15.04.59:010][930]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" -game -rocket -progress
+[2021.06.10-15.04.59:315][930]Discovering modules, targets and source code for project...
+[2021.06.10-15.05.00:322][930]Binding IntelliSense data...
+[2021.06.10-15.05.02:446][930]Binding IntelliSense data... 100%
+[2021.06.10-15.05.02:446][930]Writing project files...
+[2021.06.10-15.05.02:849][930]Writing project files... 100%
