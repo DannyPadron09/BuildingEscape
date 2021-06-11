@@ -1,6 +1,7 @@
 // Daniel Padron 2021
 
-
+#include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
 
@@ -24,6 +25,8 @@ void UOpenDoor::BeginPlay()
 	CurrentYaw = InitialYaw;
 	TargetYaw += InitialYaw;
 
+	OpeningActor = GetWorld()->GetFirstPlayerController()->GetPawn();
+
 }
 
 
@@ -32,7 +35,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (PressurePlate->IsOverlappingActor(OpeningActor))
+	if (DoorTrigger->IsOverlappingActor(OpeningActor))
 	{
 		OpenDoor(DeltaTime);
 	}

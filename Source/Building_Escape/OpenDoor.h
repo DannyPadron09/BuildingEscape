@@ -36,7 +36,7 @@ private:
 
 
 	UPROPERTY(EditAnywhere)
-	ATriggerVolume* PressurePlate;
+	ATriggerVolume* DoorTrigger;
 
 	UPROPERTY(EditAnywhere)
 	AActor* OpeningActor;
