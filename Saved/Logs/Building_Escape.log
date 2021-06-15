@@ -947,3 +947,9 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.15-20.13.04:985][250]Binding IntelliSense data... 100%
 [2021.06.15-20.13.04:985][250]Writing project files...
 [2021.06.15-20.13.05:488][250]Writing project files... 100%
+[2021.06.15-20.22.36:406][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.06.15-20.22.36:422][128]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_Auto16EC759D24155E749B78B6DA4A3C974A6.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Autosaves/Game/Levels/Building_Escape_Auto1.umap'
+[2021.06.15-20.22.36:423][128]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.022
+[2021.06.15-20.22.36:423][128]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2021.06.15-20.32.36:924][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.15-20.32.36:925][922]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
