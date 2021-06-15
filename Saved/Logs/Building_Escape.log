@@ -1323,3 +1323,67 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.15-15.40.48:154][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.06.15-15.40.48:168][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
 [2021.06.15-15.40.48:195][223]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.06.15-15.46.36:385][893]Candidate modules for hot reload:
+[2021.06.15-15.46.36:385][893]  Building_Escape
+[2021.06.15-15.46.36:386][893]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,6531 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-15.46.36:388][893]Warning: Starting HotReload took  0.0s.
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 7:46:47 AM
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.06.15-15.46.47:358][819]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 3.3841416 seconds
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-15.46.47:358][819]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:   [1/6] Building_Escape.init.gen.cpp
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:   [2/6] OpenDoor.cpp
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:   [3/6] OpenDoor.gen.cpp
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:   [4/6] UE4Editor-Building_Escape-6531.lib
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6531.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6531.exp
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:   [5/6] UE4Editor-Building_Escape-6531.dll
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6531.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6531.suppressed.exp
+[2021.06.15-15.46.47:359][819]CompilerResultsLog:   [6/6] Building_EscapeEditor.target
+[2021.06.15-15.46.47:359][819]CompilerResultsLog: Total time in Parallel executor: 1.80 seconds
+[2021.06.15-15.46.47:359][819]CompilerResultsLog: Total execution time: 10.68 seconds
+[2021.06.15-15.46.47:359][819]LogMainFrame: MainFrame: Module compiling took 10.981 seconds
+[2021.06.15-15.46.47:402][819]LogClass: Could not find existing class OpenDoor in package /Script/Building_Escape for HotReload, assuming new class
+[2021.06.15-15.46.47:405][819]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2021.06.15-15.46.47:409][819]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.15-15.46.47:411][819]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.15-15.46.47:440][819]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3604 classes and 861 folders.
+[2021.06.15-15.46.47:440][819]Display: HotReload took 11.1s.
+[2021.06.15-15.50.32:962][146]Candidate modules for hot reload:
+[2021.06.15-15.50.32:962][146]  Building_Escape
+[2021.06.15-15.50.32:962][146]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,6777 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-15.50.32:965][146]Warning: Starting HotReload took  0.0s.
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 7:50:39 AM
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 3.3449338 seconds
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   [1/6] OpenDoor.cpp
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   [2/6] Building_Escape.init.gen.cpp
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   [3/6] OpenDoor.gen.cpp
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   [4/6] UE4Editor-Building_Escape-6777.lib
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6777.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6777.exp
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   [5/6] UE4Editor-Building_Escape-6777.dll
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6777.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-6777.suppressed.exp
+[2021.06.15-15.50.39:839][934]CompilerResultsLog:   [6/6] Building_EscapeEditor.target
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Total time in Parallel executor: 1.66 seconds
+[2021.06.15-15.50.39:839][934]CompilerResultsLog: Total execution time: 6.79 seconds
+[2021.06.15-15.50.39:839][934]LogMainFrame: MainFrame: Module compiling took 6.880 seconds
+[2021.06.15-15.50.39:866][934]LogClass: Could not find existing class OpenDoor in package /Script/Building_Escape for HotReload, assuming new class
+[2021.06.15-15.50.39:870][934]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2021.06.15-15.50.39:873][934]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2021.06.15-15.50.39:874][934]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.15-15.50.39:904][934]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3604 classes and 861 folders.
+[2021.06.15-15.50.39:904][934]Display: HotReload took  6.9s.
+[2021.06.15-15.50.40:873][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Door)
+[2021.06.15-15.50.46:820][659]LogSlate: Took 0.005777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)

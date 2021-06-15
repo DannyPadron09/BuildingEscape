@@ -29,11 +29,11 @@ public:
 
 private:
 
-	float InitialYaw;
+	float ClosedAngle;
 	float CurrentYaw;
 
 	UPROPERTY(EditAnywhere)
-	float TargetYaw = -90.f;
+	float OpenAngle = -90.f;
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* DoorTrigger;
@@ -42,6 +42,14 @@ private:
 	AActor* OpeningActor;
 
 	float DoorLastOpened = 0.f;
+
+	UPROPERTY(EditAnywhere)
 	float CloseDoorDelay = 1.f;
+
+	UPROPERTY(EditAnywhere)
+	float DoorOpenSpeed;
+
+	UPROPERTY(EditAnywhere)
+	float DoorCloseSpeed;
 
 };
