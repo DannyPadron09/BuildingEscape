@@ -1,7 +1,8 @@
 // Daniel Padron 2021
 
-#include "GameFramework/PlayerController.h"
+#include "DrawDebugHelpers.h"
 #include "Engine/World.h"
+#include "GameFramework/PlayerController.h"
 #include "Grabber.h"
 
 // Sets default values for this component's properties
@@ -43,8 +44,18 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	// Draws a line from player outwards displaying Reach
 	FVector LineTraceEnd = PlayerViewPointLocation + FVector(0.f, 0.f, 100.f);
-	
 
+	DrawDebugLine(
+		GetWorld(),
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FColor(0, 0, 255),
+		false,
+		0.f,
+		0,
+		5
+	);
+	
 	// Need to use Ray-cast to a certain distance (Reach)
 
 	// Can see what it hits

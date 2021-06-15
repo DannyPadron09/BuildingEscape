@@ -4994,3 +4994,485 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.15-19.26.11:211][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.06.15-19.26.11:215][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
 [2021.06.15-19.26.11:241][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.06.15-19.36.54:644][839]Candidate modules for hot reload:
+[2021.06.15-19.36.54:644][839]  Building_Escape
+[2021.06.15-19.36.54:644][839]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,73 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-19.36.54:646][839]Warning: Starting HotReload took  0.0s.
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 11:37:06 AM
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (Grabber.cpp modified)
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.15-19.37.06:747][254]CompilerResultsLog:   [1/4] Grabber.cpp
+[2021.06.15-19.37.06:747][254]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-0073.lib
+[2021.06.15-19.37.06:747][254]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0073.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0073.exp
+[2021.06.15-19.37.06:747][254]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-0073.dll
+[2021.06.15-19.37.06:747][254]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0073.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0073.suppressed.exp
+[2021.06.15-19.37.06:747][254]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Total time in Parallel executor: 1.29 seconds
+[2021.06.15-19.37.06:747][254]CompilerResultsLog: Total execution time: 12.02 seconds
+[2021.06.15-19.37.06:747][254]LogMainFrame: MainFrame: Module compiling took 12.107 seconds
+[2021.06.15-19.37.06:760][254]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3605 classes and 861 folders.
+[2021.06.15-19.37.06:760][254]Display: HotReload took 12.1s.
+[2021.06.15-19.37.08:887][470]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.15-19.37.08:891][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.15-19.37.08:891][470]PIE: New page: PIE session: Building_Escape (Jun 15, 2021, 11:37:08 AM)
+[2021.06.15-19.37.08:891][470]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-19.37.08:898][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006567s)
+[2021.06.15-19.37.08:899][470]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.15-19.37.08:899][470]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2021.06.15-19.37.08:899][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007897s)
+[2021.06.15-19.37.08:956][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.06.15-19.37.08:958][470]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.15-19.37.08:958][470]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.15-19.37.08:958][470]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.15-19.37.08:958][470]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.15-19.37.08:961][470]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.15-19.37.08:961][470]LogAudioMixer: Display: 1: FrontRight
+[2021.06.15-19.37.08:969][470]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.15-19.37.08:969][470]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.15-19.37.08:969][470]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.15-19.37.08:969][470]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.15-19.37.08:970][470]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.15-19.37.08:970][470]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.15-19.37.08:970][470]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.15-19.37.08:982][470]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.15-19.37.08:982][470]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.15-19.37.08:982][470]LogInit: FAudioDevice initialized.
+[2021.06.15-19.37.08:982][470]LogAudio: Display: Audio Device (ID: 8) registered with world 'Building_Escape'.
+[2021.06.15-19.37.08:992][470]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.15-19.37.08:994][470]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.15-15.37.08
+[2021.06.15-19.37.08:994][470]LogWorld: Bringing up level for play took: 0.000768
+[2021.06.15-19.37.08:994][470]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.06.15-19.37.08:996][470]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.15-19.37.08:996][470]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.15-19.37.08:996][470]LogTemp: Warning: Grabber is active
+[2021.06.15-19.37.08:996][470]PIE: Server logged in
+[2021.06.15-19.37.08:996][470]PIE: Play in editor total start time 0.106 seconds.
+[2021.06.15-19.37.08:997][470]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999947 R=0.000000
+[2021.06.15-19.37.09:017][471]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:025][472]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:033][473]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:041][474]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:049][475]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:058][476]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:066][477]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:074][478]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:083][479]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:091][480]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:099][481]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:108][482]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:116][483]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:125][484]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:133][485]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:142][486]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:150][487]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:158][488]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:166][489]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:175][490]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:183][491]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:191][492]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:199][493]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:207][494]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:216][495]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:224][496]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:232][497]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:241][498]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:249][499]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:258][500]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:266][501]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:274][502]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:283][503]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:291][504]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:299][505]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:308][506]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:316][507]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:325][508]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:333][509]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:341][510]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:349][511]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:358][512]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:366][513]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:374][514]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:383][515]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:390][516]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:399][517]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:407][518]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:416][519]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:424][520]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:432][521]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:440][522]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:449][523]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:457][524]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:466][525]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:474][526]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:482][527]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:490][528]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:499][529]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:507][530]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:516][531]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:524][532]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:532][533]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:541][534]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:549][535]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:557][536]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:566][537]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:574][538]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:582][539]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:590][540]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:599][541]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:607][542]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:615][543]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:624][544]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:632][545]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:640][546]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:649][547]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:657][548]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:665][549]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:674][550]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:682][551]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:693][552]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:699][553]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:707][554]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:716][555]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:724][556]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:732][557]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:741][558]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:749][559]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:757][560]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:765][561]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:774][562]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:782][563]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:790][564]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:799][565]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:807][566]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:815][567]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:824][568]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:832][569]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:841][570]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:849][571]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:857][572]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:866][573]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:874][574]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:883][575]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:891][576]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:899][577]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:907][578]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:916][579]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:924][580]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:932][581]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:941][582]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:949][583]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:957][584]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:966][585]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:974][586]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:982][587]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.09:991][588]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.10:000][589]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.000000 Y=-49.999916 R=0.000000
+[2021.06.15-19.37.10:008][590]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=0.874913 Y=310.000092 R=0.000000
+[2021.06.15-19.37.10:016][591]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=1.050599 Y=310.175079 R=0.000000
+[2021.06.15-19.37.10:025][592]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=2.122084 Y=310.272491 R=0.000000
+[2021.06.15-19.37.10:033][593]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=3.567621 Y=310.403900 R=0.000000
+[2021.06.15-19.37.10:041][594]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=5.417727 Y=310.688538 R=0.000000
+[2021.06.15-19.37.10:050][595]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=7.460829 Y=310.824738 R=0.000000
+[2021.06.15-19.37.10:059][596]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=9.813728 Y=310.981598 R=0.000000
+[2021.06.15-19.37.10:066][597]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=12.559471 Y=311.126099 R=0.000000
+[2021.06.15-19.37.10:075][598]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=15.349653 Y=311.290222 R=0.000000
+[2021.06.15-19.37.10:083][599]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=18.656351 Y=311.455566 R=0.000000
+[2021.06.15-19.37.10:092][600]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=22.148651 Y=311.788177 R=0.000000
+[2021.06.15-19.37.10:100][601]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=25.755665 Y=311.938477 R=0.000000
+[2021.06.15-19.37.10:108][602]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=29.316654 Y=312.108032 R=0.000000
+[2021.06.15-19.37.10:116][603]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=33.216785 Y=312.108032 R=0.000000
+[2021.06.15-19.37.10:125][604]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=37.135757 Y=312.283020 R=0.000000
+[2021.06.15-19.37.10:133][605]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=40.866318 Y=312.283020 R=0.000000
+[2021.06.15-19.37.10:142][606]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=44.596878 Y=312.458008 R=0.000000
+[2021.06.15-19.37.10:149][607]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=47.954025 Y=312.610596 R=0.000000
+[2021.06.15-19.37.10:158][608]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=50.876442 Y=312.782501 R=0.000000
+[2021.06.15-19.37.10:166][609]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=53.458122 Y=313.298828 R=0.000000
+[2021.06.15-19.37.10:175][610]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=55.773575 Y=313.607544 R=0.000000
+[2021.06.15-19.37.10:183][611]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=57.684700 Y=313.955017 R=0.000000
+[2021.06.15-19.37.10:191][612]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=59.596565 Y=314.476440 R=0.000000
+[2021.06.15-19.37.10:200][613]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=61.307865 Y=314.943146 R=0.000000
+[2021.06.15-19.37.10:208][614]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=63.058041 Y=315.468201 R=0.000000
+[2021.06.15-19.37.10:216][615]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=64.633202 Y=315.818237 R=0.000000
+[2021.06.15-19.37.10:225][616]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=66.197739 Y=316.287598 R=0.000000
+[2021.06.15-19.37.10:233][617]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=67.957375 Y=316.463562 R=0.000000
+[2021.06.15-19.37.10:241][618]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=69.540680 Y=316.815399 R=0.000000
+[2021.06.15-19.37.10:249][619]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=71.111900 Y=316.972534 R=0.000000
+[2021.06.15-19.37.10:258][620]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=72.702126 Y=317.149231 R=0.000000
+[2021.06.15-19.37.10:266][621]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=74.291779 Y=317.325867 R=0.000000
+[2021.06.15-19.37.10:275][622]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=75.704811 Y=317.325867 R=0.000000
+[2021.06.15-19.37.10:283][623]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=77.294464 Y=317.500854 R=0.000000
+[2021.06.15-19.37.10:292][624]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=78.885284 Y=317.500854 R=0.000000
+[2021.06.15-19.37.10:300][625]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=80.455315 Y=317.500854 R=0.000000
+[2021.06.15-19.37.10:308][626]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=82.044968 Y=317.500854 R=0.000000
+[2021.06.15-19.37.10:316][627]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=83.634628 Y=317.500854 R=0.000000
+[2021.06.15-19.37.10:325][628]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=85.361664 Y=317.325867 R=0.000000
+[2021.06.15-19.37.10:333][629]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=87.127365 Y=317.149292 R=0.000000
+[2021.06.15-19.37.10:342][630]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=88.892517 Y=316.972778 R=0.000000
+[2021.06.15-19.37.10:350][631]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=316.815277 R=0.000000
+[2021.06.15-19.37.10:358][632]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=316.815277 R=0.000000
+[2021.06.15-19.37.10:367][633]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=316.815277 R=0.000000
+[2021.06.15-19.37.10:376][634]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=316.815277 R=0.000000
+[2021.06.15-19.37.10:384][635]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=317.165253 R=0.000000
+[2021.06.15-19.37.10:392][636]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=317.481384 R=0.000000
+[2021.06.15-19.37.10:400][637]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=318.014587 R=0.000000
+[2021.06.15-19.37.10:408][638]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=318.547546 R=0.000000
+[2021.06.15-19.37.10:416][639]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=319.080261 R=0.000000
+[2021.06.15-19.37.10:424][640]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=319.790283 R=0.000000
+[2021.06.15-19.37.10:433][641]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=320.315216 R=0.000000
+[2021.06.15-19.37.10:441][642]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=320.840149 R=0.000000
+[2021.06.15-19.37.10:449][643]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=321.192444 R=0.000000
+[2021.06.15-19.37.10:458][644]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=321.542419 R=0.000000
+[2021.06.15-19.37.10:466][645]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=321.892395 R=0.000000
+[2021.06.15-19.37.10:474][646]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.242371 R=0.000000
+[2021.06.15-19.37.10:482][647]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.417358 R=0.000000
+[2021.06.15-19.37.10:491][648]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:499][649]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:507][650]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:515][651]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:524][652]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:532][653]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:541][654]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:549][655]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:557][656]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:566][657]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:574][658]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:583][659]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:591][660]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:599][661]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:608][662]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:616][663]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:625][664]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:633][665]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:641][666]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:649][667]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:657][668]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:666][669]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:674][670]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:682][671]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:691][672]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:699][673]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:707][674]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:716][675]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:724][676]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:732][677]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:741][678]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:749][679]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:757][680]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:766][681]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:774][682]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:782][683]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:791][684]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:799][685]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:807][686]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.900002 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:816][687]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.725021 Y=322.592346 R=0.000000
+[2021.06.15-19.37.10:824][688]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.550041 Y=322.417358 R=0.000000
+[2021.06.15-19.37.10:833][689]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=89.200073 Y=322.242371 R=0.000000
+[2021.06.15-19.37.10:842][690]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=88.850105 Y=322.067383 R=0.000000
+[2021.06.15-19.37.10:850][691]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=88.500137 Y=321.892395 R=0.000000
+[2021.06.15-19.37.10:858][692]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=88.150169 Y=321.892395 R=0.000000
+[2021.06.15-19.37.10:866][693]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=87.800201 Y=321.892395 R=0.000000
+[2021.06.15-19.37.10:875][694]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=87.625221 Y=321.892395 R=0.000000
+[2021.06.15-19.37.10:883][695]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=87.450241 Y=321.892395 R=0.000000
+[2021.06.15-19.37.10:891][696]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=87.275261 Y=321.717407 R=0.000000
+[2021.06.15-19.37.10:900][697]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=87.100281 Y=321.717407 R=0.000000
+[2021.06.15-19.37.10:908][698]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=86.925301 Y=321.717407 R=0.000000
+[2021.06.15-19.37.10:917][699]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=86.750320 Y=321.717407 R=0.000000
+[2021.06.15-19.37.10:925][700]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=86.400352 Y=321.542419 R=0.000000
+[2021.06.15-19.37.10:933][701]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=86.225372 Y=321.542419 R=0.000000
+[2021.06.15-19.37.10:941][702]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=85.875404 Y=321.542419 R=0.000000
+[2021.06.15-19.37.10:949][703]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=85.700424 Y=321.542419 R=0.000000
+[2021.06.15-19.37.10:957][704]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=85.350456 Y=321.542419 R=0.000000
+[2021.06.15-19.37.10:966][705]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=85.000488 Y=321.367432 R=0.000000
+[2021.06.15-19.37.10:974][706]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=84.825508 Y=321.367432 R=0.000000
+[2021.06.15-19.37.10:982][707]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=84.475540 Y=321.367432 R=0.000000
+[2021.06.15-19.37.10:991][708]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=84.125572 Y=321.367432 R=0.000000
+[2021.06.15-19.37.10:999][709]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=83.600624 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:007][710]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=83.075676 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:016][711]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=82.375748 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:024][712]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=81.500832 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:032][713]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=80.625916 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:041][714]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=79.750999 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:049][715]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=78.461327 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:058][716]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=77.586411 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:067][717]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=76.536514 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:075][718]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=75.661598 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:083][719]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=74.786682 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:092][720]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=74.086754 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:100][721]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=73.211838 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:108][722]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=72.511909 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:116][723]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=71.636993 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:125][724]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=70.762077 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:133][725]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=69.712181 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:142][726]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=68.662285 Y=321.017456 R=0.000000
+[2021.06.15-19.37.11:150][727]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=67.372627 Y=321.017456 R=0.000000
+[2021.06.15-19.37.11:159][728]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=66.082970 Y=321.017456 R=0.000000
+[2021.06.15-19.37.11:167][729]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=64.793312 Y=321.017456 R=0.000000
+[2021.06.15-19.37.11:175][730]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=63.342449 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:183][731]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=62.052792 Y=321.192444 R=0.000000
+[2021.06.15-19.37.11:191][732]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=60.394661 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:199][733]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=58.818398 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:208][734]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=57.367535 Y=321.542419 R=0.000000
+[2021.06.15-19.37.11:216][735]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=55.594257 Y=321.542419 R=0.000000
+[2021.06.15-19.37.11:224][736]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=54.018013 Y=321.542419 R=0.000000
+[2021.06.15-19.37.11:233][737]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=52.244736 Y=321.542419 R=0.000000
+[2021.06.15-19.37.11:241][738]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=50.471458 Y=321.542419 R=0.000000
+[2021.06.15-19.37.11:249][739]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=48.608624 Y=321.367432 R=0.000000
+[2021.06.15-19.37.11:258][740]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=46.670624 Y=321.205933 R=0.000000
+[2021.06.15-19.37.11:266][741]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=44.732624 Y=321.205933 R=0.000000
+[2021.06.15-19.37.11:274][742]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=42.579288 Y=321.030945 R=0.000000
+[2021.06.15-19.37.11:283][743]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=40.479763 Y=321.030945 R=0.000000
+[2021.06.15-19.37.11:291][744]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=38.375248 Y=320.855957 R=0.000000
+[2021.06.15-19.37.11:299][745]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=36.067883 Y=320.711761 R=0.000000
+[2021.06.15-19.37.11:308][746]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=33.955421 Y=320.549255 R=0.000000
+[2021.06.15-19.37.11:317][747]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=31.517967 Y=320.549255 R=0.000000
+[2021.06.15-19.37.11:325][748]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=29.351341 Y=320.374268 R=0.000000
+[2021.06.15-19.37.11:333][749]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=27.072889 Y=320.211517 R=0.000000
+[2021.06.15-19.37.11:342][750]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=25.117050 Y=320.048523 R=0.000000
+[2021.06.15-19.37.11:350][751]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=23.226124 Y=319.903076 R=0.000000
+[2021.06.15-19.37.11:359][752]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=21.423752 Y=319.739227 R=0.000000
+[2021.06.15-19.37.11:367][753]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=19.815666 Y=319.446838 R=0.000000
+[2021.06.15-19.37.11:375][754]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=18.333776 Y=319.117523 R=0.000000
+[2021.06.15-19.37.11:383][755]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=16.850225 Y=318.952698 R=0.000000
+[2021.06.15-19.37.11:392][756]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=15.530090 Y=318.622650 R=0.000000
+[2021.06.15-19.37.11:400][757]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=14.205563 Y=318.328308 R=0.000000
+[2021.06.15-19.37.11:408][758]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=12.882725 Y=318.139343 R=0.000000
+[2021.06.15-19.37.11:417][759]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=11.561520 Y=317.950592 R=0.000000
+[2021.06.15-19.37.11:424][760]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=10.404337 Y=317.785278 R=0.000000
+[2021.06.15-19.37.11:433][761]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=9.529425 Y=317.610291 R=0.000000
+[2021.06.15-19.37.11:441][762]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=8.654512 Y=317.610291 R=0.000000
+[2021.06.15-19.37.11:449][763]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=7.954582 Y=317.435303 R=0.000000
+[2021.06.15-19.37.11:457][764]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=7.429635 Y=317.435303 R=0.000000
+[2021.06.15-19.37.11:465][765]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=7.079669 Y=317.435303 R=0.000000
+[2021.06.15-19.37.11:474][766]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:483][767]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:490][768]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:499][769]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:508][770]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:516][771]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:524][772]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:533][773]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:540][774]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:550][775]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:557][776]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:566][777]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:575][778]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:583][779]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:591][780]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:599][781]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:608][782]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:616][783]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:624][784]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:633][785]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:641][786]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:649][787]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:657][788]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:666][789]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:674][790]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:683][791]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:691][792]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:699][793]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:707][794]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:716][795]LogTemp: Warning: Location: X=-429.903 Y=418.373 Z=121.712, Rotation: P=6.904687 Y=317.260315 R=0.000000
+[2021.06.15-19.37.11:741][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-19.37.11:741][795]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-19.37.11:742][795]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-19.37.11:742][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-19.37.11:751][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.15-19.37.11:755][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-19.37.11:774][795]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.15-19.37.11:775][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-19.37.11:776][795]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-19.37.11:788][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-19.37.11:808][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.06.15-19.37.11:829][796]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.06.15-19.41.52:824][134]Candidate modules for hot reload:
+[2021.06.15-19.41.52:824][134]  Building_Escape
+[2021.06.15-19.41.52:824][134]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,1973 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-19.41.52:827][134]Warning: Starting HotReload took  0.0s.
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 11:42:05 AM
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (Grabber.cpp modified)
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.15-19.42.05:034][566]CompilerResultsLog:   [1/4] Grabber.cpp
+[2021.06.15-19.42.05:034][566]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-1973.lib
+[2021.06.15-19.42.05:034][566]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1973.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1973.exp
+[2021.06.15-19.42.05:034][566]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-1973.dll
+[2021.06.15-19.42.05:034][566]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1973.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-1973.suppressed.exp
+[2021.06.15-19.42.05:034][566]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Total time in Parallel executor: 5.77 seconds
+[2021.06.15-19.42.05:034][566]CompilerResultsLog: Total execution time: 12.11 seconds
+[2021.06.15-19.42.05:034][566]LogMainFrame: MainFrame: Module compiling took 12.212 seconds
+[2021.06.15-19.42.05:167][566]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.15-19.42.05:170][566]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.15-19.42.05:257][566]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3605 classes and 861 folders.
+[2021.06.15-19.42.05:257][566]Display: HotReload took 12.4s.
+[2021.06.15-19.42.07:612][816]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.15-19.42.07:618][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.15-19.42.07:618][816]PIE: New page: PIE session: Building_Escape (Jun 15, 2021, 11:42:07 AM)
+[2021.06.15-19.42.07:640][816]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-19.42.07:648][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007869s)
+[2021.06.15-19.42.07:649][816]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.15-19.42.07:650][816]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2021.06.15-19.42.07:650][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.009306s)
+[2021.06.15-19.42.07:716][816]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.06.15-19.42.07:717][816]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.15-19.42.07:717][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.15-19.42.07:717][816]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.15-19.42.07:717][816]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.15-19.42.07:720][816]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.15-19.42.07:721][816]LogAudioMixer: Display: 1: FrontRight
+[2021.06.15-19.42.07:728][816]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.15-19.42.07:729][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.15-19.42.07:729][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.15-19.42.07:729][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.15-19.42.07:729][816]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.15-19.42.07:729][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.15-19.42.07:729][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.15-19.42.07:741][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.15-19.42.07:741][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.15-19.42.07:741][816]LogInit: FAudioDevice initialized.
+[2021.06.15-19.42.07:741][816]LogAudio: Display: Audio Device (ID: 9) registered with world 'Building_Escape'.
+[2021.06.15-19.42.07:752][816]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.15-19.42.07:754][816]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.15-15.42.07
+[2021.06.15-19.42.07:754][816]LogWorld: Bringing up level for play took: 0.000754
+[2021.06.15-19.42.07:754][816]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.06.15-19.42.07:756][816]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.15-19.42.07:756][816]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.15-19.42.07:756][816]LogTemp: Warning: Grabber is active
+[2021.06.15-19.42.07:756][816]PIE: Server logged in
+[2021.06.15-19.42.07:757][816]PIE: Play in editor total start time 0.14 seconds.
+[2021.06.15-19.42.17:150][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-19.42.17:150][901]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-19.42.17:150][901]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-19.42.17:151][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-19.42.17:158][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.15-19.42.17:162][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-19.42.17:183][901]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.15-19.42.17:188][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-19.42.17:189][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-19.42.17:202][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-19.42.17:219][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.06.15-19.42.17:235][902]LogPlayLevel: Display: Destroying online subsystem :Context_14
