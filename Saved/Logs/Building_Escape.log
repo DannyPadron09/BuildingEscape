@@ -918,3 +918,262 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.15-16.35.02:537][649]Binding IntelliSense data... 100%
 [2021.06.15-16.35.02:537][649]Writing project files...
 [2021.06.15-16.35.03:242][649]Writing project files... 100%
+[2021.06.15-16.41.45:030][ 32]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.06.15-16.42.40:994][449]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBuilding_EscapeGameModeBase_BP.MyBuilding_EscapeGameModeBase_BP
+[2021.06.15-16.42.41:295][449]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.06.15-16.42.41:551][449]LogRenderer: Reallocating scene render targets to support 1496x712 Format 10 NumSamples 1 (Frame:1).
+[2021.06.15-16.43.01:878][132]LogSlate: Window 'MyBuilding_EscapeGameModeBase_BP' being destroyed
+[2021.06.15-16.43.14:877][488]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.15-16.43.16:659][642]LogSlate: Window 'Project Settings' being destroyed
+[2021.06.15-16.43.21:249][178]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.15-16.43.40:036][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.06.15-16.43.40:051][345]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape4D69B9EE468B56B7EB9214B018AAB073.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.15-16.43.40:056][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.15-16.43.40:070][345]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltDataADA876F24710707100ACECA6A5B90009.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.15-16.43.40:093][345]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.15-16.43.40:093][345]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.15-16.43.40:093][345]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.15-16.43.41:265][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.06.15-16.43.42:738][481]LogSlate: Window 'Save Content' being destroyed
+[2021.06.15-16.43.42:797][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyBuilding_EscapeGameModeBase_BP" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/MyBuilding_EscapeGameModeBase_BP.uasset" SILENT=true
+[2021.06.15-16.43.42:800][481]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/MyBuilding_EscapeGameModeBase_BP200E08A74419EA05C541EBA5091D8CAE.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/MyBuilding_EscapeGameModeBase_BP.uasset'
+[2021.06.15-16.43.42:820][481]AssetCheck: New page: Asset Save: MyBuilding_EscapeGameModeBase_BP
+[2021.06.15-16.43.42:820][481]LogContentValidation: Display: Validating Blueprint /Game/MyBuilding_EscapeGameModeBase_BP.MyBuilding_EscapeGameModeBase_BP
+[2021.06.15-16.44.27:186][284]Candidate modules for hot reload:
+[2021.06.15-16.44.27:187][284]  Building_Escape
+[2021.06.15-16.44.27:187][284]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,5547 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-16.44.27:189][284]Warning: Starting HotReload took  0.0s.
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 8:44:38 AM
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Creating makefile for Building_EscapeEditor (no existing makefile)
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.06.15-16.44.38:675][613]CompilerResultsLog:   [1/3] UE4Editor-Building_Escape-5547.lib
+[2021.06.15-16.44.38:675][613]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5547.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5547.exp
+[2021.06.15-16.44.38:675][613]CompilerResultsLog:   [2/3] UE4Editor-Building_Escape-5547.dll
+[2021.06.15-16.44.38:675][613]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5547.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5547.suppressed.exp
+[2021.06.15-16.44.38:675][613]CompilerResultsLog:   [3/3] Building_EscapeEditor.target
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Total time in Parallel executor: 0.92 seconds
+[2021.06.15-16.44.38:675][613]CompilerResultsLog: Total execution time: 11.36 seconds
+[2021.06.15-16.44.38:675][613]LogMainFrame: MainFrame: Module compiling took 11.492 seconds
+[2021.06.15-16.44.38:711][613]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.15-16.44.38:714][613]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.15-16.44.38:799][613]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0072 seconds. Added 3605 classes and 861 folders.
+[2021.06.15-16.44.38:799][613]Display: HotReload took 11.6s.
+[2021.06.15-16.44.40:407][777]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.15-16.44.40:412][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.15-16.44.40:412][777]PIE: New page: PIE session: Building_Escape (Jun 15, 2021, 8:44:40 AM)
+[2021.06.15-16.44.40:412][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.44.40:422][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010194s)
+[2021.06.15-16.44.40:423][777]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.15-16.44.40:423][777]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2021.06.15-16.44.40:423][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.011338s)
+[2021.06.15-16.44.40:477][777]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.06.15-16.44.40:479][777]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.15-16.44.40:479][777]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.15-16.44.40:479][777]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.15-16.44.40:480][777]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.15-16.44.40:480][777]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.15-16.44.40:483][777]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.15-16.44.40:483][777]LogAudioMixer: Display: 1: FrontRight
+[2021.06.15-16.44.40:489][777]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.15-16.44.40:490][777]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.15-16.44.40:490][777]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.15-16.44.40:490][777]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.15-16.44.40:490][777]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.15-16.44.40:490][777]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.15-16.44.40:490][777]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.15-16.44.40:502][777]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.15-16.44.40:502][777]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.15-16.44.40:502][777]LogInit: FAudioDevice initialized.
+[2021.06.15-16.44.40:502][777]LogAudio: Display: Audio Device (ID: 3) registered with world 'Building_Escape'.
+[2021.06.15-16.44.40:510][777]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.15-16.44.40:511][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.15-12.44.40
+[2021.06.15-16.44.40:515][777]LogWorld: Bringing up level for play took: 0.004415
+[2021.06.15-16.44.40:515][777]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.06.15-16.44.40:517][777]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.15-16.44.40:517][777]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.15-16.44.40:517][777]PIE: Server logged in
+[2021.06.15-16.44.40:518][777]PIE: Play in editor total start time 0.107 seconds.
+[2021.06.15-16.44.55:538][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.44.55:538][565]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.44.55:539][565]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-16.44.55:539][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.44.55:549][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.15-16.44.55:574][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.44.55:594][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.44.55:594][565]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.44.55:594][565]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.44.55:611][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.06.15-16.44.55:644][566]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.06.15-16.44.56:757][697]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.15-16.44.56:761][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.15-16.44.56:761][697]PIE: New page: PIE session: Building_Escape (Jun 15, 2021, 8:44:56 AM)
+[2021.06.15-16.44.56:787][697]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.44.56:792][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005852s)
+[2021.06.15-16.44.56:793][697]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.15-16.44.56:794][697]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2021.06.15-16.44.56:794][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007094s)
+[2021.06.15-16.44.56:815][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.06.15-16.44.56:816][697]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.15-16.44.56:816][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.15-16.44.56:816][697]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.15-16.44.56:816][697]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.15-16.44.56:819][697]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.15-16.44.56:819][697]LogAudioMixer: Display: 1: FrontRight
+[2021.06.15-16.44.56:826][697]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.15-16.44.56:827][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.15-16.44.56:827][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.15-16.44.56:827][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.15-16.44.56:827][697]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.15-16.44.56:827][697]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.15-16.44.56:827][697]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.15-16.44.56:839][697]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.15-16.44.56:839][697]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.15-16.44.56:839][697]LogInit: FAudioDevice initialized.
+[2021.06.15-16.44.56:839][697]LogAudio: Display: Audio Device (ID: 4) registered with world 'Building_Escape'.
+[2021.06.15-16.44.56:845][697]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.15-16.44.56:846][697]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.15-12.44.56
+[2021.06.15-16.44.56:847][697]LogWorld: Bringing up level for play took: 0.000797
+[2021.06.15-16.44.56:847][697]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.06.15-16.44.56:848][697]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.15-16.44.56:848][697]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.15-16.44.56:849][697]PIE: Server logged in
+[2021.06.15-16.44.56:849][697]PIE: Play in editor total start time 0.089 seconds.
+[2021.06.15-16.44.59:968][ 39]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2021.06.15-16.45.03:085][383]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2021.06.15-16.45.05:490][633]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2021.06.15-16.45.10:387][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.45.10:387][170]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.45.10:388][170]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-16.45.10:388][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.45.10:393][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.15-16.45.10:397][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.45.10:417][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.45.10:417][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.45.10:418][170]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.45.10:433][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.06.15-16.45.10:458][172]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.06.15-16.45.11:117][249]Candidate modules for hot reload:
+[2021.06.15-16.45.11:117][249]  Building_Escape
+[2021.06.15-16.45.11:117][249]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,5374 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-16.45.11:120][249]Warning: Starting HotReload took  0.0s.
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 8:45:12 AM
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.06.15-16.45.12:558][385]CompilerResultsLog:   [1/3] UE4Editor-Building_Escape-5374.lib
+[2021.06.15-16.45.12:558][385]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5374.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5374.exp
+[2021.06.15-16.45.12:558][385]CompilerResultsLog:   [2/3] UE4Editor-Building_Escape-5374.dll
+[2021.06.15-16.45.12:558][385]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5374.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5374.suppressed.exp
+[2021.06.15-16.45.12:558][385]CompilerResultsLog:   [3/3] Building_EscapeEditor.target
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: Total time in Parallel executor: 0.78 seconds
+[2021.06.15-16.45.12:558][385]CompilerResultsLog: Total execution time: 1.34 seconds
+[2021.06.15-16.45.12:558][385]LogMainFrame: MainFrame: Module compiling took 1.452 seconds
+[2021.06.15-16.45.12:585][385]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.15-16.45.12:588][385]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.15-16.45.12:674][385]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0070 seconds. Added 3605 classes and 861 folders.
+[2021.06.15-16.45.12:674][385]Display: HotReload took  1.6s.
+[2021.06.15-16.45.28:605][168]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2021.06.15-16.45.32:279][603]Cmd: DELETE
+[2021.06.15-16.45.32:280][603]Cmd: ACTOR DELETE
+[2021.06.15-16.45.32:294][603]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
+[2021.06.15-16.45.32:349][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.06.15-16.45.32:350][603]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2021.06.15-16.45.34:476][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.06.15-16.45.34:490][850]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape0B2A14FB4ADE77839BACEBBEA17C4F58.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.15-16.45.34:495][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.15-16.45.34:508][850]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltDataF4AD450D45C9BAB0E0C085B4BA63DB1C.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.15-16.45.34:519][850]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.15-16.45.34:519][850]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.15-16.45.34:519][850]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.15-16.45.35:370][948]Candidate modules for hot reload:
+[2021.06.15-16.45.35:370][948]  Building_Escape
+[2021.06.15-16.45.35:370][948]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,4561 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.15-16.45.35:373][948]Warning: Starting HotReload took  0.0s.
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: New page: Compilation - Jun 15, 2021, 8:45:36 AM
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog:   [1/3] UE4Editor-Building_Escape-4561.lib
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4561.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4561.exp
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog:   [2/3] UE4Editor-Building_Escape-4561.dll
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4561.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4561.suppressed.exp
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog:   [3/3] Building_EscapeEditor.target
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: Total time in Parallel executor: 0.76 seconds
+[2021.06.15-16.45.36:785][ 82]CompilerResultsLog: Total execution time: 1.29 seconds
+[2021.06.15-16.45.36:785][ 82]LogMainFrame: MainFrame: Module compiling took 1.420 seconds
+[2021.06.15-16.45.36:811][ 82]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.15-16.45.36:814][ 82]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.15-16.45.36:899][ 82]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0075 seconds. Added 3605 classes and 861 folders.
+[2021.06.15-16.45.36:899][ 82]Display: HotReload took  1.5s.
+[2021.06.15-16.45.38:403][231]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.15-16.45.38:408][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.15-16.45.38:408][231]PIE: New page: PIE session: Building_Escape (Jun 15, 2021, 8:45:38 AM)
+[2021.06.15-16.45.38:408][231]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.45.38:413][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005712s)
+[2021.06.15-16.45.38:414][231]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.15-16.45.38:414][231]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2021.06.15-16.45.38:414][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006600s)
+[2021.06.15-16.45.38:465][231]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.06.15-16.45.38:466][231]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.15-16.45.38:466][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.15-16.45.38:466][231]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.15-16.45.38:466][231]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.15-16.45.38:469][231]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.15-16.45.38:469][231]LogAudioMixer: Display: 1: FrontRight
+[2021.06.15-16.45.38:476][231]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.15-16.45.38:476][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.15-16.45.38:476][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.15-16.45.38:476][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.15-16.45.38:476][231]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.15-16.45.38:476][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.15-16.45.38:476][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.15-16.45.38:488][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.15-16.45.38:488][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.15-16.45.38:488][231]LogInit: FAudioDevice initialized.
+[2021.06.15-16.45.38:488][231]LogAudio: Display: Audio Device (ID: 5) registered with world 'Building_Escape'.
+[2021.06.15-16.45.38:493][231]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.15-16.45.38:494][231]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.15-12.45.38
+[2021.06.15-16.45.38:494][231]LogWorld: Bringing up level for play took: 0.000683
+[2021.06.15-16.45.38:494][231]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.06.15-16.45.38:496][231]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.15-16.45.38:496][231]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.15-16.45.38:496][231]PIE: Server logged in
+[2021.06.15-16.45.38:497][231]PIE: Play in editor total start time 0.091 seconds.
+[2021.06.15-16.45.42:862][728]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn_BP_C (DefaultPawn_BP)
+[2021.06.15-16.45.48:728][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.45.48:728][337]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.45.48:728][337]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-16.45.48:728][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.45.48:735][337]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.15-16.45.48:740][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.45.48:761][337]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.45.48:761][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.45.48:762][337]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.45.48:795][337]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.06.15-16.45.48:818][338]LogPlayLevel: Display: Destroying online subsystem :Context_10
