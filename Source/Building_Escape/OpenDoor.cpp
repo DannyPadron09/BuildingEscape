@@ -42,7 +42,10 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 	}
 	else
 	{
-		CloseDoor(DeltaTime);
+		if (GetWorld()->GetTimeSeconds() - DoorLastOpened > CloseDoorDelay)
+		{
+			CloseDoor(DeltaTime);
+		}
 	}
 	
 	// UE_LOG(LogTemp, Warning, TEXT("%s"), *GetOwner()->GetActorRotation().ToString());
