@@ -25,6 +25,16 @@
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
 	},
 	{
+		"file": "W:\\\\UdemyCourses\\\\Unreal Engine C++\\\\BuildingEscape\\\\Building_Escape\\\\Source\\\\Building_Escape\\\\Grabber.cpp",
+		"command": "cl.exe @\"W:\\UdemyCourses\\Unreal Engine C++\\BuildingEscape\\Building_Escape\\.vscode\\compileCommands_Building_Escape\\Building_Escape.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "W:\\\\UdemyCourses\\\\Unreal Engine C++\\\\BuildingEscape\\\\Building_Escape\\\\Source\\\\Building_Escape\\\\Grabber.h",
+		"command": "cl.exe @\"W:\\UdemyCourses\\Unreal Engine C++\\BuildingEscape\\Building_Escape\\.vscode\\compileCommands_Building_Escape\\Building_Escape.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
 		"file": "W:\\\\UdemyCourses\\\\Unreal Engine C++\\\\BuildingEscape\\\\Building_Escape\\\\Source\\\\Building_Escape\\\\OpenDoor.cpp",
 		"command": "cl.exe @\"W:\\UdemyCourses\\Unreal Engine C++\\BuildingEscape\\Building_Escape\\.vscode\\compileCommands_Building_Escape\\Building_Escape.182.rsp\"",
 		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"

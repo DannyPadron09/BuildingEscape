@@ -831,3 +831,90 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.15-16.28.26:827][885]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.06.15-16.28.26:837][885]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0074 seconds. Added 3605 classes and 861 folders.
 [2021.06.15-16.28.26:839][885]Display: HotReload took  0.1s.
+[2021.06.15-16.32.52:821][296]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.15-16.32.52:825][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.15-16.32.52:825][296]PIE: New page: PIE session: Building_Escape (Jun 15, 2021, 8:32:52 AM)
+[2021.06.15-16.32.52:826][296]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.15-16.32.52:827][296]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.15-16.32.52:827][296]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.32.52:835][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007540s)
+[2021.06.15-16.32.52:836][296]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.15-16.32.52:836][296]LogPlayLevel: PIE: World Init took: (0.001197s)
+[2021.06.15-16.32.52:836][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.008880s)
+[2021.06.15-16.32.52:841][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.06.15-16.32.52:841][296]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.15-16.32.52:841][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.15-16.32.52:841][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.15-16.32.52:842][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.15-16.32.52:842][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.15-16.32.52:842][296]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.15-16.32.52:842][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.15-16.32.52:842][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.15-16.32.52:842][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.15-16.32.52:842][296]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.15-16.32.52:842][296]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.15-16.32.52:845][296]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.15-16.32.52:845][296]LogAudioMixer: Display: 1: FrontRight
+[2021.06.15-16.32.52:852][296]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.15-16.32.52:852][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.15-16.32.52:852][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.15-16.32.52:852][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.15-16.32.52:853][296]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.15-16.32.52:853][296]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.15-16.32.52:853][296]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.15-16.32.52:864][296]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.15-16.32.52:864][296]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.15-16.32.52:864][296]LogInit: FAudioDevice initialized.
+[2021.06.15-16.32.52:864][296]LogAudio: Display: Audio Device (ID: 2) registered with world 'Building_Escape'.
+[2021.06.15-16.32.52:868][296]LogLoad: Game class is 'GameModeBase'
+[2021.06.15-16.32.52:869][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.15-12.32.52
+[2021.06.15-16.32.52:870][296]LogWorld: Bringing up level for play took: 0.000961
+[2021.06.15-16.32.52:870][296]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.06.15-16.32.52:889][296]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.06.15-16.32.52:889][296]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.15-16.32.52:889][296]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.15-16.32.52:890][296]PIE: Server logged in
+[2021.06.15-16.32.52:891][296]PIE: Play in editor total start time 0.067 seconds.
+[2021.06.15-16.32.56:393][663]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.15-16.33.02:802][376]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.06.15-16.33.04:038][512]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.06.15-16.33.06:320][754]LogEditorViewport: Clicking on Actor (LMB): DefaultPawn (DefaultPawn)
+[2021.06.15-16.33.37:204][839]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Models/DefaultPawn_BP.DefaultPawn_BP
+[2021.06.15-16.33.37:240][839]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 126 classes and 0 folders.
+[2021.06.15-16.33.47:092][923]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-16.33.47:092][923]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.33.47:123][923]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Models/DefaultPawn_BP.DefaultPawn_BP
+[2021.06.15-16.33.49:104][ 91]LogRenderer: Reallocating scene render targets to support 1496x708 Format 10 NumSamples 1 (Frame:1).
+[2021.06.15-16.34.02:690][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.34.02:690][575]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.15-16.34.02:691][575]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.15-16.34.02:691][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.34.02:700][575]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.15-16.34.02:703][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.15-16.34.02:717][575]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.15-16.34.02:717][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.34.02:718][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.15-16.34.02:732][575]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.15-16.34.02:738][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.06.15-16.34.02:756][576]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.06.15-16.34.41:089][387]BlueprintLog: New page: Compile DefaultPawn_BP
+[2021.06.15-16.34.41:118][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.06.15-16.34.41:143][387]LogSlate: Took 0.007516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.15-16.34.43:958][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DefaultPawn_BP" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/DefaultPawn_BP.uasset" SILENT=true
+[2021.06.15-16.34.43:964][715]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/DefaultPawn_BP18B92B844B501DE6093B808A8B6AFAF8.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/DefaultPawn_BP.uasset'
+[2021.06.15-16.34.43:975][715]AssetCheck: New page: Asset Save: DefaultPawn_BP
+[2021.06.15-16.34.43:975][715]LogContentValidation: Display: Validating Blueprint /Game/Models/DefaultPawn_BP.DefaultPawn_BP
+[2021.06.15-16.34.47:902][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.06.15-16.34.47:917][165]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape1FE9978D4F7AB95E687A0486FC603BCB.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.15-16.34.47:922][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.15-16.34.47:941][165]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltData2681A82344F63BA5DB2669B7660C4B86.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.15-16.34.47:951][165]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.15-16.34.47:951][165]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.15-16.34.47:951][165]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.15-16.34.49:089][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.06.15-16.34.52:446][649]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" -game -rocket -progress
+[2021.06.15-16.34.52:751][649]Discovering modules, targets and source code for project...
+[2021.06.15-16.34.53:861][649]Binding IntelliSense data...
+[2021.06.15-16.35.02:537][649]Binding IntelliSense data... 100%
+[2021.06.15-16.35.02:537][649]Writing project files...
+[2021.06.15-16.35.03:242][649]Writing project files... 100%
