@@ -36,11 +36,15 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	);
 
 	// Prints in output log the location and rotation values for our PlayerView
-	UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"),
-		*PlayerViewPointLocation.ToString(),
-		*PlayerViewPointRotation.ToString()
-	);
+	// UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"),
+	// 	*PlayerViewPointLocation.ToString(),
+	// 	*PlayerViewPointRotation.ToString()
+	// );
+
+	// Draws a line from player outwards displaying Reach
+	FVector LineTraceEnd = PlayerViewPointLocation + FVector(0.f, 0.f, 100.f);
 	
+
 	// Need to use Ray-cast to a certain distance (Reach)
 
 	// Can see what it hits
