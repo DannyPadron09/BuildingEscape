@@ -36,12 +36,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		PlayerViewPointRotation
 	);
 
-	// Prints in output log the location and rotation values for our PlayerView
-	// UE_LOG(LogTemp, Warning, TEXT("Location: %s, Rotation: %s"),
-	// 	*PlayerViewPointLocation.ToString(),
-	// 	*PlayerViewPointRotation.ToString()
-	// );
-
 	// Draws a line from player outwards displaying Reach
 	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 
@@ -70,7 +64,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	);
 
 	// Can see what it hits
+	
+	AActor* ActorThatWasHit = Hit.GetActor();
 
-
+	if (ActorThatWasHit)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Line Trace has hit: %s"), *(ActorThatWasHit->GetName()))
+	}
 }
 
