@@ -61,6 +61,5 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	// Can see what it hits
 
 
-
 }
 
