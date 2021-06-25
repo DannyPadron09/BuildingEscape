@@ -57,6 +57,11 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	);
 
 	// Need to use Ray-cast to a certain distance (Reach)
+	FHitResult Hit;
+
+	FCollisionQueryParams LineTraceParams(FName(TEXT("")), false, GetOwner());
+
+
 
 	// Can see what it hits
 
