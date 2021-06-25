@@ -61,7 +61,13 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	FCollisionQueryParams LineTraceParams(FName(TEXT("")), false, GetOwner());
 
-
+	GetWorld()->LineTraceSingleByObjectType(
+		Hit,
+		PlayerViewPointLocation,
+		LineTraceEnd,
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		LineTraceParams 
+	);
 
 	// Can see what it hits
 
