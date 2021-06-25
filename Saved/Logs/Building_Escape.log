@@ -786,3 +786,511 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.25-17.16.30:804][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
 [2021.06.25-17.51.54:198][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
 [2021.06.25-17.52.03:040][700]LogSlate: Took 0.005514 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.25-18.40.42:017][664]Candidate modules for hot reload:
+[2021.06.25-18.40.42:017][664]  Building_Escape
+[2021.06.25-18.40.42:018][664]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,244 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.25-18.40.42:020][664]Warning: Starting HotReload took  0.0s.
+[2021.06.25-18.40.55:444][229]CompilerResultsLog: New page: Compilation - Jun 25, 2021, 10:40:55 AM
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (Grabber.cpp modified)
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.25-18.40.55:445][229]CompilerResultsLog:   [1/4] Grabber.cpp
+[2021.06.25-18.40.55:445][229]CompilerResultsLog:   [2/4] UE4Editor-Building_Escape-0244.lib
+[2021.06.25-18.40.55:445][229]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0244.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0244.exp
+[2021.06.25-18.40.55:445][229]CompilerResultsLog:   [3/4] UE4Editor-Building_Escape-0244.dll
+[2021.06.25-18.40.55:445][229]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0244.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0244.suppressed.exp
+[2021.06.25-18.40.55:445][229]CompilerResultsLog:   [4/4] Building_EscapeEditor.target
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Total time in Parallel executor: 9.04 seconds
+[2021.06.25-18.40.55:445][229]CompilerResultsLog: Total execution time: 13.32 seconds
+[2021.06.25-18.40.55:445][229]LogMainFrame: MainFrame: Module compiling took 13.469 seconds
+[2021.06.25-18.40.55:528][229]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0386 seconds. Added 3605 classes and 861 folders.
+[2021.06.25-18.40.55:529][229]Display: HotReload took 13.6s.
+[2021.06.25-18.40.57:425][449]LogSlate: Took 0.005511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.25-18.40.57:454][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.06.25-18.40.57:495][449]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape8C46D9B54DC5CDA455F4EEA05A754A9C.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.25-18.40.57:506][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.25-18.40.57:532][449]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltData3965BC134963B9283FC325B73F252397.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.25-18.40.57:571][449]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-18.40.57:571][449]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.25-18.40.57:571][449]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.25-18.40.58:608][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.06.25-18.40.59:803][684]MapCheck: New page: Map Check
+[2021.06.25-18.40.59:837][684]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.25-18.40.59:838][684]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.25-18.40.59:858][684]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=false
+[2021.06.25-18.40.59:911][684]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.25-18.40.59:911][684]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.25-18.40.59:911][684]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.25-18.40.59:921][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.06.25-18.40.59:930][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:945][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:948][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:949][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:950][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:952][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:953][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.06.25-18.40.59:953][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.06.25-18.40.59:953][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.06.25-18.40.59:953][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.06.25-18.40.59:953][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.40.59:956][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.06.25-18.40.59:992][684]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 59
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 53
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 51
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 46
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 45
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 44
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 43
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 41
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 40
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 39
+[2021.06.25-18.41.03:838][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 17
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.25-18.41.03:839][684]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.06.25-18.41.03:839][684]TextureStreamingBuild: Display: Compiling optional shaders took 3.916 seconds.
+[2021.06.25-18.41.03:852][684]LogLevel: Display: Export Material TexCoord Scales took 0.013 seconds.
+[2021.06.25-18.41.03:854][684]TextureStreamingBuild: Display: Build Texture Streaming took 0.002 seconds.
+[2021.06.25-18.41.03:858][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.25-18.41.03:862][684]LightingResults: New page: Lighting Build - Jun 25, 2021, 10:41:03 AM
+[2021.06.25-18.41.03:899][684]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.25-18.41.03:943][684]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.25-18.41.03:955][684]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.25-18.41.04:469][684]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.25-18.41.04:469][684]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14200
+[2021.06.25-18.41.07:042][684]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.06.25-18.41.07:043][684]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.25-18.41.07:043][684]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.25-18.41.07:043][684]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.25-18.41.07:043][684]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.25-18.41.07:043][684]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.25-18.41.07:220][684]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.25-18.41.07:220][684]MapCheck: New page: Building_Escape - Jun 25, 2021, 10:41:07 AM
+[2021.06.25-18.41.07:226][684]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 5.695ms to complete.
+[2021.06.25-18.41.07:228][684]LogEditorBuildUtils: Build time 0:07
+[2021.06.25-18.41.07:415][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.25-18.41.08:716][763]Job is a success!
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.25-18.41.08:819][765]LogVolumetricLightmapImport:          Building_Escape 			 10 bricks 	 100.0% (Persistent Level)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (BGRA8, 128X128)
+[2021.06.25-18.41.08:893][765]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 256X128)
+[2021.06.25-18.41.08:893][765]LogStaticLightingSystem: Building_Escape_BuiltData storing lightmap data for 9 meshes in 4 LightmapResourceClusters (2.2 Meshes per cluster).
+[2021.06.25-18.41.08:899][765]Lightmass on DESKTOP-QHLO9HK: 968 ms total, 246 ms importing, 21 ms setup, 46 ms photons, 608 ms processing, 0 ms extra exporting [95/95 mappings]. Threads: 4.25 sec total, 661 ms processing.
+[2021.06.25-18.41.08:901][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.25-18.41.08:932][765]LogStaticLightingSystem: Illumination: 5.02 sec (33 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2021.06.25-18.41.08:932][765]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
+[2021.06.25-18.41.08:932][765]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.2 MB streaming, 0.1 MB non-streaming), 3 textures
+[2021.06.25-18.41.09:052][765]DumpUnbuiltLightIteractions
+[2021.06.25-18.41.09:052][765]Lights with unbuilt interactions: 0
+[2021.06.25-18.41.09:052][765]
+[2021.06.25-18.41.09:052][765]Primitives with unbuilt interactions: 0
+[2021.06.25-18.41.09:110][765]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.06.25-18.41.09:185][766]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.25-18.41.09:185][766]MapCheck: New page: Building_Escape - Jun 25, 2021, 10:41:09 AM
+[2021.06.25-18.41.09:185][766]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.298ms to complete.
+[2021.06.25-18.41.10:905][955]LogSlate: Took 0.006316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.25-18.41.12:766][162]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.25-18.41.12:778][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.25-18.41.12:778][162]PIE: New page: PIE session: Building_Escape (Jun 25, 2021, 10:41:12 AM)
+[2021.06.25-18.41.12:786][162]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.25-18.41.12:788][162]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.25-18.41.12:789][162]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.25-18.41.12:796][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006726s)
+[2021.06.25-18.41.12:798][162]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.25-18.41.12:798][162]LogPlayLevel: PIE: World Init took: (0.002102s)
+[2021.06.25-18.41.12:799][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.009172s)
+[2021.06.25-18.41.12:803][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.06.25-18.41.12:806][162]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.25-18.41.12:806][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.25-18.41.12:806][162]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.25-18.41.12:806][162]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.25-18.41.12:810][162]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.25-18.41.12:810][162]LogAudioMixer: Display: 1: FrontRight
+[2021.06.25-18.41.12:818][162]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.25-18.41.12:818][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.25-18.41.12:818][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.25-18.41.12:818][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.25-18.41.12:818][162]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.25-18.41.12:818][162]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.25-18.41.12:818][162]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.25-18.41.12:831][162]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.25-18.41.12:831][162]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.25-18.41.12:831][162]LogInit: FAudioDevice initialized.
+[2021.06.25-18.41.12:831][162]LogAudio: Display: Audio Device (ID: 2) registered with world 'Building_Escape'.
+[2021.06.25-18.41.12:857][162]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.25-18.41.12:867][162]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.25-14.41.12
+[2021.06.25-18.41.12:868][162]LogWorld: Bringing up level for play took: 0.001879
+[2021.06.25-18.41.12:869][162]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.06.25-18.41.12:880][162]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.06.25-18.41.12:885][162]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.25-18.41.12:885][162]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.25-18.41.12:888][162]LogTemp: Warning: Grabber is active
+[2021.06.25-18.41.12:888][162]PIE: Server logged in
+[2021.06.25-18.41.12:890][162]PIE: Play in editor total start time 0.12 seconds.
+[2021.06.25-18.41.34:906][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-18.41.34:906][791]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.25-18.41.34:908][791]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-18.41.34:908][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-18.41.34:917][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.25-18.41.34:934][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-18.41.34:939][791]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.25-18.41.34:941][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-18.41.34:942][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-18.41.34:958][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-18.41.34:966][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.06.25-18.41.35:006][792]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.06.25-18.41.36:168][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2021.06.25-18.41.47:526][277]Candidate modules for hot reload:
+[2021.06.25-18.41.47:526][277]  Building_Escape
+[2021.06.25-18.41.47:526][277]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,219 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.25-18.41.47:528][277]Warning: Starting HotReload took  0.0s.
+[2021.06.25-18.41.48:993][418]CompilerResultsLog: New page: Compilation - Jun 25, 2021, 10:41:48 AM
+[2021.06.25-18.41.48:993][418]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.25-18.41.48:993][418]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.25-18.41.48:993][418]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.25-18.41.48:993][418]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.06.25-18.41.48:993][418]CompilerResultsLog:   [1/3] UE4Editor-Building_Escape-0219.lib
+[2021.06.25-18.41.48:994][418]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0219.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0219.exp
+[2021.06.25-18.41.48:994][418]CompilerResultsLog:   [2/3] UE4Editor-Building_Escape-0219.dll
+[2021.06.25-18.41.48:994][418]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0219.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-0219.suppressed.exp
+[2021.06.25-18.41.48:994][418]CompilerResultsLog:   [3/3] Building_EscapeEditor.target
+[2021.06.25-18.41.48:994][418]CompilerResultsLog: Total time in Parallel executor: 0.79 seconds
+[2021.06.25-18.41.48:994][418]CompilerResultsLog: Total execution time: 1.39 seconds
+[2021.06.25-18.41.48:994][418]LogMainFrame: MainFrame: Module compiling took 1.470 seconds
+[2021.06.25-18.41.49:005][418]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3605 classes and 861 folders.
+[2021.06.25-18.41.49:005][418]Display: HotReload took  1.5s.
+[2021.06.25-18.41.50:789][631]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.25-18.41.50:793][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.25-18.41.50:793][631]PIE: New page: PIE session: Building_Escape (Jun 25, 2021, 10:41:50 AM)
+[2021.06.25-18.41.50:823][631]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.25-18.41.50:829][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005429s)
+[2021.06.25-18.41.50:829][631]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.25-18.41.50:830][631]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2021.06.25-18.41.50:830][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006701s)
+[2021.06.25-18.41.50:835][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.06.25-18.41.50:836][631]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.25-18.41.50:836][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.25-18.41.50:836][631]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.25-18.41.50:836][631]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.25-18.41.50:839][631]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.25-18.41.50:839][631]LogAudioMixer: Display: 1: FrontRight
+[2021.06.25-18.41.50:845][631]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.25-18.41.50:846][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.25-18.41.50:846][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.25-18.41.50:846][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.25-18.41.50:846][631]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.25-18.41.50:846][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.25-18.41.50:846][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.25-18.41.50:847][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.25-18.41.50:847][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.25-18.41.50:847][631]LogInit: FAudioDevice initialized.
+[2021.06.25-18.41.50:847][631]LogAudio: Display: Audio Device (ID: 3) registered with world 'Building_Escape'.
+[2021.06.25-18.41.50:861][631]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.25-18.41.50:863][631]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.25-14.41.50
+[2021.06.25-18.41.50:863][631]LogWorld: Bringing up level for play took: 0.000753
+[2021.06.25-18.41.50:863][631]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.06.25-18.41.50:865][631]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.25-18.41.50:865][631]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.25-18.41.50:865][631]LogTemp: Warning: Grabber is active
+[2021.06.25-18.41.50:865][631]PIE: Server logged in
+[2021.06.25-18.41.50:866][631]PIE: Play in editor total start time 0.073 seconds.
+[2021.06.25-18.42.08:004][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-18.42.08:004][679]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.25-18.42.08:004][679]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-18.42.08:004][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-18.42.08:009][679]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.25-18.42.08:021][679]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-18.42.08:025][679]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-18.42.08:025][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-18.42.08:026][679]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-18.42.08:040][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.06.25-18.42.08:072][680]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.06.25-18.43.30:195][399]Candidate modules for hot reload:
+[2021.06.25-18.43.30:195][399]  Building_Escape
+[2021.06.25-18.43.30:195][399]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,9305 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.25-18.43.30:197][399]Warning: Starting HotReload took  0.0s.
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: New page: Compilation - Jun 25, 2021, 10:43:31 AM
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: Building 3 actions with 8 processes...
+[2021.06.25-18.43.31:630][535]CompilerResultsLog:   [1/3] UE4Editor-Building_Escape-9305.lib
+[2021.06.25-18.43.31:630][535]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9305.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9305.exp
+[2021.06.25-18.43.31:630][535]CompilerResultsLog:   [2/3] UE4Editor-Building_Escape-9305.dll
+[2021.06.25-18.43.31:630][535]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9305.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-9305.suppressed.exp
+[2021.06.25-18.43.31:630][535]CompilerResultsLog:   [3/3] Building_EscapeEditor.target
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: Total time in Parallel executor: 0.79 seconds
+[2021.06.25-18.43.31:630][535]CompilerResultsLog: Total execution time: 1.35 seconds
+[2021.06.25-18.43.31:630][535]LogMainFrame: MainFrame: Module compiling took 1.439 seconds
+[2021.06.25-18.43.31:650][535]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.25-18.43.31:651][535]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.25-18.43.31:698][535]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0074 seconds. Added 3605 classes and 861 folders.
+[2021.06.25-18.43.31:698][535]Display: HotReload took  1.5s.
+[2021.06.25-18.43.45:628][186]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.25-18.43.45:632][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.25-18.43.45:632][186]PIE: New page: PIE session: Building_Escape (Jun 25, 2021, 10:43:45 AM)
+[2021.06.25-18.43.45:663][186]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.25-18.43.45:668][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005441s)
+[2021.06.25-18.43.45:669][186]LogAIModule: Creating AISystem for world Building_Escape
+[2021.06.25-18.43.45:669][186]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2021.06.25-18.43.45:669][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.006432s)
+[2021.06.25-18.43.45:673][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.06.25-18.43.45:674][186]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.25-18.43.45:674][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.25-18.43.45:674][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.25-18.43.45:675][186]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.25-18.43.45:675][186]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.25-18.43.45:677][186]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.25-18.43.45:677][186]LogAudioMixer: Display: 1: FrontRight
+[2021.06.25-18.43.45:684][186]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.06.25-18.43.45:684][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.25-18.43.45:684][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.25-18.43.45:684][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.25-18.43.45:685][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.25-18.43.45:685][186]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.25-18.43.45:685][186]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.25-18.43.45:697][186]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.25-18.43.45:697][186]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.25-18.43.45:697][186]LogInit: FAudioDevice initialized.
+[2021.06.25-18.43.45:697][186]LogAudio: Display: Audio Device (ID: 4) registered with world 'Building_Escape'.
+[2021.06.25-18.43.45:705][186]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.06.25-18.43.45:707][186]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.06.25-14.43.45
+[2021.06.25-18.43.45:707][186]LogWorld: Bringing up level for play took: 0.000730
+[2021.06.25-18.43.45:707][186]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.06.25-18.43.45:708][186]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.06.25-18.43.45:708][186]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.06.25-18.43.45:709][186]LogTemp: Warning: Grabber is active
+[2021.06.25-18.43.45:709][186]PIE: Server logged in
+[2021.06.25-18.43.45:709][186]PIE: Play in editor total start time 0.078 seconds.
+[2021.06.25-18.43.48:198][483]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:206][484]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:215][485]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:223][486]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:231][487]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:240][488]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:248][489]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:256][490]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:265][491]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:273][492]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:282][493]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:290][494]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:298][495]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:307][496]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:315][497]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:324][498]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:332][499]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:340][500]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:348][501]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:357][502]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:365][503]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:373][504]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:382][505]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:390][506]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:398][507]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:407][508]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:415][509]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:423][510]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:432][511]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:440][512]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:448][513]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:456][514]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:465][515]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:473][516]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:481][517]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:490][518]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:498][519]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:506][520]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:515][521]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:523][522]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:532][523]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:540][524]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:548][525]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:557][526]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:565][527]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:573][528]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:582][529]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:590][530]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:598][531]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:607][532]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:615][533]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:623][534]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:632][535]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:640][536]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:648][537]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:657][538]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:665][539]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:674][540]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:682][541]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:690][542]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:699][543]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:707][544]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:715][545]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:724][546]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:732][547]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:740][548]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:749][549]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:757][550]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:766][551]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:774][552]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:782][553]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:791][554]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:799][555]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:807][556]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:816][557]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:825][558]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:832][559]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:840][560]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:849][561]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:857][562]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:866][563]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:874][564]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:882][565]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:891][566]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:899][567]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.48:907][568]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:015][ 61]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:024][ 62]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:032][ 63]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:040][ 64]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:049][ 65]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:057][ 66]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:065][ 67]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:074][ 68]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:940][172]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:949][173]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:957][174]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:965][175]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:974][176]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:982][177]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:990][178]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.53:998][179]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:007][180]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:015][181]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:074][188]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:082][189]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:091][190]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:099][191]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:107][192]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:116][193]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:124][194]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:132][195]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:141][196]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:150][197]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:157][198]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:166][199]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:174][200]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:183][201]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:190][202]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:199][203]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:208][204]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:216][205]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:224][206]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:233][207]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:241][208]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:249][209]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:257][210]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:266][211]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:274][212]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:282][213]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:291][214]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:299][215]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:308][216]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:316][217]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.54:324][218]LogTemp: Error: Line Trace has hit: Cylinder_2
+[2021.06.25-18.43.55:554][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-18.43.55:554][362]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.06.25-18.43.55:554][362]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.06.25-18.43.55:554][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-18.43.55:559][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.25-18.43.55:571][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.25-18.43.55:575][362]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.25-18.43.55:575][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-18.43.55:576][362]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.25-18.43.55:589][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.25-18.43.55:590][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.06.25-18.43.55:642][364]LogPlayLevel: Display: Destroying online subsystem :Context_6
