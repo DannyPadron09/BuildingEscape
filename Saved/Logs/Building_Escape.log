@@ -1344,3 +1344,47 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.25-20.41.45:716][347]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.25-20.41.45:716][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
 [2021.06.25-20.41.45:716][347]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.25-20.45.24:876][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.06.25-20.45.24:893][359]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape981E273A4A48D7078142A29F9E2D9C7A.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.25-20.45.24:897][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.25-20.45.24:911][359]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltData6DC70E814A25FE7C25E5A8AC94E0EC2F.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.25-20.45.24:920][359]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-20.45.24:920][359]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.25-20.45.24:921][359]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.25-20.45.26:801][568]Candidate modules for hot reload:
+[2021.06.25-20.45.26:801][568]  Building_Escape
+[2021.06.25-20.45.26:802][568]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,4648 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.06.25-20.45.26:805][568]Warning: Starting HotReload took  0.0s.
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: New page: Compilation - Jun 25, 2021, 12:45:53 PM
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (Grabber.cpp modified)
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 16.9835666 seconds
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Building 5 actions with 8 processes...
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:   [1/5] Grabber.cpp
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:   [3/5] UE4Editor-Building_Escape-4648.lib
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4648.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4648.exp
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:   [4/5] UE4Editor-Building_Escape-4648.dll
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4648.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-4648.suppressed.exp
+[2021.06.25-20.45.53:207][571]CompilerResultsLog:   [5/5] Building_EscapeEditor.target
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Total time in Parallel executor: 6.81 seconds
+[2021.06.25-20.45.53:207][571]CompilerResultsLog: Total execution time: 26.29 seconds
+[2021.06.25-20.45.53:208][571]LogMainFrame: MainFrame: Module compiling took 26.416 seconds
+[2021.06.25-20.45.53:266][571]LogClass: Could not find existing class Grabber in package /Script/Building_Escape for HotReload, assuming new class
+[2021.06.25-20.45.53:277][571]LogHotReload: Re-instancing Grabber after hot-reload.
+[2021.06.25-20.45.53:300][571]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.06.25-20.45.53:305][571]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.25-20.45.53:417][571]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0131 seconds. Added 3605 classes and 861 folders.
+[2021.06.25-20.45.53:418][571]Display: HotReload took 26.6s.
+[2021.06.25-20.45.58:948][139]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" -game -rocket -progress
+[2021.06.25-20.45.59:253][139]Discovering modules, targets and source code for project...
+[2021.06.25-20.46.00:364][139]Binding IntelliSense data...
+[2021.06.25-20.46.07:638][139]Binding IntelliSense data... 100%
+[2021.06.25-20.46.07:638][139]Writing project files...
+[2021.06.25-20.46.08:143][139]Writing project files... 100%
