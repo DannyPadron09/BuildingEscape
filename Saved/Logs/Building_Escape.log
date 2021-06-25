@@ -1294,3 +1294,53 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.25-18.43.55:589][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.06.25-18.43.55:590][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
 [2021.06.25-18.43.55:642][364]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.06.25-18.51.47:331][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.06.25-18.51.47:347][448]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_Auto13391C7214AE22D7BA04F0D9497A71366.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Autosaves/Game/Levels/Building_Escape_Auto1.umap'
+[2021.06.25-18.51.47:348][448]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.022
+[2021.06.25-18.51.47:348][448]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2021.06.25-19.01.47:938][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.06.25-19.01.47:939][248]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-19.11.48:391][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.06.25-19.11.48:392][ 44]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-19.21.48:879][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.25-19.21.48:880][838]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-19.31.49:430][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.25-19.31.49:430][632]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-19.41.50:111][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.25-19.41.50:112][426]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-19.51.50:726][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.25-19.51.50:726][220]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-20.01.51:088][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2021.06.25-20.01.51:088][ 14]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-20.11.51:497][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.06.25-20.11.51:498][808]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-20.21.52:173][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.06.25-20.21.52:174][603]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-20.31.52:617][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.06.25-20.31.52:618][397]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Building_Escape' took 0.005
+[2021.06.25-20.40.49:721][748]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Models/DefaultPawn_BP.DefaultPawn_BP
+[2021.06.25-20.40.50:341][748]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 126 classes and 0 folders.
+[2021.06.25-20.40.51:260][748]LogSlate: Took 0.005138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.25-20.41.12:892][155]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.25-20.41.43:072][191]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.06.25-20.41.44:154][191]LogSlate: Window 'Save Content' being destroyed
+[2021.06.25-20.41.44:210][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.06.25-20.41.44:226][191]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_EscapeEFD730E3421FC4D828E9BCA3C0BC67F6.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.25-20.41.44:230][191]LogFileHelpers: Saving map 'Building_Escape' took 0.045
+[2021.06.25-20.41.44:231][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.25-20.41.44:248][191]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltData4C96DD71430F6C9604CE26AE32981B11.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.25-20.41.44:248][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.25-20.41.44:262][191]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltDataB64B73964250B7A327143DA32DCDB5BF.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.25-20.41.44:271][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/DefaultPawn_BP" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/DefaultPawn_BP.uasset" SILENT=true
+[2021.06.25-20.41.44:281][191]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/DefaultPawn_BPCF8486804CC611D8F86820A2010A1B03.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Models/DefaultPawn_BP.uasset'
+[2021.06.25-20.41.44:293][191]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-20.41.44:294][191]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.25-20.41.44:294][191]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
+[2021.06.25-20.41.44:294][191]LogContentValidation: Display: Validating Blueprint /Game/Models/DefaultPawn_BP.DefaultPawn_BP
+[2021.06.25-20.41.45:671][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.06.25-20.41.45:687][347]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape94B3FAF9493476F9E202BDBD0DB6B4FB.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape.umap'
+[2021.06.25-20.41.45:692][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Building_Escape_BuiltData" FILE="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset" SILENT=true
+[2021.06.25-20.41.45:705][347]LogSavePackage: Moving 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Saved/Building_Escape_BuiltData045C2F4E435A8D8A57B36C8548C516E8.tmp' to 'W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Content/Levels/Building_Escape_BuiltData.uasset'
+[2021.06.25-20.41.45:716][347]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.25-20.41.45:716][347]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Building_Escape_BuiltData.Building_Escape_BuiltData
+[2021.06.25-20.41.45:716][347]LogContentValidation: Display: Validating World /Game/Levels/Building_Escape.Building_Escape
