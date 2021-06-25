@@ -34,14 +34,15 @@ void UGrabber::BeginPlay()
 	if (InputComponent)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Input component found at %s"), *GetOwner()->GetName());
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Input component missing at %s"), *GetOwner()->GetName());
+		InputComponent->BindAction("GrabAction", IE_Pressed, this, &UGrabber::GrabFunction);
 	}
 	
 }
 
+void UGrabber::GrabFunction()
+{
+	
+}
 
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
