@@ -19,6 +19,9 @@ void UGrabber::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("Grabber is active"));
 	
+
+	// Check for Physics Handle Component
+	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 }
 
 
@@ -68,7 +71,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	AActor* ActorThatWasHit = Hit.GetActor();
 
 	// Prints out to console what object is being hit
-	
+
 	if (ActorThatWasHit)
 	{
 		UE_LOG(LogTemp, Error, TEXT("Line Trace has hit: %s"), *(ActorThatWasHit->GetName()))
