@@ -41,7 +41,7 @@ void UGrabber::BeginPlay()
 
 void UGrabber::GrabFunction()
 {
-	
+	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
 }
 
 // Called every frame
