@@ -48,6 +48,11 @@ void UGrabber::GrabFunction()
 	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
 }
 
+void UGrabber::ReleaseFunction()
+{
+	
+}
+
 // Called every frame
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
