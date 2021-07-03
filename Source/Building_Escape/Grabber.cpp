@@ -26,7 +26,11 @@ void UGrabber::BeginPlay()
 	// Test to make sure it is all set up properly
 	if (PhysicsHandle)
 	{
-		
+		// Physics Handle is found
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("No Physics Handle component found on %s"), *GetOwner()->GetName());
 	}
 
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
