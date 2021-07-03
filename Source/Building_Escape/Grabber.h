@@ -35,4 +35,4 @@ private:
 	void GrabFunction();
 
 	void ReleaseFunction();
-}; 
+}

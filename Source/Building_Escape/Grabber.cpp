@@ -37,8 +37,8 @@ void UGrabber::BeginPlay()
 	
 	if (InputComponent)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Input component found at %s"), *GetOwner()->GetName());
 		InputComponent->BindAction("GrabAction", IE_Pressed, this, &UGrabber::GrabFunction);
+		InputComponent->BindAction("GrabAction", IE_Released, this, &UGrabber::ReleaseFunction);
 	}
 	
 }
@@ -50,7 +50,7 @@ void UGrabber::GrabFunction()
 
 void UGrabber::ReleaseFunction()
 {
-	
+
 }
 
 // Called every frame
