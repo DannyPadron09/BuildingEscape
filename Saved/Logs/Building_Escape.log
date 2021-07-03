@@ -1030,3 +1030,106 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.03-15.11.12:434][596]LogMainFrame: MainFrame: Module compiling took 29.006 seconds
 [2021.07.03-15.11.12:480][596]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0279 seconds. Added 3605 classes and 861 folders.
 [2021.07.03-15.11.12:480][596]Display: HotReload took 29.1s.
+[2021.07.03-15.15.20:326][286]Candidate modules for hot reload:
+[2021.07.03-15.15.20:326][286]  Building_Escape
+[2021.07.03-15.15.20:326][286]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,7288 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.07.03-15.15.20:327][286]Warning: Starting HotReload took  0.0s.
+[2021.07.03-15.15.35:369][682]CompilerResultsLog: New page: Compilation - Jul 3, 2021, 7:15:35 AM
+[2021.07.03-15.15.35:369][682]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.07.03-15.15.35:369][682]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (Grabber.cpp modified)
+[2021.07.03-15.15.35:369][682]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.07.03-15.15.35:369][682]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.07.03-15.15.35:369][682]CompilerResultsLog: Error: W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Source/Building_Escape/Grabber.h(39)  : Error: Missing ';'
+[2021.07.03-15.15.35:369][682]LogMainFrame: MainFrame: Module compiling took 15.047 seconds
+[2021.07.03-15.15.35:388][682]Warning: HotReload failed, recompile failed
+[2021.07.03-15.16.27:415][732]LogSlate: Window 'Message Log' being destroyed
+[2021.07.03-15.16.27:424][732]LogSlate: Window 'Message Log' being destroyed
+[2021.07.03-15.16.28:000][799]Candidate modules for hot reload:
+[2021.07.03-15.16.28:000][799]  Building_Escape
+[2021.07.03-15.16.28:000][799]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,5385 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.07.03-15.16.28:001][799]Warning: Starting HotReload took  0.0s.
+[2021.07.03-15.16.41:111][334]CompilerResultsLog: New page: Compilation - Jul 3, 2021, 7:16:41 AM
+[2021.07.03-15.16.41:111][334]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (Grabber.cpp modified)
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 3.3069869 seconds
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\Grabber.cpp(1) : error: Expected Grabber.h to be first header included.
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Error: W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Source\Building_Escape\OpenDoor.cpp(1) : error: Expected OpenDoor.h to be first header included.
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Building 5 actions with 8 processes...
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:   [1/5] Grabber.cpp
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:   [2/5] Grabber.gen.cpp
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:   [3/5] UE4Editor-Building_Escape-5385.lib
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5385.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5385.exp
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:   [4/5] UE4Editor-Building_Escape-5385.dll
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5385.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-5385.suppressed.exp
+[2021.07.03-15.16.41:112][334]CompilerResultsLog:   [5/5] Building_EscapeEditor.target
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Total time in Parallel executor: 7.91 seconds
+[2021.07.03-15.16.41:112][334]CompilerResultsLog: Total execution time: 13.04 seconds
+[2021.07.03-15.16.41:112][334]LogMainFrame: MainFrame: Module compiling took 13.115 seconds
+[2021.07.03-15.16.41:158][334]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.07.03-15.16.41:159][334]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.07.03-15.16.41:211][334]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0075 seconds. Added 3605 classes and 861 folders.
+[2021.07.03-15.16.41:211][334]Display: HotReload took 13.2s.
+[2021.07.03-15.16.47:066][797]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.03-15.16.47:072][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.03-15.16.47:072][797]PIE: New page: PIE session: Building_Escape (Jul 3, 2021, 7:16:47 AM)
+[2021.07.03-15.16.47:096][797]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.07.03-15.16.47:134][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038163s)
+[2021.07.03-15.16.47:136][797]LogAIModule: Creating AISystem for world Building_Escape
+[2021.07.03-15.16.47:137][797]LogPlayLevel: PIE: World Init took: (0.002281s)
+[2021.07.03-15.16.47:137][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.040634s)
+[2021.07.03-15.16.47:142][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.07.03-15.16.47:144][797]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.03-15.16.47:144][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.03-15.16.47:144][797]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.03-15.16.47:144][797]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.03-15.16.47:148][797]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.03-15.16.47:148][797]LogAudioMixer: Display: 1: FrontRight
+[2021.07.03-15.16.47:156][797]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.07.03-15.16.47:158][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.03-15.16.47:158][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.03-15.16.47:158][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.03-15.16.47:160][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.03-15.16.47:160][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.03-15.16.47:160][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.03-15.16.47:161][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.03-15.16.47:161][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.03-15.16.47:161][797]LogInit: FAudioDevice initialized.
+[2021.07.03-15.16.47:161][797]LogAudio: Display: Audio Device (ID: 3) registered with world 'Building_Escape'.
+[2021.07.03-15.16.47:180][797]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.07.03-15.16.47:181][797]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.07.03-11.16.47
+[2021.07.03-15.16.47:181][797]LogWorld: Bringing up level for play took: 0.000999
+[2021.07.03-15.16.47:182][797]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.07.03-15.16.47:184][797]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.07.03-15.16.47:184][797]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.07.03-15.16.47:184][797]LogTemp: Warning: Grabber is active
+[2021.07.03-15.16.47:185][797]PIE: Server logged in
+[2021.07.03-15.16.47:185][797]PIE: Play in editor total start time 0.114 seconds.
+[2021.07.03-15.16.49:638][ 87]LogTemp: Warning: Grabber Pressed
+[2021.07.03-15.16.50:279][164]LogTemp: Warning: Grabber Released
+[2021.07.03-15.16.50:688][213]LogTemp: Warning: Grabber Pressed
+[2021.07.03-15.16.50:946][244]LogTemp: Warning: Grabber Released
+[2021.07.03-15.16.51:379][296]LogTemp: Warning: Grabber Pressed
+[2021.07.03-15.16.51:596][322]LogTemp: Warning: Grabber Released
+[2021.07.03-15.16.53:328][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.03-15.16.53:328][525]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.07.03-15.16.53:328][525]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.07.03-15.16.53:328][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.03-15.16.53:333][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.03-15.16.53:346][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.03-15.16.53:350][525]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.03-15.16.53:350][525]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.03-15.16.53:351][525]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.03-15.16.53:364][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.03-15.16.53:366][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.07.03-15.16.53:406][526]LogPlayLevel: Display: Destroying online subsystem :Context_5
