@@ -813,3 +813,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.10-15.30.55:475][222]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2021.07.10-15.30.55:515][222]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0071 seconds. Added 3605 classes and 861 folders.
 [2021.07.10-15.30.55:516][222]Display: HotReload took 25.3s.
+[2021.07.10-15.38.38:410][242]Candidate modules for hot reload:
+[2021.07.10-15.38.38:410][242]  Building_Escape
+[2021.07.10-15.38.38:410][242]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,4419 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.07.10-15.38.38:411][242]Warning: Starting HotReload took  0.0s.

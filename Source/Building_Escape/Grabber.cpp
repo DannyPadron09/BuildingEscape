@@ -116,5 +116,7 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Line Trace has hit: %s"), *(ActorThatWasHit->GetName()))
 	}
+
+	return Hit;
 }
 
