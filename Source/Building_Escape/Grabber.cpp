@@ -19,13 +19,7 @@ void UGrabber::BeginPlay()
 
 	FindPhysicsHandle();
 
-	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
-	
-	if (InputComponent)
-	{
-		InputComponent->BindAction("GrabAction", IE_Pressed, this, &UGrabber::GrabFunction);
-		InputComponent->BindAction("GrabAction", IE_Released, this, &UGrabber::ReleaseFunction);
-	}
+	SetupInputComponent();
 	
 }
 
@@ -42,6 +36,17 @@ void UGrabber::FindPhysicsHandle()
 	else
 	{
 		UE_LOG(LogTemp, Error, TEXT("No Physics Handle component found on %s"), *GetOwner()->GetName());
+	}
+}
+
+void UGrabber::SetupInputComponent()
+{
+	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
+
+	if (InputComponent)
+	{
+		InputComponent->BindAction("GrabAction", IE_Pressed, this, &UGrabber::GrabFunction);
+		InputComponent->BindAction("GrabAction", IE_Released, this, &UGrabber::ReleaseFunction);
 	}
 }
 

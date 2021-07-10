@@ -36,5 +36,7 @@ private:
 	void ReleaseFunction();
 
 	void FindPhysicsHandle();
+
+	void SetupInputComponent();
 }
 ;
