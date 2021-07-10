@@ -53,6 +53,13 @@ void UGrabber::SetupInputComponent()
 void UGrabber::GrabFunction()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
+
+	// TODO, to only raycase when key is pressed
+
+	// Try and reach any actors with physics body collision channel set
+
+	// If we hit something then attach the physics handle
+	// TODO attach physics handle
 }
 
 void UGrabber::ReleaseFunction()
@@ -65,6 +72,15 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+	// If the physic handle is attached
+		// Move the object we are holding
+
+	GetFirstPhysicsBodyInReach();
+
+}
+
+FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
+{
 	// Get players viewpoint
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
@@ -73,6 +89,9 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		PlayerViewPointLocation,
 		PlayerViewPointRotation
 	);
+
+	// Draws a line from player outwards displaying Reach
+	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 
 	// Need to use Ray-cast to a certain distance (Reach)
 	FHitResult Hit;
