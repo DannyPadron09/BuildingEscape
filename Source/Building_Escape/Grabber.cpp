@@ -15,10 +15,7 @@ UGrabber::UGrabber()
 // Called when the game starts
 void UGrabber::BeginPlay()
 {
-	Super::BeginPlay();
-
-	UE_LOG(LogTemp, Warning, TEXT("Grabber is active"));
-	
+	Super::BeginPlay();	
 
 	// Check for Physics Handle Component
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
