@@ -17,6 +17,8 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();	
 
+	FindPhysicsHandle();
+
 	InputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
 	
 	if (InputComponent)
@@ -29,7 +31,6 @@ void UGrabber::BeginPlay()
 
 void UGrabber::FindPhysicsHandle()
 {
-	FindPhysicsHandle();
 	// Checking for Physics Handle Component
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 	
