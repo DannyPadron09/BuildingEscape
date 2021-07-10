@@ -74,20 +74,6 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 		PlayerViewPointRotation
 	);
 
-	// Draws a line from player outwards displaying Reach
-	FVector LineTraceEnd = PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
-
-	DrawDebugLine(
-		GetWorld(),
-		PlayerViewPointLocation,
-		LineTraceEnd,
-		FColor(0, 0, 255),
-		false,
-		0.f,
-		0,
-		5
-	);
-
 	// Need to use Ray-cast to a certain distance (Reach)
 	FHitResult Hit;
 
