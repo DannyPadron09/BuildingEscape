@@ -49,14 +49,23 @@ void UGrabber::SetupInputComponent()
 
 void UGrabber::GrabFunction()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
+	FHitResult HitResult = GetFirstPhysicsBodyInReach();
 
-	GetFirstPhysicsBodyInReach();
+	UPrimitiveComponent* ComponentToGrab = HitResult.GetComponent();
 
-	// Try and reach any actors with physics body collision channel set
+	AActor* ActorHit = HitResult.GetActor();
 
-	// If we hit something then attach the physics handle
-	// TODO attach physics handle
+	// If we hit something when the Grab key is pressed then attach the Physics Handle
+	if (ActorHit)
+	{
+		if(!PhysicsHandle) {return;}
+		PhysicsHandle->GrabComponentAtLocation
+		(
+			ComponentToGrab,
+			NAME_None,
+			GetPlayersReach()
+		);
+	}
 }
 
 void UGrabber::ReleaseFunction()
@@ -113,5 +122,19 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
 	}
 
 	return Hit;
+}
+
+FVector UGrabber::GetPlayersReach() const
+{
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint
+	(
+		PlayerViewPointLocation,
+		PlayerViewPointRotation
+	);
+
+	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 }
 
