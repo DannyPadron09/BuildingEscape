@@ -25,18 +25,15 @@ void UGrabber::BeginPlay()
 
 void UGrabber::FindPhysicsHandle()
 {
-	// Checking for Physics Handle Component
+	// Setting for Physics Handle Component
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
 	
 	// Making sure Physics Handle is setup properly
-	if (PhysicsHandle)
-	{
-		// Physics Handle is found
-	}
-	else
+	if (PhysicsHandle == nullptr)
 	{
 		UE_LOG(LogTemp, Error, TEXT("No Physics Handle component found on %s"), *GetOwner()->GetName());
 	}
+	
 }
 
 void UGrabber::SetupInputComponent()
