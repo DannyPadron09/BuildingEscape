@@ -31,7 +31,7 @@ void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompon
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (DoorTrigger->IsOverlappingActor(OpeningActor))
+	if (TotalWeightOfOpeningActors() > 50.f)
 	{
 		OpenDoor(DeltaTime);
 		DoorLastOpened = GetWorld()->GetTimeSeconds();
