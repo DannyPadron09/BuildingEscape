@@ -80,8 +80,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// If the physic handle is attached
+	if (!PhysicsHandle) {return;}
+	if (PhysicsHandle->GrabbedComponent)
+	{
 		// Move the object we are holding
-
+		PhysicsHandle->SetTargetLocation(GetPlayersReach());
+	}
 }
 
 FHitResult UGrabber::GetFirstPhysicsBodyInReach() const
