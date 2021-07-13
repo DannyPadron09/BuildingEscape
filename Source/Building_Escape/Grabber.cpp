@@ -54,7 +54,6 @@ void UGrabber::GrabFunction()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Grabber Pressed"));
 
-	// TODO, to only raycast when key is pressed
 	GetFirstPhysicsBodyInReach();
 
 	// Try and reach any actors with physics body collision channel set
