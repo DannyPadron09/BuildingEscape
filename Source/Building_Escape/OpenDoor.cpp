@@ -61,3 +61,10 @@ void UOpenDoor::CloseDoor(float DeltaTime)
 	DoorRotation.Yaw = CurrentYaw;
 	GetOwner()->SetActorRotation(DoorRotation);
 }
+
+float UOpenDoor::TotalWeightOfOpeningActors() const
+{
+	float TotalWeight = 0.f;
+
+	return TotalWeight;
+}
