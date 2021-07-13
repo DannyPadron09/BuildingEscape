@@ -70,7 +70,8 @@ void UGrabber::GrabFunction()
 
 void UGrabber::ReleaseFunction()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Grabber Released"));
+	if (!PhysicsHandle) {return;}
+	PhysicsHandle->ReleaseComponent();
 }
 
 // Called every frame
