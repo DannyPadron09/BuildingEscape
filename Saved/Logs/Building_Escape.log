@@ -4360,3 +4360,1239 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.07.18-16.54.36:322][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
 [2021.07.18-16.54.36:361][408]LogPlayLevel: Display: Destroying online subsystem :Context_7
 [2021.07.18-16.54.37:411][534]Cmd: SELECT NONE
+[2021.07.18-16.57.40:967][537]Candidate modules for hot reload:
+[2021.07.18-16.57.40:967][537]  Building_Escape
+[2021.07.18-16.57.40:967][537]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Building_Escape,8206 Building_EscapeEditor Win64 Development -Project="W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject" "W:/UdemyCourses/Unreal Engine C++/BuildingEscape/Building_Escape/Building_Escape.uproject"  -IgnoreJunk]
+[2021.07.18-16.57.40:968][537]Warning: Starting HotReload took  0.0s.
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: New page: Compilation - Jul 18, 2021, 8:58:05 AM
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape).
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Invalidating makefile for Building_EscapeEditor (OpenDoor.cpp modified)
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Parsing headers for Building_EscapeEditor
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   Running UnrealHeaderTool "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Building_Escape.uproject" "W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\Building_EscapeEditor\Development\Building_EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\danny\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Reflection code generated for Building_EscapeEditor in 16.9874898 seconds
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Building Building_EscapeEditor...
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Building 6 actions with 8 processes...
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   [1/6] Building_Escape.init.gen.cpp
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   [2/6] OpenDoor.cpp
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   [3/6] OpenDoor.gen.cpp
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   [4/6] UE4Editor-Building_Escape-8206.lib
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8206.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8206.exp
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   [5/6] UE4Editor-Building_Escape-8206.dll
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:      Creating library W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8206.suppressed.lib and object W:\UdemyCourses\Unreal Engine C++\BuildingEscape\Building_Escape\Intermediate\Build\Win64\UE4Editor\Development\Building_Escape\UE4Editor-Building_Escape-8206.suppressed.exp
+[2021.07.18-16.58.05:856][464]CompilerResultsLog:   [6/6] Building_EscapeEditor.target
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Total time in Parallel executor: 5.90 seconds
+[2021.07.18-16.58.05:856][464]CompilerResultsLog: Total execution time: 24.80 seconds
+[2021.07.18-16.58.05:856][464]LogMainFrame: MainFrame: Module compiling took 24.894 seconds
+[2021.07.18-16.58.05:890][464]LogClass: Could not find existing class OpenDoor in package /Script/Building_Escape for HotReload, assuming new class
+[2021.07.18-16.58.05:898][464]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2021.07.18-16.58.05:916][464]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Building_Escape' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.07.18-16.58.05:921][464]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.07.18-16.58.06:011][464]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3605 classes and 861 folders.
+[2021.07.18-16.58.06:011][464]Display: HotReload took 25.0s.
+[2021.07.18-16.58.07:739][638]LogTemp: Repeating last play command: Selected Viewport
+[2021.07.18-16.58.07:744][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.07.18-16.58.07:744][638]PIE: New page: PIE session: Building_Escape (Jul 18, 2021, 8:58:07 AM)
+[2021.07.18-16.58.07:781][638]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Building_Escape
+[2021.07.18-16.58.07:787][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006004s)
+[2021.07.18-16.58.07:788][638]LogAIModule: Creating AISystem for world Building_Escape
+[2021.07.18-16.58.07:789][638]LogPlayLevel: PIE: World Init took: (0.001154s)
+[2021.07.18-16.58.07:789][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Building_Escape.Building_Escape to /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape (0.007323s)
+[2021.07.18-16.58.07:844][638]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.07.18-16.58.07:845][638]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.18-16.58.07:845][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.18-16.58.07:845][638]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.18-16.58.07:845][638]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.18-16.58.07:848][638]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.18-16.58.07:848][638]LogAudioMixer: Display: 1: FrontRight
+[2021.07.18-16.58.07:856][638]LogAudioMixer: Display: Using Audio Device Speakers (PRO X Wireless Gaming Headset)
+[2021.07.18-16.58.07:856][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.18-16.58.07:856][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.18-16.58.07:856][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.18-16.58.07:856][638]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.18-16.58.07:856][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.18-16.58.07:856][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.18-16.58.07:868][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.18-16.58.07:868][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.18-16.58.07:868][638]LogInit: FAudioDevice initialized.
+[2021.07.18-16.58.07:868][638]LogAudio: Display: Audio Device (ID: 5) registered with world 'Building_Escape'.
+[2021.07.18-16.58.07:875][638]LogLoad: Game class is 'MyBuilding_EscapeGameModeBase_BP_C'
+[2021.07.18-16.58.07:876][638]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Building_Escape.Building_Escape up for play (max tick rate 0) at 2021.07.18-12.58.07
+[2021.07.18-16.58.07:877][638]LogWorld: Bringing up level for play took: 0.000889
+[2021.07.18-16.58.07:877][638]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.07.18-16.58.07:879][638]LogTemp: Warning: Sphere_2 position in world is: X=250.000 Y=-415.000 Z=110.000
+[2021.07.18-16.58.07:879][638]LogTemp: Warning: Cube_5 position in world is: X=200.000 Y=180.000 Z=140.000
+[2021.07.18-16.58.07:879][638]PIE: Server logged in
+[2021.07.18-16.58.07:880][638]PIE: Play in editor total start time 0.137 seconds.
+[2021.07.18-16.58.09:970][887]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.09:978][888]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.09:986][889]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.09:995][890]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:003][891]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:011][892]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:020][893]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:028][894]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:037][895]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:044][896]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:053][897]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:062][898]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:070][899]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:078][900]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:087][901]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:096][902]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:103][903]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:112][904]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:120][905]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:128][906]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:137][907]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:145][908]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:153][909]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:161][910]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:170][911]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:178][912]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:186][913]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:194][914]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:203][915]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:211][916]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:219][917]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:227][918]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:236][919]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:244][920]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:252][921]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:260][922]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:269][923]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:277][924]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:286][925]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:294][926]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:302][927]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:311][928]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:319][929]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:328][930]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:336][931]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:344][932]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:353][933]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:361][934]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:369][935]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:377][936]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:386][937]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:394][938]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:403][939]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:411][940]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:419][941]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:427][942]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:436][943]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:444][944]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:452][945]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:460][946]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:469][947]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:477][948]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:485][949]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:494][950]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:502][951]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:510][952]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:519][953]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:527][954]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:536][955]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:544][956]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:552][957]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:561][958]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:570][959]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:578][960]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:587][961]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:595][962]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:603][963]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:612][964]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:620][965]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:628][966]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:637][967]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:645][968]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:653][969]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:662][970]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:669][971]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:678][972]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:687][973]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:694][974]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:703][975]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:711][976]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:720][977]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:728][978]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:736][979]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:744][980]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:753][981]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:761][982]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:769][983]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:777][984]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:786][985]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:794][986]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:802][987]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:811][988]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:819][989]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:828][990]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:836][991]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:845][992]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:853][993]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:861][994]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:869][995]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:877][996]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:889][997]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:908][998]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:917][999]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:925][  0]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:933][  1]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.10:942][  2]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.13:669][329]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:677][330]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:686][331]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:694][332]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:702][333]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:711][334]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:719][335]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:728][336]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:736][337]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:744][338]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:752][339]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:761][340]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:770][341]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:777][342]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:785][343]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:794][344]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:801][345]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:809][346]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:818][347]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:828][348]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:836][349]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:843][350]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:852][351]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:860][352]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:869][353]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:877][354]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:886][355]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:894][356]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:902][357]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:910][358]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:919][359]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:927][360]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:937][361]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:944][362]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:952][363]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:961][364]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:969][365]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:977][366]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:985][367]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.13:994][368]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:002][369]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:011][370]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:019][371]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:027][372]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:035][373]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:045][374]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:053][375]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:061][376]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:070][377]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:079][378]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:086][379]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:096][380]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:103][381]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:112][382]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:120][383]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:128][384]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:138][385]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:145][386]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:154][387]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:163][388]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:170][389]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:179][390]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:187][391]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:195][392]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:203][393]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:211][394]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:221][395]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:230][396]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:239][397]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:248][398]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:255][399]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:263][400]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:271][401]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:280][402]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:287][403]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:296][404]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:304][405]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:312][406]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:322][407]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:329][408]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:339][409]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:346][410]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:354][411]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:362][412]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:370][413]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:378][414]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:386][415]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:395][416]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:403][417]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:411][418]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:419][419]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:428][420]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:436][421]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:444][422]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:453][423]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:461][424]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:470][425]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:479][426]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:487][427]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:495][428]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:503][429]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:511][430]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:520][431]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:528][432]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:536][433]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:545][434]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:553][435]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:562][436]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:570][437]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:578][438]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:587][439]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:595][440]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:603][441]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:612][442]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:620][443]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:628][444]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:636][445]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:645][446]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:653][447]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:661][448]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:670][449]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:678][450]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:686][451]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:695][452]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:703][453]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:712][454]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:720][455]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:728][456]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:737][457]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:745][458]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:753][459]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:761][460]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:770][461]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:778][462]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:787][463]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:795][464]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:804][465]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:812][466]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:821][467]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:828][468]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:837][469]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:845][470]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:853][471]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:861][472]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:870][473]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:878][474]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:886][475]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:895][476]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:903][477]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:911][478]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:920][479]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:928][480]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:936][481]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:944][482]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:953][483]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:961][484]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:969][485]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:978][486]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:986][487]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.14:994][488]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:003][489]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:011][490]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:019][491]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:028][492]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:036][493]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:044][494]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:053][495]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:061][496]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:070][497]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:078][498]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:087][499]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:095][500]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:104][501]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:112][502]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:120][503]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:128][504]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:137][505]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:145][506]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:154][507]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:163][508]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:171][509]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:179][510]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:188][511]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:196][512]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:204][513]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:213][514]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:221][515]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:229][516]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:237][517]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:245][518]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:253][519]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:262][520]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:730][576]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:739][577]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:748][578]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:756][579]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:764][580]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:772][581]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:781][582]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:788][583]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:797][584]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:805][585]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:813][586]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:822][587]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:829][588]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:838][589]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:846][590]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:855][591]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:863][592]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:872][593]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:880][594]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:889][595]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:897][596]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:905][597]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:913][598]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:920][599]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:929][600]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:937][601]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:945][602]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:953][603]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:962][604]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:970][605]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:979][606]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:987][607]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:995][608]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.15:995][608]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:004][609]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:004][609]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:012][610]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:012][610]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:020][611]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:020][611]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:029][612]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:029][612]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:037][613]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:037][613]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:045][614]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:045][614]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:053][615]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:053][615]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:062][616]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:062][616]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:070][617]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:070][617]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:078][618]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:079][618]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:087][619]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:087][619]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:095][620]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:095][620]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:104][621]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:104][621]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:112][622]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:112][622]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:120][623]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:120][623]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:128][624]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:129][624]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:137][625]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:137][625]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:145][626]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:145][626]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:154][627]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:154][627]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:162][628]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:162][628]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:170][629]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:170][629]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:178][630]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:178][630]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:187][631]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:187][631]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:195][632]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:195][632]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:203][633]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:203][633]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:212][634]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:212][634]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:220][635]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:220][635]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:228][636]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:228][636]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:237][637]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:237][637]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:245][638]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:245][638]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:253][639]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:253][639]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:261][640]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:261][640]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:269][641]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:269][641]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:277][642]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:278][642]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:286][643]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:286][643]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:294][644]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:294][644]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:303][645]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:303][645]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:311][646]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:311][646]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:320][647]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:320][647]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:328][648]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:328][648]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:336][649]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:336][649]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:344][650]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:344][650]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:353][651]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:353][651]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:361][652]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:361][652]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:369][653]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:369][653]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:378][654]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:378][654]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:386][655]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:386][655]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:395][656]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:395][656]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:403][657]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:403][657]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:411][658]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:411][658]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:420][659]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:420][659]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:428][660]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:428][660]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:436][661]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:436][661]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:445][662]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:445][662]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:453][663]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:453][663]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:461][664]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:461][664]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:470][665]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:470][665]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:478][666]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:478][666]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:487][667]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:487][667]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:494][668]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:495][668]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:503][669]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:503][669]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:511][670]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:511][670]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:519][671]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:520][671]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:528][672]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:528][672]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:537][673]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:537][673]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:545][674]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:545][674]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:554][675]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:554][675]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:562][676]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:562][676]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:570][677]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:570][677]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:578][678]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:579][678]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:587][679]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:587][679]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:596][680]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:596][680]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:604][681]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:604][681]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:612][682]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:612][682]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:620][683]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:620][683]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:629][684]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:629][684]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:638][685]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:638][685]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:646][686]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:646][686]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:655][687]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:655][687]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:662][688]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:662][688]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:670][689]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:670][689]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:678][690]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:678][690]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:687][691]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:687][691]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:761][700]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:770][701]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:778][702]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:786][703]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:794][704]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:803][705]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:811][706]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:819][707]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:828][708]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:836][709]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:844][710]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:852][711]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:861][712]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:869][713]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:878][714]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:886][715]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:895][716]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:903][717]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:912][718]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:920][719]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:920][719]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:928][720]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:928][720]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:937][721]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:937][721]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:945][722]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:945][722]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:953][723]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:953][723]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:961][724]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:961][724]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:970][725]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:970][725]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:978][726]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:978][726]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:987][727]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:987][727]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.16:995][728]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.16:995][728]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:003][729]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:003][729]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:012][730]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:012][730]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:020][731]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:020][731]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:028][732]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:028][732]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:037][733]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:037][733]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:045][734]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:045][734]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:053][735]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:053][735]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:061][736]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:061][736]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:070][737]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:070][737]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:078][738]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:078][738]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:087][739]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:087][739]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:095][740]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:095][740]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.17:962][844]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:970][845]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:978][846]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:987][847]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.17:995][848]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:003][849]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:011][850]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:020][851]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:028][852]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:037][853]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:045][854]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:053][855]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:053][855]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:061][856]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:061][856]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:069][857]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:069][857]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:078][858]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:078][858]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:086][859]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:086][859]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:094][860]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:094][860]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:103][861]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:103][861]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:112][862]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:112][862]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:120][863]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:120][863]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:128][864]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:128][864]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:137][865]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:137][865]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:145][866]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:145][866]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:153][867]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:153][867]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:162][868]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:162][868]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:170][869]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:170][869]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:178][870]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:178][870]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:187][871]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:187][871]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:195][872]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:195][872]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:203][873]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:203][873]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:212][874]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:212][874]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:220][875]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:220][875]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:228][876]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:228][876]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:237][877]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:237][877]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:245][878]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:245][878]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:254][879]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:254][879]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:262][880]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:262][880]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:270][881]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:270][881]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:279][882]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:279][882]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:287][883]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:287][883]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:295][884]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:295][884]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:304][885]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:304][885]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:312][886]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:312][886]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:320][887]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:320][887]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:329][888]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:329][888]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:337][889]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:337][889]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:345][890]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:345][890]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:354][891]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:354][891]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:362][892]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:362][892]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:370][893]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:370][893]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:379][894]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:379][894]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:387][895]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:387][895]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:395][896]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:395][896]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:404][897]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:404][897]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:413][898]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:413][898]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:420][899]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:420][899]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:429][900]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:429][900]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:437][901]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:437][901]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:446][902]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:446][902]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:454][903]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:454][903]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:462][904]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:462][904]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:470][905]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:470][905]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:479][906]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:479][906]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:487][907]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:487][907]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:495][908]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:495][908]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:504][909]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:504][909]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:512][910]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:513][910]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:520][911]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:520][911]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:529][912]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:529][912]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:537][913]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:537][913]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:545][914]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:545][914]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:554][915]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:554][915]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:562][916]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:562][916]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:570][917]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:570][917]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:579][918]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:579][918]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:587][919]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:587][919]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:595][920]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:595][920]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:604][921]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:604][921]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:612][922]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:612][922]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:621][923]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:621][923]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:629][924]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:629][924]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:638][925]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:638][925]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:645][926]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:646][926]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:654][927]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:654][927]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:662][928]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:662][928]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:670][929]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:670][929]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:679][930]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:679][930]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:687][931]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:687][931]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:695][932]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:695][932]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:703][933]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:704][933]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:712][934]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:712][934]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:720][935]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:720][935]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:728][936]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:728][936]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:737][937]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:737][937]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:745][938]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:745][938]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:753][939]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:753][939]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:762][940]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:762][940]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:770][941]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:770][941]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:778][942]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:778][942]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:787][943]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:787][943]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:795][944]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:795][944]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:803][945]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:803][945]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:812][946]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:812][946]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:820][947]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:820][947]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:828][948]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:828][948]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:837][949]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:837][949]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:845][950]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:845][950]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:853][951]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:853][951]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:862][952]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:862][952]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:870][953]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:870][953]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:878][954]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:878][954]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:887][955]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:887][955]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:895][956]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:895][956]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:903][957]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:903][957]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:912][958]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:912][958]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:920][959]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:920][959]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:928][960]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:928][960]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:937][961]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:937][961]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:945][962]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:945][962]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:953][963]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:953][963]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:962][964]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:962][964]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:970][965]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:970][965]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:978][966]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:978][966]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:987][967]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:987][967]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.18:995][968]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.18:995][968]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:003][969]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:003][969]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:012][970]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:012][970]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:020][971]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:020][971]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:028][972]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:028][972]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:037][973]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:037][973]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:045][974]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:045][974]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:053][975]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:053][975]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:062][976]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:062][976]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:070][977]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:070][977]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:078][978]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:078][978]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:086][979]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:087][979]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:095][980]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:095][980]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:103][981]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:103][981]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:111][982]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:112][982]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:120][983]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:120][983]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:128][984]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:128][984]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:137][985]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:137][985]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:145][986]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:145][986]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:153][987]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:153][987]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:161][988]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:161][988]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:170][989]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:170][989]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:178][990]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:178][990]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:186][991]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:186][991]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:195][992]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:195][992]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:203][993]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:203][993]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:211][994]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:211][994]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:219][995]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:219][995]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:228][996]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:228][996]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:236][997]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:236][997]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:245][998]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:245][998]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:253][999]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:253][999]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:261][  0]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:261][  0]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:270][  1]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:270][  1]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:278][  2]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:278][  2]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:286][  3]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:286][  3]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:295][  4]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:295][  4]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:303][  5]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:303][  5]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:311][  6]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:311][  6]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:319][  7]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:320][  7]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:328][  8]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:328][  8]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:336][  9]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:336][  9]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:345][ 10]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:345][ 10]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:353][ 11]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:353][ 11]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:361][ 12]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:361][ 12]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:370][ 13]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:370][ 13]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:378][ 14]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:378][ 14]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:386][ 15]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:386][ 15]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:394][ 16]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:395][ 16]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:403][ 17]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:403][ 17]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:412][ 18]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:412][ 18]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:420][ 19]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:420][ 19]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:428][ 20]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:428][ 20]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:436][ 21]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:436][ 21]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:445][ 22]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:445][ 22]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:453][ 23]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:453][ 23]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:461][ 24]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:461][ 24]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:470][ 25]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:470][ 25]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:478][ 26]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:478][ 26]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:486][ 27]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:486][ 27]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:495][ 28]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:495][ 28]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:503][ 29]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:503][ 29]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:511][ 30]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:511][ 30]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:520][ 31]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:520][ 31]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:528][ 32]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:528][ 32]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:536][ 33]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:536][ 33]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:545][ 34]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:545][ 34]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:552][ 35]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:552][ 35]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:561][ 36]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:561][ 36]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:569][ 37]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:569][ 37]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:578][ 38]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:578][ 38]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:586][ 39]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:586][ 39]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:594][ 40]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:594][ 40]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:603][ 41]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:603][ 41]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:611][ 42]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:611][ 42]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:619][ 43]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:619][ 43]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:650][ 44]LogTemp: Warning: DefaultPawn_BP_C_0 is on the pressure plate
+[2021.07.18-16.58.19:650][ 44]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:659][ 45]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:667][ 46]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:675][ 47]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:684][ 48]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:692][ 49]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:700][ 50]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:709][ 51]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:717][ 52]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:725][ 53]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:734][ 54]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:742][ 55]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:750][ 56]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:759][ 57]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:767][ 58]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:776][ 59]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:784][ 60]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:792][ 61]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:800][ 62]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:809][ 63]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:817][ 64]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:826][ 65]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:834][ 66]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:842][ 67]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:851][ 68]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:859][ 69]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:867][ 70]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:876][ 71]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:884][ 72]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:893][ 73]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:901][ 74]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:909][ 75]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:918][ 76]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:926][ 77]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:934][ 78]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:943][ 79]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:951][ 80]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:959][ 81]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:968][ 82]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:976][ 83]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:984][ 84]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.19:992][ 85]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:001][ 86]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:009][ 87]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:017][ 88]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:026][ 89]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:034][ 90]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:042][ 91]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:050][ 92]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:059][ 93]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:067][ 94]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:076][ 95]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:084][ 96]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:093][ 97]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:101][ 98]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:109][ 99]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:118][100]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:126][101]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:134][102]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:143][103]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:152][104]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:160][105]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:168][106]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:176][107]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:184][108]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:193][109]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:201][110]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:209][111]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:218][112]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:225][113]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:234][114]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:242][115]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:251][116]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:260][117]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:268][118]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:276][119]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:285][120]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:293][121]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:301][122]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:309][123]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:317][124]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:325][125]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:334][126]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:342][127]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:350][128]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:359][129]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:367][130]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:376][131]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:384][132]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:393][133]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:401][134]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:409][135]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:418][136]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:426][137]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:434][138]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:443][139]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:451][140]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:459][141]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:468][142]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:476][143]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:484][144]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:492][145]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:501][146]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:509][147]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:517][148]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:526][149]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:534][150]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:543][151]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:551][152]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:559][153]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:568][154]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:576][155]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:584][156]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:592][157]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:601][158]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:609][159]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:617][160]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:626][161]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:634][162]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:642][163]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:651][164]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:659][165]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:667][166]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:676][167]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:684][168]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:692][169]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:701][170]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:709][171]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:717][172]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:725][173]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:734][174]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:742][175]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:750][176]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:759][177]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:767][178]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:776][179]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:784][180]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:792][181]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:801][182]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:809][183]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:817][184]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:826][185]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:834][186]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:842][187]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:851][188]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:859][189]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:867][190]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:876][191]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:884][192]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:892][193]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:901][194]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:909][195]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:917][196]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:926][197]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:934][198]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:943][199]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:951][200]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:959][201]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:967][202]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:976][203]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:984][204]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.20:992][205]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:001][206]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:009][207]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:017][208]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:026][209]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:034][210]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:042][211]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:051][212]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:059][213]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:067][214]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:076][215]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:084][216]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:092][217]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:101][218]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:109][219]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:117][220]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:126][221]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:134][222]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:142][223]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:151][224]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:159][225]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:168][226]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:176][227]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:184][228]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:193][229]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:201][230]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:209][231]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:218][232]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:225][233]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:234][234]LogTemp: Warning: Cube_5 is on the pressure plate
+[2021.07.18-16.58.21:262][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.18-16.58.21:262][234]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Building_Escape
+[2021.07.18-16.58.21:262][234]LogWorld: UWorld::CleanupWorld for Building_Escape, bSessionEnded=true, bCleanupResources=true
+[2021.07.18-16.58.21:262][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.18-16.58.21:267][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.07.18-16.58.21:271][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.18-16.58.21:290][234]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.07.18-16.58.21:296][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.18-16.58.21:297][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.07.18-16.58.21:309][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.18-16.58.21:325][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2021.07.18-16.58.21:345][235]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.07.18-16.58.21:694][275]Cmd: SELECT NONE

@@ -34,6 +34,9 @@ private:
 	float CurrentYaw;
 
 	UPROPERTY(EditAnywhere)
+	float WeightNeededToOpenDoor = 50.f;
+
+	UPROPERTY(EditAnywhere)
 	float OpenAngle = -90.f;
 
 	float DoorLastOpened = 0.f;
