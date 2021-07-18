@@ -1,9 +1,10 @@
 // Daniel Padron 2021
 
-#include "Engine/World.h"
-#include "GameFramework/PlayerController.h"
 #include "OpenDoor.h"
+#include "Components/PrimitiveComponent.h"
+#include "Engine/World.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
@@ -65,6 +66,16 @@ void UOpenDoor::CloseDoor(float DeltaTime)
 float UOpenDoor::TotalWeightOfOpeningActors() const
 {
 	float TotalWeight = 0.f;
+
+	// Find all overlapping Actors
+	TArray<AActor*> OverlappingActors;
+	DoorTrigger->GetOverlappingActors(OverlappingActors);
+
+	// Add up all their weight
+	for (AActor* Actor : OverlappingActors)
+	{
+		Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+	}
 
 	return TotalWeight;
 }
