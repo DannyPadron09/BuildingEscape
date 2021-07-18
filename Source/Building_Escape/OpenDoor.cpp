@@ -74,7 +74,7 @@ float UOpenDoor::TotalWeightOfOpeningActors() const
 	// Add up all their weight
 	for (AActor* Actor : OverlappingActors)
 	{
-		Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+		TotalWeight += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
 	}
 
 	return TotalWeight;
