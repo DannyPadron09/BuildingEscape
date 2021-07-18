@@ -75,6 +75,7 @@ float UOpenDoor::TotalWeightOfOpeningActors() const
 	for (AActor* Actor : OverlappingActors)
 	{
 		TotalWeight += Actor->FindComponentByClass<UPrimitiveComponent>()->GetMass();
+		UE_LOG(LogTemp, Warning, TEXT("%s is on the pressure plate"), *Actor->GetName());
 	}
 
 	return TotalWeight;
